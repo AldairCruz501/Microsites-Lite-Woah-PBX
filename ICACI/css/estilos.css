@@ -1,0 +1,2242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body{
+    font-family: "Inter Tight", sans-serif !important;
+}
+
+.main-container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/* barra superior */
+.barra-superior{
+    padding: 20px;
+}
+
+.logo-icaci img{
+    width: 200px;
+}
+
+.cont-barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.datos-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont-data{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    margin: 20px;
+}
+
+.cir-data{
+    background-color: #3431CB;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    align-items: center;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+}
+
+.cont-data p{
+    margin-top: 18px;
+    font-weight: 700;
+    color: #3431CB;
+    line-height: 0.9;
+}
+
+.light-t a{
+    font-weight: 400;
+    color: #3431CB !important;
+}
+
+.cir-sup{
+    background-color: rgba(52, 49, 203, 0.1);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #3431CB;
+    flex-shrink: 0;
+}
+
+
+/* barra de navegación */
+.icaci-movil{
+    display: none;
+}
+
+.container{
+    width: 100% !important;
+}
+
+
+.navbar {
+    background-color: #3431CB !important;
+    position: relative;
+    padding-top: 0;
+    width: 100%;
+}
+
+.navbar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; /* Grosor de la línea */
+
+}
+
+.navbar-nav {
+    display: flex !important;
+    justify-content: space-evenly !important; /* Espaciado entre elementos */
+    width: 100%;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 24px; /* Ajusta el tamaño de fuente a tu gusto */
+    margin: 20px;
+    text-transform: uppercase; /* Para que el texto esté en mayúsculas */
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #ddd !important;
+}
+
+/* banner */
+
+.banner-icaci{
+    background-color: #3431CB;
+    padding: 30px 0 80px 0;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 100px;
+}
+
+.cont-ban{
+    background-image: url(/images/banner-icaci.jpg);
+    background-size: cover;
+    padding: 5%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.cont-ban h2{
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.cont-ban h1{
+    font-size: 3.5rem;
+    width: 60%;
+    color: #fff;
+    line-height: 0.9;
+    margin-bottom: 20px;
+}
+
+.cont-ban p{
+    font-size: 18px;
+    color: #fff;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.btn-cta-rot{
+    background-color: #E81E1E;
+    padding: 20px;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.btn-cta-rot:hover{
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}
+
+.elemento-1{
+    position: absolute;
+    z-index: -100;
+    width: 150px;
+    top: 10px;
+    left: 10%;
+}
+
+.elemento-2{
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    bottom: 8%;
+    right: 8%;
+}
+
+.elemento-3{
+    display: none;
+}
+
+/* Nosotros */
+#nosotros{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+
+.cont-us{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    
+}
+
+.img-nosotros{
+    width: 120%;
+}
+
+.orn-icaci{
+    background-color: #3431CB;
+    text-align: center;
+    padding: 10px 20px;
+    width: fit-content;
+    border-radius: 50px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.orn-icaci h2{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.us-txt{
+    width: 60%;
+}
+
+.us-txt h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 0.9;
+    margin-bottom: 25px;
+}
+
+.us-txt p{
+    font-size: 18px;
+}
+
+.img-nosotros{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.img-left, .img-right{
+    flex: 1;
+}
+
+.img-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.image-us{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.experience{
+    background-color: #3431CB;
+    color: white; /* Color del texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%; /* Hace que ocupe todo el espacio disponible */
+    padding: 20px;
+}
+
+.experience h3{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* Mision y Vision */
+#mvision{
+    padding: 20px;
+    background-image: url(/images/fondo-mvision.jpg);
+    background-size: cover;
+}
+
+.cont-mvision{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.tx-mision h2, .tx-vision h2{
+    color: #fff;
+    font-size: 35px;
+}
+
+.tx-mision p, .tx-vision p{
+    color: #fff;
+    width: 80%;
+    font-size: 18px;
+}
+
+/* servicios */
+#servicios{
+    background-color: #EBF2FA;
+    margin-bottom: 100px;
+
+}
+
+.cont-ser{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.cont-ser h4{
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 300;
+    color: #000;
+}
+
+.cont-ser h2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.carrusel-servicios{
+    margin-top: 50px;
+}
+
+.cont-carrusel{
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 20px;
+    height: 450px !important;
+}
+
+.cont-carrusel h2{
+    font-size: 2rem;
+}
+
+.cont-carrusel p{
+    font-size: 18px;
+}
+
+.cont-carrusel img{
+    width: 60px !important;
+    border-radius: 20px;
+}
+
+.cont-carrusel hr{
+    background-color: #000;
+    height: 2px;
+
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #3431CB !important; /* Cambia el color de las flechas a verde */
+    
+}
+
+.tx-ser{
+    padding-bottom: 5%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.tx-ser h6{
+    font-size: 25px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+/* normas */
+
+
+.cont-normas{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.cont-normas img{
+    width: 15% !important;
+}
+
+#normas hr{
+    background-color: #000;
+    height: 0.5px;
+}
+
+/* capacitaciones */
+
+#capacitaciones{
+    margin-top: 100px;
+    background-image: url(/images/fondo-capas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.cont-cap{
+   padding-bottom: 100px;
+}
+
+.cont-cap h3{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 80px;
+}
+
+.capas{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   
+}
+
+.info-cap{
+    background-color: #3431CB;
+    padding: 30px;
+}
+
+.otro-cap{
+    background-color: #3763EB !important;
+}
+
+.info-cap h2{
+    font-size: 1.5rem;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.img-cap{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.img-cap img{
+    width: 100%;
+}
+
+/* formacion */
+#formacion{
+    background-color: #EBF2FA;
+}
+
+.cont-form{
+    padding-top: 100px;
+}
+
+.cont-form h2{
+    text-align: center;
+    font-size: 3rem;
+    color: #000;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.acre{
+    padding-top: 50px;
+    display: flex;
+}
+
+.acre img{
+    width: 60%;
+}
+
+.box-ace{
+    background-color: #3431CB;
+    width: 100%;
+    padding: 40px;
+}
+
+.box-ace h3{
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.box-ace p{
+    font-size: 18px;
+    color: #fff;
+}
+
+.box-ace img{
+    width: 70%;
+    margin-left: 0 !important;
+}
+
+
+/* clientes */
+.clientes{
+    margin-top: 100px;
+}
+.clientes h2{
+    font-size: 3rem;
+    color: #000;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.clin-img{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+/* testimonios */
+
+.testi{
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.cont-testi h3{
+    font-size: 2.5rem;
+    color: #000;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.box-test{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-test h4{
+    font-size: 3.5rem;
+    color: #000;
+    font-weight: 600;
+}
+
+.barra-doble{
+ 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    width: 20%;
+}
+
+.barra-doble .gor{
+    background-color: #000;
+    height: 3px;
+
+   
+}
+
+.barra-doble .del{
+    background-color: #000;
+    height: 1px;
+
+
+}
+
+.tx-testi p{
+    font-size: 22px;
+}
+
+.tx-testi h3{
+    font-size: 30px;
+    text-transform: none;
+    letter-spacing: normal;
+    font-weight: 600;
+}
+
+.box-test .btn-cta-rot:hover{
+    background-color: transparent;
+    border: 1px solid #3431CB;
+    color: #3431CB;
+}
+
+/* contacto */
+
+.box-contact{
+    padding-top: 100px;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.box-contact img{
+    width: 30%;
+}
+
+.boxi-con{
+    background-color: #3431CB;
+    padding: 40px;
+}
+
+.boxi-con h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 300;
+    letter-spacing: 6px;
+}
+
+.boxi-con h5{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.boxi-con p{
+    color: #fff;
+    font-size: 18px;
+}
+
+.datos-cont-boxi{
+    display: flex;
+}
+
+.datos-cont-boxi .cir-data{
+    background-color: #fff;
+}
+
+.datos-cont-boxi .cir-data i{
+    color: #3431CB;
+}
+
+.datos-cont-boxi .light-t a, .datos-cont-boxi .light-t{
+    color: #fff !important;
+    font-weight: 300 !important;
+}
+
+.boxi-con hr{
+    background-color: #fff
+}
+
+form{
+    width: 100%;
+}
+
+input{
+    background-color: #fff;
+    padding: 10px;
+    border: none;
+    margin: 10px auto;
+    gap: 20px;
+}
+
+.controls-form{
+    display: flex;
+    gap: 10px;
+}
+
+.controls-form-2{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn-send{
+    margin-top: 20px;
+    background-color: #fff;
+    border: none;
+    font-size: 20px;
+    color: #3431CB;
+    padding: 10px 20px 10px 20px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.btn-send:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+
+}
+
+
+
+
+#google-map {
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+/*--------------------------------
+            Whatsapp
+--------------------------------*/
+.float{
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 20px;
+	left: 20px;
+	background-color:#25d366;
+	color:#fff;
+	border-radius: 50px;
+	text-align: center;
+    font-size: 30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index: 10000;
+}
+
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+    background-color:#fff;
+}
+
+.my-float{
+	margin-top: 16px;
+}
+
+footer{
+    background-color: #363636;
+}
+
+.cont-foo{
+    padding-top: 50px;
+}
+
+.box-logo-foo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-logo-foo img{
+    width: 150px;
+}
+
+.box-logo-foo i{
+    color: #fff;
+    font-size: 40px;
+}
+
+.boxes-foo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 40px;
+}
+
+.tx-foo{
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+}
+
+.contacto-foo{
+    width: 100%;
+}
+
+.enlaces-foo{
+    width: 100%;
+}
+
+.tit-foo{
+    color: #fff;
+    font-size: 30px;
+}
+
+.contacto-foo li{
+    list-style: none;
+    color: #fff;
+}
+
+.cont-foo li a{
+    font-size: 18px;
+    color: #fff;
+}
+
+.cont-foo li a:hover{
+    color: aqua;
+}
+
+.enlaces-foo li{
+    list-style: none;
+}
+
+/* creditos */
+.creditos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.creditos a{
+    color: #fff;
+}
+
+.cont-foo hr{
+    background-color: #fff;
+}
+
+
+.g-recaptcha{
+    margin-top: 20px;
+}
+
+
+
+@media (min-width: 100px)  and (max-width: 300px){
+    .main-container{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+   /* barra superior */
+   .barra-superior{
+    display: none;
+   }
+
+   /* barra de navegacion */
+   
+    .icaci-movil{
+    display: block;
+    width: 80px;
+   }
+
+   .navbar{
+        background-color: #fff !important;
+   }
+   .nav-link{
+        color: #3431CB !important;
+   }
+   /* Banner */
+   .banner-icaci{
+    padding: 0;
+   }
+    .banner-icaci .main-container{
+        margin: 0 !important;
+    }
+
+   .elemento-1, .elemento-2{
+        display: none;
+   }
+
+    
+   .elemento-3{
+    display: block;
+    width: 80px;
+    margin-bottom: 20px;
+   }
+
+
+   .cont-ban{
+    width: 100%;
+    padding: 20px 20px 60px 20px;
+   }
+
+   .cont-ban h2{
+    font-size: 14px;
+   }
+
+   .cont-ban h1{
+    font-size: 1.5rem;
+    line-height: 1.2;
+    width: 100%;
+   }
+
+   .cont-ban p{
+    font-size: 16px;
+    width: 100%;
+   }
+
+   .btn-cta-rot{
+    font-size: 16;
+   }
+
+   /* nosotros */
+   #nosotros{
+     margin-top: 100px;
+     margin-bottom: 100px;
+   }
+
+   .cont-us{
+    flex-direction: column;
+   }
+
+   .img-nosotros{
+    width: 100%;
+    flex-direction: column;
+
+   }
+   
+   .orn-icaci h2{
+    font-size: 18px;
+   }
+
+   .us-txt{
+    width: 100%;
+   }
+
+   .us-txt h2{
+    font-size: 1.5rem;
+   }
+
+   .us-txt p{
+    width: 100%;
+   }
+
+   /* mvision */
+
+   .cont-mvision{
+        flex-direction: column;
+   }
+
+   .tx-mision p, .tx-vision p{
+        width: 100%;
+        font-size: 16px;
+   }
+
+   /* servicios */
+   .cont-ser h4{
+    font-size: 25px;
+   }
+
+   .cont-ser h2{
+    font-size: 1.5rem;
+   }
+
+   .carrusel-servicios{
+    flex-direction: column;
+   }
+
+   .cont-carrusel img{
+    width: 40px;
+   }
+
+   .cont-carrusel h2{
+    font-size: 25px;
+   }
+
+
+   .tx-ser h6{
+    font-size: 18px;
+    width: 100%;
+   }
+
+   .cont-carrusel{
+    height: fit-content !important;
+   }
+
+  
+
+   
+   /* capacitaciones */
+
+   .cont-cap h3{
+    font-size: 1.5rem;
+   }
+
+   .capas{
+    flex-direction: column;
+   }
+
+   .info-cap h2{
+    font-size: 25px;
+
+   }
+
+   /* formacion */
+
+   .cont-form h2{
+    font-size: 1.5rem;
+   }
+
+   .acre img{
+    display: none;
+   }
+
+   .acre h3{
+    font-size: 25px;
+   }
+
+   .acre p{
+    font-size: 16px;
+   }
+
+   /* clientes */
+
+   .clientes h2{
+    font-size: 40px;
+   }
+
+   .clin-img{
+    flex-direction: column;
+   }
+
+   .clin-img img{
+    width: 50%;
+    margin: 0 auto;
+   }
+
+   /* testimonios */
+   .cont-testi h3{
+    font-size: 25px;
+   }
+
+   .box-test{
+    flex-direction: column;
+   }
+
+   .box-test h4{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+   }
+
+   .tx-testi p{
+    font-size: 18px;
+   }
+
+   .tx-testi h3{
+    font-size: 20px;
+   }
+
+   .cont-testi{
+    text-align: center;
+   }
+
+   /* contacto */
+   #contacto{
+    padding: 0;
+   }
+
+   #contacto .main-container{
+    margin-left: 0;
+    margin-right: 0;
+   }
+
+   .box-contact{
+    width: 100%;
+   }
+
+   .box-contact img{
+    display: none;
+   }
+
+   .boxi-con{
+    padding: 10px;
+    max-width: 300px;
+   }
+
+   .boxi-con h3{
+    font-size: 15px;
+   }
+
+   .boxi-con h5{
+    font-size: 18px;
+   }
+
+   .boxi-con p{
+    font-size: 14px;
+   }
+   .datos-cont-boxi{
+    flex-direction: column !important;
+    padding: 0 !important; 
+    
+   }
+
+   .datos-cont-boxi .cont-data{
+    margin: 0;
+   }
+
+   .datos-cont-boxi .cont-data p{
+    font-size: 14px;
+   }
+
+   
+
+   .controls-form{
+    flex-direction: column;
+   }
+   .controls-form-2{
+    flex-direction: column;
+   }
+
+   input{
+    margin: 0;
+    width: fit-content;
+   }
+
+   /* footer */
+
+   .box-logo-foo{
+    padding: 10px;
+   }
+   
+   .boxes-foo{
+    flex-direction: column;
+   }
+
+   .tit-foo{
+    font-size: 25px;
+   }
+
+   .tit-foo li a{
+    font-size: 18px;
+   }
+
+   .creditos{
+     flex-direction: column;
+   }
+
+   .g-recaptcha{
+    transform: scale(0.9);
+   }
+    
+}
+
+@media (min-width: 320px)  and (max-width: 650px){
+    .main-container{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+   /* barra superior */
+   .barra-superior{
+    display: none;
+   }
+
+   /* barra de navegacion */
+   
+    .icaci-movil{
+    display: block;
+    width: 80px;
+   }
+
+   .navbar{
+        background-color: #fff !important;
+   }
+   .nav-link{
+        color: #3431CB !important;
+   }
+   /* Banner */
+   .banner-icaci{
+    padding: 0;
+   }
+    .banner-icaci .main-container{
+    margin: 0 !important;
+    }
+
+   .elemento-1, .elemento-2{
+        display: none;
+   }
+
+   
+   .elemento-3{
+    display: block;
+    width: 80px;
+    margin-bottom: 20px;
+   }
+
+
+   .cont-ban{
+    width: 100%;
+    padding: 20px 20px 60px 20px;
+   }
+
+   .cont-ban h2{
+    font-size: 16px;
+   }
+
+   .cont-ban h1{
+    font-size: 2rem;
+    line-height: 1.2;
+    width: 100%;
+   }
+
+   .cont-ban p{
+    font-size: 18px;
+    width: 100%;
+   }
+
+   .btn-cta-rot{
+    font-size: 16;
+   }
+
+   /* nosotros */
+   #nosotros{
+     margin-top: 100px;
+     margin-bottom: 100px;
+   }
+
+   .cont-us{
+    flex-direction: column;
+   }
+
+   .img-nosotros{
+    width: 100%;
+    flex-direction: column;
+
+   }
+   
+ 
+
+   .orn-icaci h2{
+    font-size: 18px;
+   }
+
+   .us-txt{
+    width: 100%;
+   }
+
+   .us-txt h2{
+    font-size: 1.5rem;
+   }
+
+   .us-txt p{
+    width: 100%;
+    font-size: 18px;
+   }
+
+   /* mvision */
+
+   .cont-mvision{
+        flex-direction: column;
+   }
+
+   .tx-mision p, .tx-vision p{
+        width: 100%;
+        font-size: 16px;
+   }
+
+   /* servicios */
+   .cont-ser h4{
+    font-size: 25px;
+   }
+
+   .cont-ser h2{
+    font-size: 1.5rem;
+   }
+
+   .carrusel-servicios{
+    flex-direction: column;
+   }
+
+   .cont-carrusel img{
+    width: 40px;
+   }
+
+   .cont-carrusel h2{
+    font-size: 25px;
+   }
+
+
+   .tx-ser h6{
+    font-size: 18px;
+    width: 100%;
+   }
+
+   .cont-carrusel{
+   
+    height: fit-content !important;
+    margin: 0;
+
+    
+}
+   /* capacitaciones */
+
+   .cont-cap h3{
+    font-size: 1.5rem;
+   }
+
+   .capas{
+    flex-direction: column;
+   }
+
+   .info-cap h2{
+    font-size: 25px;
+
+   }
+
+   /* formacion */
+
+   .cont-form h2{
+    font-size: 1.5rem;
+   }
+
+   .acre img{
+    display: none;
+   }
+
+   .acre h3{
+    font-size: 25px;
+   }
+
+   .acre p{
+    font-size: 16px;
+   }
+
+   /* clientes */
+
+   .clientes h2{
+    font-size: 40px;
+   }
+
+   .clin-img{
+    flex-direction: column;
+   }
+
+   .clin-img img{
+    width: 50%;
+    margin: 0 auto;
+   }
+
+   /* testimonios */
+   .cont-testi h3{
+    font-size: 25px;
+   }
+
+   .box-test{
+    flex-direction: column;
+   }
+
+   .box-test h4{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+   }
+
+   .tx-testi p{
+    font-size: 18px;
+   }
+
+   .tx-testi h3{
+    font-size: 20px;
+   }
+
+   .cont-testi{
+    text-align: center;
+   }
+
+   /* contacto */
+   #contacto{
+    padding: 0;
+   }
+
+   #contacto .main-container{
+    margin-left: 0;
+    margin-right: 0;
+   }
+
+   .box-contact img{
+    display: none;
+   }
+
+   .boxi-con{
+    padding: 0;
+    width: fit-content;
+   }
+
+   .boxi-con h3{
+    font-size: 20px;
+   }
+
+   .boxi-con h5{
+    font-size: 25px;
+   }
+
+   .boxi-con p{
+    font-size: 16px;
+   }
+   .datos-cont-boxi{
+    flex-direction: column !important;
+    padding: 0 !important; 
+   }
+   
+   .datos-cont-boxi .cont-data{
+    margin: 0;
+   }
+
+   .controls-form{
+    flex-direction: column;
+   }
+   .controls-form-2{
+    flex-direction: column;
+   }
+
+   input{
+    margin: 0;
+    width: fit-content;
+   }
+
+   /* footer */
+
+   .box-logo-foo{
+    padding: 10px;
+   }
+   
+   .boxes-foo{
+    flex-direction: column;
+   }
+
+   .tit-foo{
+    font-size: 25px;
+   }
+
+   .tit-foo li a{
+    font-size: 18px;
+   }
+
+
+   .creditos{
+     flex-direction: column;
+   }
+
+    
+}
+
+@media (min-width: 767px)  and (max-width: 999px){
+    .main-container{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+   /* barra superior */
+   .barra-superior{
+    display: none;
+   }
+
+   /* barra de navegacion */
+   
+    .icaci-movil{
+    display: block;
+    width: 80px;
+   }
+
+   .navbar{
+        background-color: #fff !important;
+   }
+   .nav-link{
+        color: #3431CB !important;
+   }
+   /* Banner */
+   .banner-icaci{
+    padding: 0;
+   }
+.banner-icaci .main-container{
+    margin: 0 !important;
+}
+
+   .elemento-1, .elemento-2{
+        display: none;
+   }
+
+   .cont-ban{
+    width: 100%;
+    padding: 20px 20px 60px 20px;
+   }
+
+   .cont-ban h2{
+    font-size: 18px;
+   }
+
+   .cont-ban h1{
+    font-size: 2rem;
+    line-height: 1.2;
+    width: 70%;
+   }
+
+   .cont-ban p{
+    font-size: 18px;
+    width: 80%;
+   }
+
+   .btn-cta-rot{
+    font-size: 16;
+   }
+
+   /* nosotros */
+   #nosotros{
+     margin-top: 100px;
+     margin-bottom: 100px;
+   }
+
+
+   .img-nosotros{
+    width: 100%;
+
+   }
+   
+
+   .orn-icaci h2{
+    font-size: 18px;
+   }
+
+   .us-txt{
+    width: 100%;
+   }
+
+   .us-txt h2{
+    font-size: 1.5rem;
+   }
+
+   .us-txt p{
+    width: 100%;
+    font-size: 18px;
+   }
+
+   /* mvision */
+
+   .cont-mvision{
+        flex-direction: column;
+   }
+
+   .tx-mision p, .tx-vision p{
+        width: 100%;
+        font-size: 16px;
+   }
+
+   /* servicios */
+   .cont-ser h4{
+    font-size: 25px;
+   }
+
+   .cont-ser h2{
+    font-size: 1.5rem;
+   }
+
+   .carrusel-servicios{
+    flex-direction: column;
+   }
+
+   .cont-carrusel img{
+    width: 40px;
+   }
+
+   .cont-carrusel h2{
+    font-size: 25px;
+   }
+
+
+   .tx-ser h6{
+    font-size: 18px;
+    width: 100%;
+   }
+
+   /* capacitaciones */
+
+   .cont-cap h3{
+    font-size: 1.5rem;
+   }
+
+   .capas{
+    flex-direction: column;
+   }
+
+   .info-cap h2{
+    font-size: 25px;
+
+   }
+
+   /* formacion */
+
+   .cont-form h2{
+    font-size: 1.5rem;
+   }
+
+   .acre img{
+    display: none;
+   }
+
+   .acre h3{
+    font-size: 25px;
+   }
+
+   .acre p{
+    font-size: 16px;
+   }
+
+   /* clientes */
+
+   .clientes h2{
+    font-size: 40px;
+   }
+
+
+
+   .clin-img img{
+    width: 50%;
+    margin: 0 auto;
+   }
+
+   /* testimonios */
+   .cont-testi h3{
+    font-size: 25px;
+   }
+
+   .box-test{
+    flex-direction: column;
+   }
+
+   .box-test h4{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+   }
+
+   .tx-testi p{
+    font-size: 18px;
+   }
+
+   .tx-testi h3{
+    font-size: 20px;
+   }
+
+   .cont-testi{
+    text-align: center;
+   }
+
+   /* contacto */
+   #contacto{
+    padding: 0;
+   }
+
+   #contacto .main-container{
+    margin-left: 0;
+    margin-right: 0;
+   }
+
+   .box-contact img{
+    display: none;
+   }
+
+   .boxi-con{
+    padding: 10px;
+    width: fit-content;
+   }
+
+   .boxi-con h3{
+    font-size: 20px;
+   }
+
+   .boxi-con h5{
+    font-size: 25px;
+   }
+
+   .boxi-con p{
+    font-size: 16px;
+   }
+   .datos-cont-boxi{
+    flex-direction: column !important;
+    padding: 0 !important; 
+   }
+   
+
+
+   input{
+    margin: 0;
+    width: fit-content;
+   }
+
+   /* footer */
+
+   .box-logo-foo{
+    padding: 10px;
+   }
+   
+   .boxes-foo{
+    flex-direction: column;
+   }
+
+   .tit-foo{
+    font-size: 25px;
+   }
+
+   .tit-foo li a{
+    font-size: 18px;
+   }
+
+
+   .creditos{
+     flex-direction: column;
+   }
+
+    
+}
+
+@media (min-width: 1010px)  and (max-width: 1300px){
+    .main-container{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+   /* barra superior */
+   .logo-icaci img{
+    width: 150px;
+}
+
+   /* barra de navegacion */
+   
+    .icaci-movil{
+    display: none;
+    width: 80px;
+   }
+
+   .navbar{
+        background-color: #fff !important;
+   }
+   .nav-link{
+        color: #3431CB !important;
+   }
+   /* Banner */
+   .banner-icaci{
+    padding: 40px;
+   }
+
+    .banner-icaci .main-container{
+        margin: 0 !important;
+    }
+
+   .elemento-1, .elemento-2{
+        display: none;
+   }
+
+   .cont-ban{
+    width: 100%;
+    padding: 20px 20px 60px 20px;
+    background-position: 100%;
+   }
+
+   .cont-ban h2{
+    font-size: 20px;
+   }
+
+   .cont-ban h1{
+    font-size: 2.5rem;
+    line-height: 1.2;
+    width: 70%;
+   }
+
+   .cont-ban p{
+    font-size: 18px;
+    width: 50%;
+   }
+
+   .btn-cta-rot{
+    font-size: 16;
+   }
+
+   /* nosotros */
+   #nosotros{
+     margin-top: 100px;
+     margin-bottom: 100px;
+   }
+
+
+   .img-nosotros{
+    width: 250%;
+
+   }
+   
+
+   .orn-icaci h2{
+    font-size: 20px;
+   }
+
+   .us-txt{
+    width: 80%;
+   }
+
+   
+
+   .us-txt h2{
+    font-size:2.5rem;
+   }
+
+   .us-txt p{
+    width: 100%;
+    font-size: 18px;
+   }
+
+   .image-us{
+    width: 100%;
+   }
+
+
+   /* mvision */
+
+   .cont-mvision{
+    justify-content: space-between;
+    gap: 60px;
+   }
+
+   .tx-mision p, .tx-vision p{
+        width: 100%;
+        font-size: 16px;
+   }
+
+   /* servicios */
+   .cont-ser h4{
+    font-size: 30px;
+   }
+
+   .cont-ser h2{
+    font-size: 2rem;
+   }
+
+   .cont-carrusel img{
+    width: 20px;
+   }
+
+   .cont-carrusel h2{
+    font-size: 22px;
+   }
+
+
+   .tx-ser h6{
+    font-size: 18px;
+    width: 100%;
+   }
+   .cont-carrusel{
+    height: fit-content !important;
+    margin: 10px;
+   }
+
+
+   /* capacitaciones */
+
+   .cont-cap h3{
+    font-size: 2.5rem;
+   }
+
+  
+
+   .info-cap h2{
+    font-size: 25px;
+
+   }
+
+   /* formacion */
+
+   .cont-form{
+    height: fit-content;
+   }
+
+   .cont-form h2{
+    font-size: 1.5rem;
+   }
+
+   .acre img{
+    width: 60%;
+    
+   }
+
+   .acre h3{
+    font-size: 25px;
+   }
+
+   .acre p{
+    font-size: 16px;
+   }
+
+   /* clientes */
+
+   .clientes h2{
+    font-size: 40px;
+   }
+
+
+
+   .clin-img img{
+    width: 15%;
+    margin: 0 auto;
+   }
+
+   /* testimonios */
+   .cont-testi h3{
+    font-size: 25px;
+   }
+
+   
+
+   .box-test h4{
+    font-size: 40px;
+
+    margin-bottom: 20px;
+   }
+
+   .tx-testi p{
+    font-size: 18px;
+   }
+
+   .tx-testi h3{
+    font-size: 20px;
+   }
+
+
+   /* contacto */
+   #contacto{
+    padding: 0;
+   }
+
+   #contacto .main-container{
+    margin-left: 0;
+    margin-right: 0;
+   }
+
+
+
+   .box-contact img{
+    width: 32%;
+   }
+
+   .boxi-con{
+    padding: 40px;
+    width: fit-content;
+   }
+
+   .boxi-con h3{
+    font-size: 20px;
+   }
+
+   .boxi-con h5{
+    font-size: 25px;
+   }
+
+   .boxi-con p{
+    font-size: 16px;
+   }
+   .datos-cont-boxi{
+    
+    padding: 0 !important; 
+   }
+
+   input{
+    margin: 0;
+    width: fit-content;
+   }
+
+   /* footer */
+
+   .box-logo-foo{
+    padding: 10px;
+   }
+   
+ 
+
+   .tit-foo{
+    font-size: 25px;
+   }
+
+   .tit-foo li a{
+    font-size: 18px;
+   }
+
+}
+
+@media (min-width: 1320px)  and (max-width: 1900px){
+    .main-container{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+   /* barra superior */
+ 
+
+   /* barra de navegacion */
+   
+    .icaci-movil{
+    display: none;
+    width: 80px;
+   }
+
+   .navbar{
+        background-color: #fff !important;
+   }
+   .nav-link{
+        color: #3431CB !important;
+   }
+   /* Banner */
+   .banner-icaci{
+    padding: 40px;
+   }
+
+    .banner-icaci .main-container{
+        margin: 0 !important;
+    }
+
+   .elemento-1, .elemento-2{
+        display: none;
+   }
+
+   .cont-ban{
+    width: 100%;
+    padding: 20px 20px 60px 20px;
+    background-position: 100%;
+   }
+
+   .cont-ban h2{
+    font-size: 25px;
+   }
+
+   .cont-ban h1{
+    font-size: 2.5rem;
+    line-height: 1.2;
+    width: 50%;
+   }
+
+   .cont-ban p{
+    font-size: 18px;
+    width: 50%;
+   }
+
+   .btn-cta-rot{
+    font-size: 16;
+   }
+
+   /* nosotros */
+   #nosotros{
+     margin-top: 100px;
+     margin-bottom: 100px;
+   }
+
+   .cont-us{
+    gap: 20px;
+   }
+
+
+   .img-nosotros{
+    width: 250%;
+
+   }
+   
+
+   .orn-icaci h2{
+    font-size: 20px;
+   }
+
+   .us-txt{
+    width: 100%;
+   }
+
+   
+
+   .us-txt h2{
+    font-size:2.5rem;
+   }
+
+   .us-txt p{
+    width: 100%;
+    font-size: 20px;
+   }
+
+   .image-us{
+    width: 100%;
+   }
+
+
+   /* mvision */
+
+   .cont-mvision{
+    justify-content: space-between;
+    gap: 60px;
+   }
+
+   .tx-mision p, .tx-vision p{
+        width: 100%;
+        font-size: 16px;
+   }
+
+   /* servicios */
+   .cont-ser h4{
+    font-size: 30px;
+   }
+
+   .cont-ser h2{
+    font-size: 2rem;
+   }
+
+   .cont-carrusel img{
+    width: 20px;
+   }
+
+   .cont-carrusel h2{
+    font-size: 22px;
+   }
+
+
+   .tx-ser h6{
+    font-size: 18px;
+    width: 100%;
+   }
+   .cont-carrusel{
+    height: fit-content !important;
+    margin: 10px;
+   }
+
+
+   /* capacitaciones */
+
+   .cont-cap h3{
+    font-size: 2.5rem;
+   }
+
+  
+
+   .info-cap h2{
+    font-size: 25px;
+
+   }
+
+   /* formacion */
+
+   .cont-form{
+    height: fit-content;
+   }
+
+   .cont-form h2{
+    font-size: 1.5rem;
+   }
+
+   .acre img{
+    width: 60%;
+    
+   }
+
+   .acre h3{
+    font-size: 25px;
+   }
+
+   .acre p{
+    font-size: 16px;
+   }
+
+   /* clientes */
+
+   .clientes h2{
+    font-size: 40px;
+   }
+
+
+
+   .clin-img img{
+    width: 15%;
+    margin: 0 auto;
+   }
+
+   /* testimonios */
+   .cont-testi h3{
+    font-size: 25px;
+   }
+
+   
+
+   .box-test h4{
+    font-size: 40px;
+
+    margin-bottom: 20px;
+   }
+
+   .tx-testi p{
+    font-size: 18px;
+   }
+
+   .tx-testi h3{
+    font-size: 20px;
+   }
+
+
+   /* contacto */
+   #contacto{
+    padding: 0;
+   }
+
+   #contacto .main-container{
+    margin-left: 0;
+    margin-right: 0;
+   }
+
+
+
+   .box-contact img{
+    width: 32%;
+   }
+
+   .boxi-con{
+    padding: 40px;
+    width: fit-content;
+   }
+
+   .boxi-con h3{
+    font-size: 20px;
+   }
+
+   .boxi-con h5{
+    font-size: 25px;
+   }
+
+   .boxi-con p{
+    font-size: 16px;
+   }
+   .datos-cont-boxi{
+    
+    padding: 0 !important; 
+   }
+
+   input{
+    margin: 0;
+    width: fit-content;
+   }
+
+   /* footer */
+
+   .box-logo-foo{
+    padding: 10px;
+   }
+   
+ 
+
+   .tit-foo{
+    font-size: 25px;
+   }
+
+   .tit-foo li a{
+    font-size: 18px;
+   }
+}
