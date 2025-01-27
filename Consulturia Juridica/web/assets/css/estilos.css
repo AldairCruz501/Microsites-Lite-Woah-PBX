@@ -1,0 +1,640 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/*-----------------------------------
+            MENU NAV
+-----------------------------------*/
+ul{
+    display: block;
+}
+
+body{
+  font-family: "quasimoda", sans-serif;
+    background-size: cover;
+    background-repeat: repeat;
+    margin: 0;
+
+}
+
+header{
+    display: block;
+    z-index: 999;
+}
+
+.container {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
+    overflow: hidden; /* Agregamos overflow: hidden para evitar que los elementos hijos sobresalgan del contenedor */
+  }
+
+.fa{
+    font-family: 'Poppins', sans-serif;
+  }
+.fa-brands, .fab{
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+.topheader{
+  width: 100%;
+  background-color: #fff;
+  z-index: 1001;
+  position: fixed;
+}
+.topheader p{
+  font-size: 14px;
+  font-weight: 600;
+
+}
+.topheader a{
+  color: #000;
+}
+.topheader a:hover{
+  text-decoration: none;
+}
+.cont-header{
+  
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+nav{
+position: fixed;
+z-index: 1000;
+justify-content: center;
+text-align: center;
+background: #fff;
+box-shadow: 5px 2px 2px rgba(0, 0, 0, 0.3);
+height: fit-content;
+width: 100%;
+text-decoration: none;
+}
+
+.logo{
+  width: 150px;
+}
+
+
+nav ul{
+font-weight: 600;
+text-decoration: none;
+justify-content: center;
+margin: 20px auto;
+font-family: "quasimoda", sans-serif;
+}
+
+nav ul li{
+display: inline-block;
+line-height: 80px;
+margin: 0 auto;
+}
+
+
+nav ul li a{
+font-weight: 600;
+color: #000;
+font-size: 20px;
+padding: 7px 13px;
+border-radius: 3px;
+text-decoration: none;
+}
+
+nav li a:hover{
+
+
+color: #7c7c7c;
+text-decoration: none;
+}
+
+.checkbtn{
+font-size: 30px;
+color: #00247D;
+float: right;
+line-height: 80px;
+margin-right: 40px;
+cursor: pointer;
+display: none;
+}
+
+#check{
+display: none;
+}
+
+
+.titulo-enc{
+	text-align: center;
+	color: #00003D;
+	font-weight: 600;
+	font-family: 'Quasimoda';
+	text-transform: none;
+	font-size: 40px;
+}
+.linea{
+	font-size: 60px;
+	width: 200px;
+}
+
+
+#banner{
+  height: 80vh;
+  background-image: url(../images/banner-consultoria.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Para centrar el texto horizontalmente */
+}
+
+
+.cont-banner h2{
+    font-family: "quasimoda", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 5rem;
+    text-align: left;
+    width: 30%;
+    font-weight: 700;
+}
+
+.logo-nav{
+  display: none;
+}
+
+
+
+
+
+
+#nosotros{
+	background-image: url(../images/fondo-nosotros.jpg);
+	background-size: cover;
+	width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: "quasimoda", sans-serif;
+	
+
+}
+
+.cont-us{
+	display: flex;
+	align-items: center;
+	font-family: 'quasimoda' !important;
+}
+.txt-us{
+	margin-left: 20px;
+	color: #000;
+}
+.txt-us h3{
+	font-size: 25px;
+	margin-bottom: 0;
+
+}
+.txt-us p{
+	font-size: 20px;
+}
+
+
+
+
+
+
+/* servicios */
+#servicios{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.custom-grid-container {
+margin-top: 100px;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 20px;
+}
+
+.custom-grid-item {
+position: relative;
+overflow: hidden;
+border-radius: 15px;
+cursor: pointer;
+}
+
+.custom-overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 15px;
+opacity: 0;
+transition: opacity 0.3s ease-in-out;
+}
+
+.initial-overlay-style {
+background: rgba(0, 0, 0, 0.8);
+color: white;
+}
+
+.custom-grid-item:hover .initial-overlay-style {
+opacity: 0;
+}
+
+.hover-overlay-style {
+background: #000041;
+color: white;
+}
+
+.custom-grid-item:hover .hover-overlay-style {
+opacity: 1;
+}
+
+ .text {
+text-align: center;
+padding: 20px;
+color: #fff;
+z-index: 100;
+}
+
+
+/* Ajusta el tamaño de los rectángulos según tus necesidades */
+.custom-grid-item {
+height: 200px;
+background-size: cover;
+background-position: center;
+}
+
+/* Añade estilos de fondo específicos y ajusta el contenido según tus necesidades */
+#item1 { background-image: url('../images/asesoria-legal.jpg'); }
+#item2 { background-image: url('../images/juicios-adm.jpg'); }
+#item3 { background-image: url('../images/litigio-mercantil.jpg');}
+#item4 { background-image: url('../images/cobranza-legal.jpg'); }
+#item5 { background-image: url(''); display: none; }
+#item6 { background-image: url('../images/amparo.jpg'); }
+
+
+
+
+
+
+/* contacto */
+#contacto{
+background-image: url(../images/fondo-contacto.jpg);
+background-size: cover;
+padding: 30px;
+width: 100%;
+font-family: "quasimoda", sans-serif;
+}
+
+.cont-cont{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+input, textarea{
+border-radius: 10px;
+margin-top: 10px !important;
+border: 2px solid #00003D;
+width: 100%;
+padding: 5px;
+}
+
+input::placeholder, textarea::placeholder{
+font-size: 20px;
+color: rgba(0, 0, 61, 0.5);
+}
+
+.cont-cont img{
+width: 50%;
+border-radius: 20px;
+margin-left: auto;
+}
+
+form button{
+background-color: #00003D;
+border: none;
+color: #Fff;
+padding: 5px;
+font-size: 20px;
+}
+
+
+
+
+
+
+/*---------------------------------
+            Responsive
+---------------------------------*/
+
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    nav{
+        margin-top: 0;
+        margin-bottom: 0;
+        
+        position: fixed;
+    }
+   
+    ul{
+        margin-top: 40px;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #444444;
+        top: 70px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 999;
+     
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+        color: #fff;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: white;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+    .first-tittle{
+        display: none;
+    }
+   
+   
+}
+
+  /* footer */
+  footer {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FAFAFA;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+  }
+  .footer-cont{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    margin-right: 10rem;
+  }
+  
+  .footer-section:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-section img {
+   width: 300px;
+  }
+  
+  .footer-section p {
+    color: #002C76;
+    width: 300px;
+    margin: 50px auto;
+    text-align: justify;
+  }
+  
+  .footer-section h3 {
+    color: #002C76;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  .footer-section {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    
+    text-decoration: none;
+    color: #002C76;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px
+  }
+  
+  .footer-section li a {
+    text-decoration: none;
+    color: #002C76;
+    display: block;
+  }
+  .footer-section a:hover{
+    color: aqua;
+  }
+  
+  .green-section {
+    background-color: #FAFAFA;
+    text-align: center;
+    padding: 12px 0;
+    color: #c7c7c7;
+  }
+  .green-section h2{
+    font-size: 16px;
+  }
+
+  
+  @media screen and (max-width: 858px) {
+    .footer-section img{
+        width: 100%;
+    }
+    .footer-cont {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .footer-section {
+      margin: 0;
+      margin-bottom: 30px;
+    }
+    .correo{
+      font-size: 10px !important;
+    }
+  }
+
+
+  /*--------------------------------
+              Whatsapp
+  --------------------------------*/
+  .float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    left: 10px;
+    background-color:#25d366;
+    color:#fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+     z-index: 100;
+}
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+    margin-top:16px;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px){
+  .logo-nav{
+    display: block;
+    margin: 10px;
+    width: 100px;
+  }
+  .topheader{
+    display: none;
+  }
+  .logo{
+    display: none;
+  }
+  #banner{
+    height:40vh;
+  }
+  .cont-banner h2{
+    margin-top: 50px;
+    font-size: 2.5rem;
+
+    width: 100%;
+  }
+  .titulo-enc{
+    font-size: 30px;
+  }
+  .linea{
+    font-size: 30px;
+  }
+  /* nosotros */
+  
+  .cont-us{
+    flex-direction: column;
+   
+  }
+  .txt-us{
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  /* servicios */
+  .custom-grid-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #item5{
+    display: none;
+  }
+  .text h2{
+    font-size: 20px;
+  }
+  .text p{
+    font-size: 12px;
+
+  }
+  /* contacto */
+  #contacto{
+    padding: 0;
+  }
+  .cont-cont{
+    flex-direction: column;
+  }
+  .cont-cont img{
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 770px) and (max-width: 1100px){
+  
+  .logo-nav{
+    display: block;
+    margin: 10px;
+    width: 100px;
+  }
+  .logo{
+    display: none;
+  }
+  .cont-header p{
+    font-size: 12px;
+  }
+  #banner{
+    height:40vh;
+  }
+  .cont-banner h2{
+    margin-top: 50px;
+    font-size: 3rem;
+    width: 60%;
+  }
+  /* servicios */
+.custom-grid-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+ 
+  .text h2{
+    font-size: 20px;
+  }
+  .text p{
+    font-size: 12px;
+
+  }
+
+  .correo{
+    font-size: 100% !important;
+  }
+}
+
+
+@media (min-width: 1180px) and (max-width: 1300px){
+
+  .text h2{
+    font-size: 20px;
+  }
+  .text p{
+    font-size: 14px;
+
+  }
+}
