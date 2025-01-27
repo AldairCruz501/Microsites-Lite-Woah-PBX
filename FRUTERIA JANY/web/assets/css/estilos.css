@@ -1,0 +1,688 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: crafter;
+    src: url(/assets/Crafter-Regular.otf);
+}
+
+/* banner */
+.navbar{
+    background-color: #BFFFA9 !important;
+}
+
+.main-container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.navbar-nav{
+    margin-left: auto !important;
+}
+
+.nav-link{
+    color: #005B16 !important;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#banner{
+    background-image: url(/assets/images/banner-principal.png);
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+
+#banner h2{
+    font-size: 4rem;
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    width: 50%;
+    text-align: center;
+    font-family: 'crafter';
+    color: #1A3219;
+}
+
+/* nosotros */
+#nosotros{
+    background-image: url(/assets/images/secciones.png);
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+
+.cuadro-us{
+    background-color: #BFFFA9;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    width: 30%;
+    right: 10%;
+    text-align: center;
+}
+
+.cuadro-us h2{
+    font-family: 'crafter';
+    text-align: center;
+    color: #175B2E;
+    font-size: 3rem;
+}
+
+.cuadro-us p{
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: #175B2E;
+}
+
+/* servicios */
+
+#servicios{
+    background-image: url(/assets/images/doodle.png);
+    padding: 20px;
+    text-align: center;
+}
+
+.bar-ti{
+    background-color: #51ca00;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'crafter';
+    font-size: 3rem;
+    padding: 3px;
+}
+
+.ser{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ser h3{
+    margin-top: 20px;
+}
+
+.ser-frut{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* frutas */
+#frutas{
+    background-image: url(/assets/images/frutas-seccion.png);
+    height: 60vh;
+    position: relative;
+}
+
+#frutas h2{
+    color: #fff;
+    font-family: 'crafter';
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-size: 6rem;
+    color: #175B2E;
+}
+
+.frutas{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+/* .frutas .slick-slide img{
+    margin: 0 27px !important;
+} */
+
+.slick-prev:before, .slick-next:before {
+   color: green !important; /* Cambia el color de las flechas a verde */
+}
+
+.slick-prev, .slick-next {
+   z-index: 1;
+}
+
+#verduras{
+    height: 60vh;
+    position: relative;
+    background-image: url(/assets/images/verduras-seccion.png);
+}
+
+#verduras h2{
+    color: #fff;
+    font-family: 'crafter';
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    font-size: 6rem;
+    color: #175B2E;
+}
+
+.verduras{
+    margin-top: 5%;
+}
+
+
+.fru-name{
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#contacto{
+    background-image: url(/assets/images/CONTACTO.png);
+    background-size: cover;
+    padding: 40px;
+    margin-top: 100px;
+    background-position: left left;
+}
+
+
+.formulario{
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.formulario h2{
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Neuton", serif;
+    font-weight: 800;
+    color: #175B2E;
+    
+
+}
+
+/* contacto */
+
+input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid #175B2E;
+    border-radius: 5px;
+    margin: 10px auto !important;
+}
+
+input::placeholder{
+    color: #175B2E;
+    font-weight: 600;
+}
+
+select{
+    color: #175B2E;
+    font-weight: 600
+}
+
+option{
+    color: #175B2E;
+}
+
+textarea::placeholder{
+    color: #175B2E;
+}
+
+.formulario button{
+    background-color: #175B2E;
+    width: 100%;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.controls{
+    display: flex;
+    gap: 20px;
+}
+
+/* footer */
+footer{
+    background-image: url(/assets/images/doodle.png);
+    background-size: cover;
+    padding: 40px;
+}
+
+.cont-foo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.enlaces {
+    display: flex;
+    font-weight: 600;
+    color: #175B2E;
+    
+    justify-content: space-between;
+}
+
+.enlaces a{
+    color: #175B2E;
+    font-size: 25px;
+}
+
+
+
+.sec-foo li{
+    list-style: none;
+
+}
+
+.creditos{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.datos-foo{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.datos-foo a{
+    color: #175B2E;
+}
+
+ /*--------------------------------
+              Whatsapp
+  --------------------------------*/
+  .float{
+   position: fixed;
+   width: 60px;
+   height: 60px;
+   bottom: 20px;
+   left: 20px;
+   background-color:#25d366;
+   color:#fff;
+   border-radius: 50px;
+   text-align: center;
+   font-size: 30px;
+   box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+.float:hover {
+   text-decoration: none;
+   color: #25d366;
+ background-color:#fff;
+}
+
+.my-float{
+   margin-top:16px;
+}
+
+
+
+
+@media(min-width: 300px) and (max-width: 760px){
+   .navbar-toggler-icon{
+      background: url(/assets/images/menu_icon.png) !important;
+      background-repeat: no-repeat !important;
+  }
+     .navbar-brand img{
+        width: 80px;
+     }    
+     #banner{
+        height: fit-content;
+        padding: 40px;
+        background-position: center;
+     }
+
+     #banner h2{
+        font-size: 2rem;
+        position: unset;
+        width: 100%;
+     }
+
+     /* nosotros */
+
+     #nosotros{
+        background-position: center;
+        height: 50vh;
+     }
+
+     .cuadro-us{
+        top: 10%;
+        width: 80%;
+     }
+
+     .cuadro-us h2{
+        font-size: 1.5rem;
+     }
+
+
+     .cuadro-us p{
+        font-size: 18px;
+        text-align: justify;
+     }
+
+     /* servicios */
+     #servicios{
+        padding: 20px;
+     }
+     .ser{
+        flex-direction: column;
+     }
+     .ser img{
+        width: 60%;
+     }
+
+     .bar-ti{
+        font-size: 1.5rem;
+     }
+
+     /* frutas */
+     #frutas{
+        height: fit-content;
+        padding: 20px;
+     }
+
+     #frutas h2{
+        font-size: 2rem;
+        position: unset;
+        text-align: center;
+     }
+
+     /* verduras */
+
+     #verduras{
+        height: fit-content;
+        padding: 40px;
+     }
+
+     #verduras h2{
+        position: unset;
+        text-align: center;
+        font-size: 2rem;
+     }
+
+     /* contacto */
+     #contacto{
+        padding: 10px;
+     }
+     .formulario{
+        width: 100%;
+     }
+
+     .formulario h2{
+        font-size: 2rem;
+     }
+
+     footer{
+        padding: 20px;
+     }
+
+     .cont-foo{
+        flex-direction: column;
+     }
+
+     .sec-foo{
+        margin-bottom: 20px;
+     }
+
+     .sec-foo img{
+        width: 100%;
+     }
+
+     .enlaces{
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 20px;
+     }
+
+     .datos-foo{
+        flex-direction: column;
+        text-align: center;
+     }
+
+}
+
+
+@media(min-width: 767px) and (max-width: 999px){
+   .navbar-toggler-icon{
+      background: url(/assets/images/menu_icon.png) !important;
+      background-repeat: no-repeat !important;
+  }
+    .navbar-brand img{
+       width: 80px;
+    }    
+    #banner{
+       height: fit-content;
+       padding: 10px;
+       background-position: left;
+    }
+
+    #banner h2{
+       font-size: 3rem;
+       position: unset;
+       width: 80%;
+       text-align: right;
+        margin-left: auto;
+    }
+
+    
+
+    /* nosotros */
+
+    #nosotros{
+       background-position: center;
+       height: 50vh;
+    }
+
+    .cuadro-us{
+       top: 20%;
+       width: 80%;
+    }
+
+    .cuadro-us h2{
+       font-size: 1.5rem;
+    }
+
+
+    .cuadro-us p{
+       font-size: 18px;
+       text-align: justify;
+    }
+
+    /* servicios */
+    #servicios{
+       padding: 20px;
+    }
+    
+    .ser img{
+       width: 60%;
+    }
+
+    .bar-ti{
+       font-size: 1.5rem;
+    }
+
+    /* frutas */
+    #frutas{
+       height: fit-content;
+       padding: 20px;
+    }
+
+    #frutas h2{
+       font-size: 3rem;
+       position: unset;
+       text-align: center;
+    }
+
+    /* verduras */
+
+    #verduras{
+       height: fit-content;
+       padding: 40px;
+    }
+
+    #verduras h2{
+       position: unset;
+       text-align: center;
+       font-size: 3rem;
+    }
+
+    /* contacto */
+    #contacto{
+       padding: 10px;
+    }
+    .formulario{
+       width: 100%;
+    }
+
+    .formulario h2{
+       font-size: 2rem;
+    }
+
+    footer{
+       padding: 20px;
+    }
+
+    .cont-foo{
+       flex-direction: column;
+    }
+
+    .sec-foo{
+       margin-bottom: 20px;
+    }
+
+    .sec-foo img{
+       width: 100%;
+    }
+
+    .enlaces{
+       flex-direction: column;
+       text-align: center;
+       margin-bottom: 20px;
+    }
+
+    .datos-foo{
+       flex-direction: column;
+       text-align: center;
+    }
+
+}
+
+
+@media(min-width: 1020px) and (max-width: 1200px){
+    .navbar-brand img{
+       width: 80px;
+    }    
+    #banner{
+       height: fit-content;
+       padding: 40px;
+       background-position: left;
+    }
+
+    #banner h2{
+       font-size: 3rem;
+       position: unset;
+       width: 80%;
+       text-align: right;
+        margin-left: auto;
+    }
+
+    
+
+    /* nosotros */
+
+    #nosotros{
+       background-position: center;
+       height: 50vh;
+    }
+
+    .cuadro-us{
+       top: 20%;
+       width: 80%;
+    }
+
+    .cuadro-us h2{
+       font-size: 2rem;
+    }
+
+
+    .cuadro-us p{
+       font-size: 20px;
+       text-align: justify;
+    }
+
+    /* servicios */
+    #servicios{
+       padding: 20px;
+    }
+    
+    .ser img{
+       width: 60%;
+    }
+
+    .bar-ti{
+       font-size: 1.5rem;
+    }
+
+    /* frutas */
+    #frutas{
+       height: fit-content;
+       padding: 20px;
+    }
+
+    #frutas h2{
+       font-size: 3rem;
+       position: unset;
+       text-align: center;
+    }
+
+    /* verduras */
+
+    #verduras{
+       height: fit-content;
+       padding: 40px;
+    }
+
+    #verduras h2{
+       position: unset;
+       text-align: center;
+       font-size: 3rem;
+    }
+
+    /* contacto */
+    #contacto{
+       padding: 10px;
+    }
+    .formulario{
+       width: 60%;
+    }
+
+    .formulario h2{
+       font-size: 3rem;
+    }
+
+    footer{
+       padding: 20px;
+    }
+
+
+    .sec-foo{
+       margin-bottom: 20px;
+       width: 100%;
+    }
+
+    .sec-foo img{
+       width: 80%;
+    }
+
+    .datos-foo{
+        width: 100%;
+    }
+
+
+}
