@@ -1,0 +1,2482 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Inter Tight", sans-serif !important;
+
+}
+
+li{
+    list-style: none;
+}
+
+/* navegacion */
+
+.navbar-brand .logo{
+    width: 80px;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+.main-container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.active{
+    background-color: #3976B2;
+    padding: 0px 20px 0px 20px;
+    border-radius: 10px;
+}
+
+.active a{
+    color: #fff !important;
+    font-weight: 600;
+
+}
+
+.nav-link{
+    color: #2E629D !important;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav-link .fa-phone{
+    background-color: #2E629D;
+    color: #fff;
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+/* banner */
+
+#banner{
+    background-image: url(/assets/images/banner-audaz.jpg);
+    background-size: cover;
+    padding: 40px;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.cont-banner{
+    width: 50%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.cont-banner h1{
+    font-size: 3.5rem;
+    color: #fff;
+    line-height: 0.9;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.cont-banner p{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.btn-cta{
+    background-color: #00CCFF;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-cta:hover{
+    background-color: transparent;
+    border: 2px solid #00ccff;
+    color: #00CCFF;
+}
+
+/* datos relevantes */
+#datos{
+    padding: 40px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.servicios{
+    width: 50%;
+}
+
+.grid-ser{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.cont-ser{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cont-ser h6{
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.servicios-box{
+    padding: 20px;
+    background-color: #fff;
+    -webkit-box-shadow: -2px 10px 34px 3px rgba(0,0,0,0.13);
+    -moz-box-shadow: -2px 10px 34px 3px rgba(0,0,0,0.13);
+    box-shadow: -2px 10px 34px 3px rgba(0,0,0,0.13);
+    position: absolute;
+    right: 10%;
+    top: -40%;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.cont-box h3{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.cont-box li{
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.cont-box a{
+   
+    font-size: 20px;
+    font-weight: 600;
+    color: #2C609A;
+}
+
+
+/* nosotros */
+#nosotros{
+    padding: 40px;
+    margin-bottom: 100px;
+}
+
+.cont-nos{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    height: fit-content;
+}
+
+.historia{
+    background-color: #ECF4FE;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    width: 60%;
+    
+}
+
+.historia h2{
+    font-size: 2rem;
+    width: 100%;
+    margin-top: 15%;
+}
+
+.historia p{
+    font-size: 20px;
+}
+
+.img-nos{
+    width: 100%;
+}
+
+.img-nos img{
+    width: 100%;
+    border-radius: 0 20px 20px 0;
+}
+
+.mvision{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.box-mv{
+    background-color: #ECF4FE;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+/* consultoria */
+
+#consultoria{
+    padding: 40px;
+    margin-bottom: 50px;
+    background-color: #ECF4FE;
+}
+.cont-cos{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.txt-consu{
+    width: 100%;
+}
+
+.frase{
+    width: 100%;
+}
+
+.txt-consu h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.txt-consu p{
+    font-size: 22px;
+    width: 80%;
+    font-weight: 500;
+}
+
+.frase p{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+/*------- consuoltorias ------------ */
+
+.consultorias{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.box-consul h6{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #0084C8;
+    font-weight: 600;
+
+}
+
+.imgs-consul{
+    display: flex;
+    margin-top: 40px;
+    gap: 40px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+}
+
+.imgs-consul img{
+    width: 30%;
+}
+
+
+/* cursos */
+#cursos{
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+.cont-cursos h2{
+    text-align: center;
+    color: #0084C8;
+    font-size: 3rem;
+    margin-bottom: 0;
+    font-weight: 800;
+}
+
+.cont-cursos p{
+    text-align: center;
+    font-size: 25px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.menu-cursos {
+    
+    margin: 0 auto; /* Centrado horizontalmente */
+    background-color: white; /* Asegúrate de que el fondo sea visible */
+    transition: all 0.3s ease; /* Suave transición para cuando se fija */
+}
+
+.en-cur {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.en-cur li {
+    font-size: 20px; /* Ajusta el tamaño de la fuente */
+    font-weight: 600;
+    list-style: none;
+    text-align: center;
+    color: #000; 
+    padding: 10px 20px; /* Añade padding para mejorar la visibilidad */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Transiciones suaves */
+}
+
+.en-cur a{
+    color: #000;
+}
+
+.en-cur li:hover {
+    color: #247AFF; /* Color al pasar el ratón por encima */
+    background-color: #f0f0f0; /* Fondo al pasar el ratón por encima */
+    border-radius: 5px; /* Bordes redondeados al pasar el ratón por encima */
+}
+
+.barra-cursos {
+    background-color: #247AFF;
+    height: 2px;
+    margin-top: 20px;
+    transition: opacity 0.3s ease; /* Transición suave para la opacidad */
+}
+
+.fixed {
+    position: fixed;
+    top: -60px; 
+    left: 0;
+    width: 100%;
+    background-color: white; 
+    z-index: 1000; 
+    transition: top 0.3s ease; 
+    padding-right: 20%;
+    padding-left: 20%;
+    box-shadow: 0px 18px 32px -1px rgba(0,0,0,0.12);
+
+}
+
+.fixed.sticky-transition {
+    top: 0; /* Se pega en la parte superior */
+}
+
+.fixed .barra-cursos {
+    opacity: 0; /* Oculta la barra cuando el menú está fijo */
+}
+
+/*------- Cursos ------*/
+
+
+.curso-1{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.box-curso{
+    width: 100%;
+}
+
+.box-curso img{
+    width: 100%;
+}
+
+.txt-curbox{
+    width: 100%;
+}
+
+.txt-curbox h2{
+    background-color: #ECF4FE;
+    padding: 10px 30px 10px 30px;
+    width: fit-content;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.txt-curbox h3{
+    font-size: 2.5rem;
+    margin-top: 40px;
+}
+
+.lista-dcursos{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.lista-dcursos li{
+    font-size: 20px;
+    color: #000;
+    margin-top: 15px;
+}
+
+.lista-dcursos .fa-check{
+    color: #248FFF;
+    font-size: 20px;
+}
+
+.boxi-solid{
+    background-color: #ECF4FE;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+ /* cursos */
+ #cursos{
+    padding: 10px;
+}
+.cont-cursos h2{
+    font-size: 2rem;
+}
+.cont-cursos p{
+    font-size: 20px;
+    width: 100%;
+}
+
+.curso-1{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.txt-curbox h2{
+    font-size: 1.5rem;
+}
+.txt-curbox h3{
+    font-size: 2rem;
+}
+
+.txt-curbox h4{
+    margin-top: 40px;
+    font-size: 2rem;
+}
+
+.lista-dcursos li{
+    font-size: 18px;
+}
+
+.lista-dcursos .fa-check{
+    font-size: 18px;
+}
+
+
+
+/* barra cta */
+#barra-cta{
+    margin-bottom: 100px;
+    padding: 40px;
+    background-color: #ECF4FE;
+    z-index: 120;
+}
+
+.faq h4{
+    font-size: 2rem;
+}
+
+.cont-barra{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont-cta-call{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.cir{
+    background-color: #247AFF;
+    padding: 20px;
+    border-radius: 50%;
+    flex-shrink: 1;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cir .fa-phone{
+    color: #fff;
+}
+
+.dat-bar{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.cont-cta-call h3 {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.dati h3{
+    font-size: 40px;
+    color: #00CCFF;
+    font-weight: 600;
+}
+
+.dati p{
+    color: #00CCFF;
+    font-size: 20px;
+}
+
+/* cursos excel */
+
+#excel{
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+.cont-excel{
+    display: flex;
+    gap: 40px;
+}
+
+.txt-excel{
+    width: 100%;
+}
+
+.img-excl{
+    width: 100%;
+}
+
+.txt-excel h2{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.txt-excel p{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.cru{
+    background-color: #0084C8;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cru .fa-arrow-left-long{
+    color: #fff;
+    transform: rotate(135deg);
+    
+}
+
+.cru h3{
+    width: 20%;
+    font-weight: 800;
+    color: #fff;
+    font-size: 30px;
+}
+
+/* fir */
+
+.cursos-excel .fir{
+    background-color: #ECF4FE !important;
+}
+
+.fir h3{
+    color: #000 !important;
+}
+
+.cursos-excel .sec{
+    background-color: #A5CBFA !important;
+}
+
+.cru .fir-a{
+    background-color: #A5CBFA;
+    padding: 10px;
+    border-radius: 50%;
+    flex-shrink: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}
+
+/* sec */
+
+.sec h3{
+    color: #000;
+}
+
+.cru .sec-a{
+    background-color: #3768FF;
+    padding: 10px;
+    border-radius: 50%;
+    flex-shrink: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.cru .thir-a{
+    background-color: #A5CBFA;
+    padding: 10px;
+    border-radius: 50%;
+    flex-shrink: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+.img-excl img{
+    width: 100%;
+}
+
+.cursos-excel p{
+    font-size: 18px;
+}
+
+
+/* Especialidades */
+
+#especializados{
+    padding: 40px;
+    background-color: #ECF4FE;
+}
+
+.cont-espe{
+    text-align: center;
+}
+
+.cont-espe h2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.cont-espe h3{
+    font-weight: 400;
+}
+
+.boxes-espec{
+    margin-top: 5%;
+}
+
+.box-es{
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+.txt-box-es{
+    padding: 40px;
+    width: 60%;
+}
+
+.txt-box-es h2{
+    
+    font-size: 2.5rem;
+    line-height: 0.9;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.txt-box-es p{
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+#testimonios{
+    background-color: #ECF4FE;
+    padding: 40px;
+    margin-bottom: 100px;
+}
+
+.cont-testi h2{
+    margin-top: 40px;
+    font-size: 3rem;
+    width: 30%;
+    line-height: 0.9;
+    font-weight: 600;
+
+}
+
+.testi{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.box-testi{
+    background-color: #fff;
+    padding: 50px 30px 50px 30px;
+}
+
+.im-tes{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    gap: 20px;
+}
+
+.im-tes img{
+    width: 60px;
+}
+
+.box-testi p{
+    font-size: 22px;
+}
+
+.name-tes{
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 0.9;
+}
+
+.name-tes h6{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.name-tes p{
+    font-size: 14px;
+}
+
+
+
+/* contacto */
+#contacto{
+    z-index: 100;
+    position: relative;
+}
+
+.cont-info{
+    background-color: #ECF4FE;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.formulario{
+    padding: 40px;
+    width: 100%;
+}
+
+.formulario h3{
+    margin-bottom: 40px;
+    background-color: #00CCFF;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+}
+
+.formulario p{
+    font-size: 2rem;
+    line-height: 0.9;
+    font-weight: 600;
+}
+
+form{
+    margin-top: 50px;
+}
+
+
+
+.img-cont{
+    width: 100%;
+}
+
+.img-cont img{
+    width: 100%;
+}
+
+input, select, textarea{
+    background-color: transparent;
+    width: 100%;
+    margin: 10px auto !important;
+    border-bottom: 2px solid #00CCFF !important;
+    border: none;
+}
+
+input::placeholder{
+    font-style: italic;
+    color: rgba(0,0,0,0.5);
+}
+textarea::placeholder{
+    font-style: italic;
+    color: rgba(0,0,0,0.5);
+}
+select{
+    color: rgba(0,0,0,0.5);
+    font-style: italic;
+}
+
+form button{
+    background-color: #0A75BA;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* footer */
+
+footer{
+    background-color: #0A75BA;
+    padding: 40px;
+    margin-top: -80px;
+}
+.cont-foo{
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.sec-foo{
+    width: 80%;
+    align-items: center;
+}
+
+.sec-foo-data{
+    width: 40%;
+    margin-left: 40px;
+    color: #fff;
+}
+
+.sec-foo-data a{
+    color: #fff;
+}
+
+.sec-foo-data hr{
+    background-color: #fff;
+}
+
+.sec-foo a{
+    color: #fff !important;
+    font-size: 20px;
+}
+
+.sec-foo-imagen img{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+
+
+.enlaces-foo{
+    width: 80%;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.creditos{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.creditos a{
+    color: #fff;
+}
+
+
+
+/*--------------------------------
+              Whatsapp
+  --------------------------------*/
+  .float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    left: 20px;
+    background-color:#25d366;
+    color:#fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+     z-index: 100;
+}
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+    margin-top:16px;
+}
+
+/* back to top */
+#backToTop {
+    display: none; /* Oculto por defecto */
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #A5CBFA; /* Fondo azul */
+    color: white; /* Color del texto blanco */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 24px; /* Tamaño de la flecha */
+    z-index: 1000; /* Asegurarse de que esté encima de otros elementos */
+    text-decoration: none; /* Sin subrayado */
+}
+
+#backToTop:hover {
+    background-color: #0084C8; /* Fondo azul oscuro al pasar el mouse */
+}
+
+@media (max-width: 999px) {
+    .menu-cursos {
+        width: 95%; /* Ajusta el ancho para móviles */
+        max-width: none; /* Elimina la restricción de ancho máximo */
+    }
+
+    .en-cur {
+        flex-direction: column; /* Cambia la dirección a columna */
+        align-items: center; /* Centra los elementos */
+    }
+
+    .en-cur li {
+        font-size: 18px; /* Ajusta el tamaño de la fuente para móviles */
+        padding: 10px; /* Reduce el padding para móviles */
+    }
+
+    .fixed {
+        width: 100%; /* Ajusta el ancho para móviles */
+    }
+}
+
+
+
+
+
+
+
+
+/* responsive */
+
+@media (max-width: 300px){
+    .main-container{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #banner{
+        padding: 10px;
+        background-position: left;
+    }
+
+    .cont-banner{
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .cont-banner h1{
+        font-size: 2rem;
+    }
+    .cont-banner p{
+        font-size: 16px;
+    }
+
+    /* datos relevantes */
+    #datos{
+        padding: 10px;
+    }
+    .servicios-box{
+        position: unset;
+        width: fit-content;
+        margin-top: 10%;
+    }
+    .servicios-box h3{
+        font-size: 25px;
+    }
+    .servicios-box li{
+        font-size: 18px;
+    }
+    .grid-ser{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* nosotros */
+    #nosotros{
+        padding: 10px;
+    }
+    
+    .cont-nos{
+        flex-direction: column;
+    }
+
+    .historia{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .historia h2{
+        font-size: 1.2rem;
+    }
+
+    .historia p{
+        font-size: 16px;
+    }
+
+    .img-nos img{
+        border-radius: 10px;
+    }
+
+    .mvision{
+        flex-direction: column;
+    }
+
+    /* consultoria */
+
+    #consultoria{
+        padding: 10px;
+    }
+
+    .cont-cos{
+        flex-direction: column;
+    }
+
+    .txt-consu h2{
+        font-size: 1.5rem;
+    }
+
+    .txt-consu p{
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .frase p{
+        font-size: 20px;
+    }
+
+    .consultorias{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .imgs-consul{
+        flex-direction: column;
+    }
+
+    .imgs-consul img{
+        width: 100%;
+    }
+
+     /* cursos */
+     #cursos{
+        padding: 10px;
+    }
+    .cont-cursos h2{
+        font-size: 2rem;
+    }
+    .cont-cursos p{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .curso-1{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .txt-curbox h2{
+        font-size: 1.5rem;
+    }
+    .txt-curbox h3{
+        font-size: 1.5rem;
+    }
+    
+
+    .lista-dcursos li{
+        font-size: 18px;
+    }
+
+    .lista-dcursos .fa-check{
+        font-size: 18px;
+    }
+
+
+    /* barra cta */
+    #barra-cta{
+        padding: 20px;
+    }
+
+    .cont-barra{
+        flex-direction: column;
+    }
+
+    .faq h4{
+        font-size: 22px;
+    }
+    
+    .cont-cta-call h3{
+        font-size: 25px;
+    }
+
+    .cont-cta-call{
+        gap: 20px;
+    }
+
+    .dat-bar{
+        flex-direction: column;
+    }
+
+    /* cursos excel */
+
+    #excel{
+        padding: 10px;
+    }
+
+    .cont-excel{
+        flex-direction: column;
+    }
+
+    .txt-excel h2{
+        font-size: 2.5rem;
+    }
+
+    .txt-excel p{
+        font-size: 18px;
+    }
+
+    .cru h3{
+        font-size: 1.5rem;
+    }
+
+    /* especializados */
+    #especializados{
+        padding: 10px;
+    }
+    .cont-espe h2{
+        font-size: 1.5rem;
+    }
+    .cont-espe h3{
+        font-size: 1rem;
+    }
+    .boxes-espec{
+        margin-top: 50px;
+    }
+    .box-es{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .txt-box-es{
+        padding: 20px;
+        width: 100%;
+    }
+
+    .txt-box-es h2{
+        font-size: 1.5rem;
+    }
+
+    .txt-box-es p{
+        font-size: 18px;
+    }
+
+    .im-es img{
+        width: 100%;
+    }
+
+    /* cfdis */
+
+    .txt-curbox h4{
+        font-size: 1.5rem;
+    }
+
+    /* testimonios */
+    #testimonios{
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+    .cont-testi h2{
+        font-size: 2rem;
+        width: 100%;
+
+    }
+    .testi{
+        flex-direction: column;
+    }
+
+    /* contacto */
+    .cont-info{
+        width: 100%;
+        flex-direction: column;
+    }
+    .img-cont img{
+        display: none;
+    }
+    .formulario{
+        padding: 20px;
+    }
+    .formulario p{
+        font-size: 1.5rem;
+       
+    }
+
+    /* footer */
+
+    footer{
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .cont-foo{
+        flex-direction: column;
+    }
+    .sec-foo{
+        width: 100%;
+    }
+    .sec-foo-data{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .sec-foo-data p{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .sec-foo-data a{
+        font-size: 20px;
+    }
+
+    .enlaces-foo{
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+    }
+
+    .creditos{
+        flex-direction: column;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+
+
+}
+
+@media (min-width: 320px) and (max-width: 567px){
+    .main-container{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #banner{
+        padding: 10px;
+        background-position: left;
+    }
+
+    .cont-banner{
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .cont-banner h1{
+        font-size: 2.3rem;
+    }
+    .cont-banner p{
+        font-size: 18px;
+    }
+
+     /* datos relevantes */
+     #datos{
+        padding: 10px;
+    }
+    .servicios-box{
+        position: unset;
+        width: fit-content;
+        margin-top: 10%;
+    }
+    .servicios-box h3{
+        font-size: 25px;
+    }
+    .servicios-box li{
+        font-size: 18px;
+    }
+    .grid-ser{
+        grid-template-columns: repeat(1, 1fr);
+    }
+      /* nosotros */
+      #nosotros{
+        padding: 10px;
+    }
+    
+    .cont-nos{
+        flex-direction: column;
+    }
+
+    .historia{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .historia h2{
+        font-size: 1.5rem;
+    }
+
+    .historia p{
+        font-size: 18px;
+    }
+
+    .img-nos img{
+        border-radius: 10px;
+    }
+
+    .mvision{
+        flex-direction: column;
+    }
+     /* consultoria */
+
+     #consultoria{
+        padding: 10px;
+    }
+
+    .cont-cos{
+        flex-direction: column;
+    }
+
+    .txt-consu h2{
+        font-size: 1.5rem;
+    }
+
+    .txt-consu p{
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .frase p{
+        font-size: 20px;
+    }
+
+    .consultorias{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .imgs-consul{
+        flex-direction: column;
+    }
+
+    .imgs-consul img{
+        width: 100%;
+    }
+    /* cursos */
+    #cursos{
+        padding: 10px;
+    }
+    .cont-cursos h2{
+        font-size: 2rem;
+    }
+    .cont-cursos p{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .curso-1{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .txt-curbox h2{
+        font-size: 1.5rem;
+    }
+    .txt-curbox h3{
+        font-size: 2rem;
+    }
+    
+
+    .lista-dcursos li{
+        font-size: 18px;
+    }
+
+    .lista-dcursos .fa-check{
+        font-size: 18px;
+    }
+
+    
+    /* barra cta */
+    #barra-cta{
+        padding: 20px;
+    }
+
+    .cont-barra{
+        flex-direction: column;
+    }
+
+    .faq h4{
+        font-size: 22px;
+    }
+    
+    .cont-cta-call h3{
+        font-size: 25px;
+    }
+
+    .cont-cta-call{
+        gap: 20px;
+    }
+
+    .dat-bar{
+        flex-direction: column;
+    }
+
+    /* cursos excel */
+
+    #excel{
+        padding: 10px;
+    }
+
+    .cont-excel{
+        flex-direction: column;
+    }
+
+    .txt-excel h2{
+        font-size: 2.5rem;
+    }
+
+    .txt-excel p{
+        font-size: 18px;
+    }
+
+    .cru h3{
+        font-size: 1.5rem;
+    }
+
+    /* especializados */
+    #especializados{
+        padding: 10px;
+    }
+    .cont-espe h2{
+        font-size: 1.5rem;
+    }
+    .cont-espe h3{
+        font-size: 1rem;
+    }
+    .boxes-espec{
+        margin-top: 50px;
+    }
+    .box-es{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .txt-box-es{
+        padding: 20px;
+        width: 100%;
+    }
+
+    .txt-box-es h2{
+        font-size: 1.5rem;
+    }
+
+    .txt-box-es p{
+        font-size: 18px;
+    }
+
+    .im-es img{
+        width: 100%;
+    }
+
+    /* cfdis */
+
+    .txt-curbox h4{
+        font-size: 1.5rem;
+    }
+
+    /* testimonios */
+    #testimonios{
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+    .cont-testi h2{
+        font-size: 2rem;
+        width: 100%;
+
+    }
+    .testi{
+        flex-direction: column;
+    }
+
+    /* contacto */
+    .cont-info{
+        width: 100%;
+        flex-direction: column;
+    }
+    .img-cont img{
+        display: none;
+    }
+    .formulario{
+        padding: 20px;
+    }
+    .formulario p{
+        font-size: 1.5rem;
+       
+    }
+
+    /* footer */
+
+    footer{
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .cont-foo{
+        flex-direction: column;
+    }
+    .sec-foo{
+        width: 100%;
+    }
+    .sec-foo-data{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .sec-foo-data p{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .sec-foo-data a{
+        font-size: 20px;
+    }
+
+    .enlaces-foo{
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+    }
+
+    .creditos{
+        flex-direction: column;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+
+}
+
+@media (min-width: 770px) and (max-width: 999px){
+    .main-container{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #banner{
+        padding: 10px;
+        background-position: left;
+    }
+
+    .cont-banner{
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .cont-banner h1{
+        font-size: 2rem;
+        width: 80%;
+    }
+    .cont-banner p{
+        font-size: 20px;
+        width: 80%;
+    }
+
+     /* datos relevantes */
+     #datos{
+        padding: 10px;
+    }
+    .servicios-box{
+        position: unset;
+        width: 100%;
+        margin-top: 10%;
+    }
+    .servicios-box h3{
+        font-size: 25px;
+    }
+    .servicios-box li{
+        font-size: 18px;
+    }
+    .grid-ser{
+        grid-template-columns: repeat(2, 1fr);
+    }
+      /* nosotros */
+      #nosotros{
+        padding: 10px;
+    }
+    
+    .cont-nos{
+        flex-direction: column;
+    }
+
+    .historia{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .historia h2{
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+    .historia p{
+        font-size: 18px;
+    }
+
+    .img-nos img{
+        border-radius: 10px;
+    }
+
+    .mvision{
+        flex-direction: column;
+    }
+     /* consultoria */
+
+     #consultoria{
+        padding: 10px;
+    }
+
+    .cont-cos{
+        flex-direction: column;
+    }
+
+    .txt-consu h2{
+        font-size: 2rem;
+    }
+
+    .txt-consu p{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .frase p{
+        font-size: 25px;
+    }
+
+    .consultorias{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .imgs-consul{
+        flex-direction: column;
+    }
+
+    .imgs-consul img{
+        width: 100%;
+    }
+    /* cursos */
+    #cursos{
+        padding: 10px;
+    }
+    .cont-cursos h2{
+        font-size: 2.5rem;
+    }
+    .cont-cursos p{
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .curso-1{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .txt-curbox h2{
+        font-size: 2rem;
+    }
+    .txt-curbox h3{
+        font-size: 2.5rem;
+    }
+    
+
+    .lista-dcursos li{
+        font-size: 22px;
+    }
+
+    .lista-dcursos .fa-check{
+        font-size: 20px;
+    }
+
+    
+    /* barra cta */
+    #barra-cta{
+        padding: 20px;
+    }
+
+    .faq h4{
+        font-size: 22px;
+    }
+    
+    .cont-cta-call h3{
+        font-size: 25px;
+    }
+
+    .cont-cta-call{
+        gap: 20px;
+    }
+
+  
+
+    /* cursos excel */
+
+    #excel{
+        padding: 10px;
+    }
+
+    .cont-excel{
+        flex-direction: column;
+    }
+
+    .txt-excel h2{
+        font-size: 2.5rem;
+    }
+
+    .txt-excel p{
+        font-size: 22px;
+    }
+
+    .cru h3{
+        font-size: 1.5rem;
+    }
+
+    /* especializados */
+    #especializados{
+        padding: 10px;
+    }
+    .cont-espe h2{
+        padding-top: 50px;
+        font-size: 3rem;
+    }
+    .cont-espe h3{
+        font-size: 2rem;
+    }
+    .boxes-espec{
+        margin-top: 50px;
+    }
+    .box-es{
+        
+        padding: 20px;
+    }
+
+    .txt-box-es{
+        padding: 20px;
+        width: 100%;
+    }
+
+    .txt-box-es h2{
+        font-size: 1.52rem;
+        margin-bottom: 20px;
+    }
+
+    .txt-box-es p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .im-es img{
+        width: 100%;
+    }
+
+    /* cfdis */
+
+    .txt-curbox h4{
+        font-size: 1.5rem;
+    }
+
+    /* testimonios */
+    #testimonios{
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+    .cont-testi h2{
+        font-size: 2rem;
+        width: 100%;
+
+    }
+    .testi{
+        flex-direction: column;
+    }
+
+    /* contacto */
+    .cont-info{
+        width: 100%;
+        flex-direction: column;
+    }
+    .img-cont img{
+        display: none;
+    }
+    .formulario{
+        padding: 20px;
+    }
+    .formulario p{
+        font-size: 1.5rem;
+       
+    }
+
+    /* footer */
+
+    footer{
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .cont-foo{
+        flex-direction: column;
+    }
+    .sec-foo{
+        width: 100%;
+    }
+    .sec-foo-data{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .sec-foo-data p{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .sec-foo-data a{
+        font-size: 20px;
+    }
+
+    .enlaces-foo{
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+    }
+
+    .creditos{
+        flex-direction: column;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1360px){
+    .main-container{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #banner{
+        padding: 10px;
+        background-position: left left;
+    }
+
+    .cont-banner{
+        width: 100%;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .cont-banner h1{
+        font-size: 3rem;
+        width: 80%;
+    }
+    .cont-banner p{
+        font-size: 22px;
+        width: 70%;
+    }
+
+     /* datos relevantes */
+     #datos{
+        padding: 10px;
+    }
+    .servicios-box{
+        position: absolute;
+        width: fit-content;
+        top: -30%;
+    }
+    .servicios-box h3{
+        font-size: 25px;
+    }
+    .servicios-box li{
+        font-size: 18px;
+    }
+    .grid-ser{
+        grid-template-columns: repeat(2, 1fr);
+    }
+      /* nosotros */
+      #nosotros{
+        padding: 10px;
+    }
+    
+    
+    .historia{
+        width: 100%;
+        
+    }
+
+    .historia h2{
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+    .historia p{
+        font-size: 18px;
+    }
+
+    .img-nos img{
+       width: 100%;
+    }
+
+    
+     /* consultoria */
+
+     #consultoria{
+        padding: 10px;
+    }
+
+    .cont-cos{
+       justify-content: space-between;
+       gap: 40px;
+    }
+
+    .txt-consu h2{
+        font-size: 2rem;
+    }
+
+    .txt-consu p{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .frase p{
+        font-size: 25px;
+    }
+
+    .imgs-consul{
+        width: 30%;
+    }
+
+    .imgs-consul img{
+        width: 100%;
+    }
+
+    /* cursos */
+    #cursos{
+        padding: 10px;
+    }
+    .cont-cursos h2{
+        font-size: 2.5rem;
+    }
+    .cont-cursos p{
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .curso-1{
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .txt-curbox h2{
+        font-size: 1.5rem;
+    }
+    .txt-curbox h3{
+        font-size: 1.5rem;
+    }
+
+    .box-curso img{
+        width: 100%;
+    }
+    
+
+    .lista-dcursos li{
+        font-size: 20px;
+    }
+
+    .lista-dcursos .fa-check{
+        font-size: 20px;
+    }
+
+    
+    /* barra cta */
+    #barra-cta{
+        padding: 20px;
+    }
+
+    .faq h4{
+        font-size: 2rem;
+    }
+    
+    .cont-cta-call h3{
+        font-size: 25px;
+    }
+
+    .cont-cta-call{
+        gap: 20px;
+    }
+
+  
+
+    /* cursos excel */
+
+    #excel{
+        padding: 10px;
+    }
+
+    .cont-excel{
+        align-items: center;
+    }
+
+    .txt-excel h2{
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .txt-excel p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .cru h3{
+        font-size: 1.5rem;
+    }
+
+    /* especializados */
+    #especializados{
+        padding: 10px;
+    }
+    .cont-espe h2{
+        padding-top: 50px;
+        font-size: 3rem;
+    }
+    .cont-espe h3{
+        font-size: 2rem;
+    }
+    .boxes-espec{
+        margin-top: 50px;
+    }
+    .box-es{
+        
+        padding: 20px;
+    }
+
+    .txt-box-es{
+        padding: 20px;
+        width: 100%;
+    }
+
+    .txt-box-es h2{
+        font-size: 1.52rem;
+        margin-bottom: 20px;
+    }
+
+    .txt-box-es p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .im-es img{
+        width: 100%;
+    }
+
+    /* cfdis */
+
+    .txt-curbox h4{
+        font-size: 1.5rem;
+    }
+
+    /* testimonios */
+    #testimonios{
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+    .cont-testi h2{
+        font-size: 2rem;
+        width: 100%;
+
+    }
+    
+
+    /* contacto */
+    .cont-info{
+        margin-top: 50px;
+        width: 90%;
+        
+    }
+    
+    .formulario{
+        padding: 20px;
+    }
+    .formulario p{
+        font-size: 1.5rem;
+       
+    }
+
+    /* footer */
+
+    footer{
+        margin: -50px;
+        padding: 10px;
+    }
+    
+    .sec-foo{
+        width: 100%;
+    }
+    .sec-foo-data{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .sec-foo-data p{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .sec-foo-data a{
+        font-size: 20px;
+    }
+
+    .enlaces-foo{
+      
+        width: 100%;
+        gap: 0;
+    }
+
+    .creditos{
+        flex-direction: column;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+
+}
+
+@media (min-width: 1366px) and (max-width: 1440px){
+    .main-container{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #banner{
+        padding: 10px;
+        background-position: left left;
+    }
+
+    .cont-banner{
+        width: 100%;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .cont-banner h1{
+        font-size: 3rem;
+        width: 80%;
+    }
+    .cont-banner p{
+        font-size: 22px;
+        width: 70%;
+    }
+
+     /* datos relevantes */
+     #datos{
+        padding: 10px;
+    }
+    .servicios-box{
+        position: absolute;
+        width: fit-content;
+        top: -30%;
+        right: 5%;
+    }
+    .servicios-box h3{
+        font-size: 2.5rem;
+    }
+    .servicios-box li{
+        font-size: 18px;
+    }
+    .grid-ser{
+        grid-template-columns: repeat(2, 1fr);
+    }
+      /* nosotros */
+      #nosotros{
+        padding: 10px;
+    }
+    
+    
+    .historia{
+        width: 100%;
+        
+    }
+
+    .historia h2{
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+    .historia p{
+        font-size: 18px;
+    }
+
+    .img-nos img{
+       width: 100%;
+    }
+
+    
+     /* consultoria */
+
+     #consultoria{
+        padding: 10px;
+    }
+
+    .cont-cos{
+       justify-content: space-between;
+       gap: 40px;
+    }
+
+    .txt-consu h2{
+        font-size: 2rem;
+    }
+
+    .txt-consu p{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .frase p{
+        font-size: 25px;
+    }
+
+    .imgs-consul{
+        width: 100%;
+    }
+
+    .imgs-consul img{
+        width: 30%;
+    }
+
+    /* cursos */
+    #cursos{
+        padding: 10px;
+    }
+    .cont-cursos h2{
+        font-size: 2.5rem;
+    }
+    .cont-cursos p{
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .curso-1{
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .txt-curbox h2{
+        font-size: 1.5rem;
+    }
+    .txt-curbox h3{
+        font-size: 1.5rem;
+    }
+
+    .box-curso img{
+        width: 100%;
+    }
+    
+
+    .lista-dcursos li{
+        font-size: 20px;
+    }
+
+    .lista-dcursos .fa-check{
+        font-size: 20px;
+    }
+
+    
+    /* barra cta */
+    #barra-cta{
+        padding: 20px;
+    }
+
+    .faq h4{
+        font-size: 2rem;
+    }
+    
+    .cont-cta-call h3{
+        font-size: 25px;
+    }
+
+    .cont-cta-call{
+        gap: 20px;
+    }
+
+  
+
+    /* cursos excel */
+
+    #excel{
+        padding: 10px;
+    }
+
+    .cont-excel{
+        align-items: center;
+    }
+
+    .txt-excel h2{
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .txt-excel p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .cru h3{
+        font-size: 1.5rem;
+    }
+
+    /* especializados */
+    #especializados{
+        padding: 10px;
+    }
+    .cont-espe h2{
+        padding-top: 50px;
+        font-size: 3rem;
+    }
+    .cont-espe h3{
+        font-size: 2rem;
+    }
+    .boxes-espec{
+        margin-top: 50px;
+    }
+    .box-es{
+        
+        padding: 20px;
+    }
+
+    .txt-box-es{
+        padding: 20px;
+        width: 100%;
+    }
+
+    .txt-box-es h2{
+        font-size: 1.52rem;
+        margin-bottom: 20px;
+    }
+
+    .txt-box-es p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .im-es img{
+        width: 100%;
+    }
+
+    /* cfdis */
+
+    .txt-curbox h4{
+        font-size: 1.5rem;
+    }
+
+    /* testimonios */
+    #testimonios{
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+    .cont-testi h2{
+        font-size: 2rem;
+        width: 100%;
+
+    }
+    
+
+    /* contacto */
+    .cont-info{
+        margin-top: 50px;
+        width: 80%;
+        
+    }
+    
+    .formulario{
+        padding: 30px;
+    }
+    .formulario p{
+        font-size: 1.5rem;
+       
+    }
+
+    /* footer */
+
+    footer{
+        margin: -50px;
+        padding: 10px;
+    }
+    
+    .sec-foo{
+        width: 100%;
+    }
+    .sec-foo-data{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .sec-foo-data p{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .sec-foo-data a{
+        font-size: 20px;
+    }
+
+    .enlaces-foo{
+      
+        width: 100%;
+        gap: 0;
+    }
+
+    .creditos{
+        flex-direction: column;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+
+}
