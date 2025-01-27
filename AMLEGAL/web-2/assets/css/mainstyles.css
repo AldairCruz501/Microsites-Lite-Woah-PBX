@@ -1,0 +1,25 @@
+.logotipo img{
+    width: 100px;
+}
+.carousel-caption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 35%;
+    width: 50%;
+    margin: 0 auto;
+}
+.carousel-caption h5{
+    font-size: 90px;
+    font-weight: 800;
+    color: #fff;
+    
+}
+@media (max-width: 858px){
+    .carousel-caption{
+        display: block;
+    }
+    .carousel-caption h5{
+        font-size: 50px;
+    }
+}
