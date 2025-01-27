@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/b396c78e84.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <title>OKComputer</title>
+
+</head>
+<body>
+
+   
+    <header>
+        
+            <div class="encabezado" id="inicio">
+                <nav>
+                    <input type="checkbox" id="check" onclick="Mostrar();">
+                    <label for="check" class="checkbtn">
+                        <i class="fa-solid fa-bars""></i>
+                    </label>
+                    <a href="index.html">
+                        <img src="assets/images/logo.png" alt="Conekta" class="logo">
+                    </a>
+                    <ul id="barra-menu" >
+                        <li><a href="index.html" onclick="Nomostrar();" class="active">Inicio</a></li>
+                        <li><a href="#nosotros" onclick="Nomostrar();">Nosotros</a></li>
+                        <li><a href="#planes" onclick="Nomostrar();" >Planes</a></li>
+                        <li><a href="#contacto" onclick="Nomostrar();" >Contacto</a></li>
+                        <li><a href="tel:3123179401" class="numero"> <i class="fa-solid fa-phone"></i> 312 317 9401</a></li>
+                        
+                    </ul>
+                    <script>
+                        function Nomostrar(){
+                            document.getElementById('barra-menu').style.display = "none";
+                        }
+                        function Mostrar(){
+                            document.getElementById('barra-menu').style.display = "block"
+                        }
+                    </script>
+                </nav>
+            </div>
+            <link rel="stylesheet" href="https://use.typekit.net/cyg7ufi.css">
+         
+    </header>
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/banner_1.jpg" class="d-block w-100" alt="...">
+           
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/banner_2.jpg" class="d-block w-100" alt="...">
+            
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/banner_3.jpg" class="d-block w-100" alt="...">
+            
+        </div>
+        <a  class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span   class="fa-solid fa-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span   class="fa-solid fa-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+      </div>
+
+    <div id="barra">
+        <div class="container">
+            <div class="texto">
+                <h2>INTERNET ILIMITADO</h2>
+                <span>100% FIBRA ÓPTICA</span>
+            </div>
+            <div class="boton">
+                <a class="button" href="#contacto"><em>¡Cámbiate Ya!</em></a>
+            </div>  
+        </div>
+    </div>
+
+    <section id="nosotros">
+        <div class="container">
+          
+                <div class="contenido">
+                    <div class="wrapper">
+                        <div class="imagen">
+                            <img src="assets/images/nostros.png" alt="">
+                        </div>
+                        <div class="text-nosotros">
+                            <p>
+                                <span>OK Computer</span> somos una empresa orgullosamente Michoacana con mas de 7 años en el mercado en la industria de las telecomunicaciones. Nuestra experiencia adquirida nos permite solucionar problemas de conectividad rápidamente, incluso de manera mucho más eficiente y al mejor precio que los competidores. Nuestro compromiso es entregar la solución que usted necesita. <br><br> Nuestra misión es brindar el mejor servicio y soporte de telecomunicaciones, creando relaciones de confianza a largo plazo, mediante una red propia de última generación, con soluciones innovadoras para nuestros clientes.
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+           
+        </div>
+    </section>
+
+    <section id="planes">
+        <div class="container">
+            <h1 class="text-tittle">Planes</h1>
+            <div class="wrapper">
+                <div class="cards">
+                    <div class="card-encabezado">
+    
+                        <h3>Básico</h3>
+                        <h2>5Mb</h2>
+                        
+                        <br>
+                    </div>
+                    <div class="card-precio">
+                        <h3>$300/mes</h3>
+                    </div>
+                    <div class="btn-price">
+                        <a href="#contacto">Contratar</a>
+                    </div>
+                </div>
+
+                <div  style="background-color: #0A3143;" class="cards">
+                    <div class="card-encabezado-active ">
+    
+                        <h3>Premium</h3>
+                        <h2>15Mb</h2>
+                        
+                        <br>
+                    </div>
+                    <div class="card-precio-active ">
+                        <h3>$350/mes</h3>
+                    </div>
+                    <div class="btn-price-active btn-2" >
+                        <a href="#contacto">Contratar</a>
+                    </div>
+                </div>
+                <div class="cards">
+
+                <div class="card-encabezado">
+    
+                        <h3>Extremo</h3>
+                        <h2>30Mb</h2>
+                       
+                        <br>
+                    </div>
+                    <div class="card-precio">
+                        <h3>$600/mes</h3>
+                    </div>
+                    <div class="btn-price">
+                        <a href="#contacto">Contratar</a>
+                    </div>
+                </div>
+               
+                
+            </div>
+
+            <div class="wrapper">
+                <div class="cards">
+                    <div class="card-encabezado">
+    
+                        <h3>Ejecutivo</h3>
+                        <h2>70Mb</h2>
+                        
+                        <br>
+                    </div>
+                    <div class="card-precio">
+                        <h3>$950 /mes</h3>
+                    </div>
+                    <div class="btn-price">
+                        <a href="#contacto">Contratar</a>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-encabezado">
+    
+                        <h3>Ejecutivo</h3>
+                        <h2>90Mb</h2>
+                        
+                        <br>
+                    </div>
+                    <div class="card-precio">
+                        <h3>$1,400 /mes</h3>
+                    </div>
+                    <div class="btn-price">
+                        <a href="#contacto">Contratar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="planes-movil">
+            <div class="encabezado-plans">
+                <h1 class="text-tittle">Planes</h1>
+                
+            </div>
+        <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
+            <div class="wrapper-plans">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="cards">
+                    <div class="card-encabezado">
+    
+                        <h3>Básico</h3>
+                        <h2>5Mb</h2>
+                        
+                        <br>
+                    </div>
+                    <div class="card-precio">
+                        <h3>$300/mes</h3>
+                    </div>
+                    <div class="btn-price">
+                        <a href="#contacto">Contratar</a>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="cards active" style="background-color: #0A3143;">
+                    <div class="card-encabezado-active ">
+    
+                        <h3>Premium</h3>
+                        <h2>15Mb</h2>
+                        
+                        <br>
+                    </div>
+                    <div class="card-precio-active ">
+                        <h3>$350/mes</h3>
+                    </div>
+                    <div class="btn-price btn-2" >
+                        <a href="#contacto">Contratar</a>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="cards">
+                    <div class="card-encabezado">
+    
+                        <h3>Extremo</h3>
+                        <h2>30Mb</h2>
+                       
+                        <br>
+                    </div>
+                    <div class="card-precio">
+                        <h3>$600/mes</h3>
+                    </div>
+                    <div class="btn-price">
+                        <a href="#contacto">Contratar</a>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="cards">
+                    <div class="card-encabezado">
+    
+                        <h3>Ejecutivo</h3>
+                        <h2>70Mb</h2>
+                        
+                        <br>
+                    </div>
+                    <div class="card-precio">
+                        <h3>$950 /mes</h3>
+                    </div>
+                    <div class="btn-price">
+                        <a href="#contacto">Contratar</a>
+                    </div>
+                </div>
+               
+              </div>
+              <div class="carousel-item">
+                <div class="cards">
+                    <div class="card-encabezado">
+    
+                        <h3>Ejecutivo</h3>
+                        <h2>90Mb</h2>
+                        
+                        <br>
+                    </div>
+                    <div class="card-precio">
+                        <h3>$1,400 /mes</h3>
+                    </div>
+                    <div class="btn-price">
+                        <a href="#contacto">Contratar</a>
+                    </div>
+                </div>
+               
+              </div>
+
+
+
+              
+             
+            </div>
+            
+        </div>
+           
+             <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
+                      <span  aria-hidden="true"><i style="color: #0A3143;; font-size: 40px;" class="fa-solid fa-chevron-left"></i></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
+                      <span aria-hidden="true"> <i style="color: #0A3143;; font-size: 40px;" class="fa-solid fa-chevron-right"></i></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                
+          </div>
+         
+        </section>
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+    <div class="fondo">
+    <div class="container ">
+        <section id="mas-servicios">
+                <div class="contenido">
+                <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+                 
+                        <h2 class="text-tittle">Más Servicios</h2>
+                    
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="cards-wrapper">
+                        <div class="card">
+                          <img src="assets/images/servicio_1.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Cableado Estructurado</h5>
+                        
+                            
+                          </div>
+                        </div>
+                        <div class="card d-none d-md-block">
+                          <img src="assets/images/servicio_2.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Enlaces punto a punto (radiofrecuencias)</h5>
+                            
+                            
+                          </div>
+                        </div>
+                        <div class="card d-none d-md-block">
+                          <img src="assets/images/servicio_3.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Instalación del rack para el router y el switch</h5>
+                            
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="cards-wrapper">
+                          <div class="card">
+                            <img src="assets/images/servicio_4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Instalación de cámaras de video vigilancia
+                            </h5>
+                             
+                            </div>
+                          </div>
+                          <div class="card d-none d-md-block">
+                            <img src="assets/images/servicio_5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Instalación de vídeo portero</h5>
+                             
+                              
+                            </div>
+                          </div>
+                          <div class="card d-none d-md-block">
+                            <img src="assets/images/servicio_6.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Instalación de alarmas</h5>
+                            
+                                </p>
+                             
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    
+                    </div>
+                    <a  class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+                      <span   class="fa-solid fa-chevron-left" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+                      <span   class="fa-solid fa-chevron-right" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+              
+        </section>
+    </div>
+</div>
+
+
+      <section id="proveedores">
+        <div class="container">
+            <div class="titulo">
+            <h2 class="text-tittle">Proveedores</h2>
+            <p>Venta de Material informático y de telecomunicaciones</p>
+        </div>
+                <div class="contenido">
+                    <div class="wrapper">
+              
+
+                                
+                                <div class="lista-proveedores">
+                                <li><i class="fa-solid fa-circle-check"></i> Routers</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Modems</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Onts</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Fibras Preconectorizadas</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Tensor para FO</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Carretes de FO drop</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Cable UTP</li>
+                                </div>
+                                <div class="mercado">
+                                    <img src="assets/images/mercado.png" alt="mercadolibre">
+                                </div>
+              
+                    </div>
+                    
+                </div>
+           
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="container">
+            <h2 class="text-tittle">Contacto</h2>
+            <div class="contenido">
+                <form action="">
+                    <input class="controls" type="text" placeholder="Nombre" >
+                    <input class="controls" type="text" placeholder="Correo" >
+                    <input class="controls" type="text" placeholder="Número de Contacto" >
+                    <select class="controls" name="servicios" id="">
+                        <option value="internet">Internet</option>
+                        <option value="Cableado">Cableado Estructurado</option>
+                        <option value="Enlaces">Enlaces punto a punto</option>
+                        <option value="Configuracion de equipos">Diseño de Red</option>
+                        <option value="Camaras">Cámaras de vigilancia</option>
+                        <option value="Video Portero">Video Portero</option>
+                        <option value="Alarmas">Instalación de alarmas</option>
+                    </select>
+                    <button type="submit" class="btn-form">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="cobertura">
+        <iframe src="
+https://www.google.com/maps/d/embed?mid=1K0_hdmkY6V53PD0U9WLKc4XErToUwzs&ehbc=2E312F"></iframe>
+
+    </section>    
+
+
+   
+    <footer>
+        <div class="container">
+            <div class="wrapper">
+                <div class="cards-footer">
+                    <img src="assets/images/logo_blanco.png">
+
+                </div>
+                
+                <div class="cards-footer">
+                    <div class="datos">
+                        <h3>Contacto</h3>
+                        <span>San Francisco Uricho 5 de Mayo #110 Michoacán<br></span>
+                        <a href="tel:3123179401"><i class="fa fa-phone" >312 317 9401</i> </a>
+                        <div class="correo">
+                        <a  href="mailto:contacto@teclinksoluciones.com.mx">contacto@okcomputermexico.com.mx</a>
+                        </div>
+                    </div>
+                </div>
+            
+
+            </div>
+      
+        </div>
+        <h4 class="pie">Diseñado por <i style="color: red" class="fa-solid fa-heart"></i>  PbxHosting</h4>
+        </footer>
+
+      
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+       <a href=" https://wa.link/9hls9z" class="float" target="_blank">
+       <i class="fa fa-whatsapp my-float"></i>
+       </a>
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
