@@ -1,0 +1,323 @@
+
+
+/* responsive */
+/* medidas celular */
+
+@media (min-width: 320px) and (max-width: 720px){
+
+
+    .cont-foo{
+        flex-direction: column;
+    }
+    .info-logo{
+        width: 100%;
+    }
+
+
+
+    /* contacto */
+    #contacto{
+        padding: 2rem;
+    }
+    .cont-form{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .txt-form h6{
+        font-size: 20px;
+    }
+    .txt-form h5{
+        font-size: 30px;
+    }
+    .correo{
+        width: 20px;
+        font-size: 10px !important;
+    }
+
+    .numeros{
+        flex-direction: column;
+    }
+
+    .datos{
+        width: 100%;
+    }
+
+
+
+    /* soluciones */
+
+    .menu-sol ul{
+        flex-direction: column;
+    }
+    .cont-sol{
+        flex-direction: column;
+    }
+    .cont-sol h6{
+        font-size: 25px;
+    }
+    .txt-sol p{
+        margin-top: 50px;
+        font-size: 16px;
+    }
+    .txt-sol ul{
+        margin-top: 50px;
+        
+    }
+    .txt-sol li{
+        font-size: 18px;
+    }
+
+
+  
+    /* cctv */
+    #cctv{
+        padding: 2rem;
+        height: 80vh;
+    }
+    .cont-cctv{
+        width: 100%;
+        padding: 10px;
+    }
+    .cont-cctv h4{
+        font-size: 30px;
+    }
+    .cont-cctv p{
+        font-size: 16px;
+    }
+    .info-cctv{
+        gap: 10px;
+    }
+    .item-cctv{
+        width: 120px;
+    }
+    
+    
+    /* planes */
+    .titulos h1{
+        font-size: 18px;
+    }
+    .titulos h2{
+        font-size: 30px;
+    }
+    .sq-ser{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .p-hover p{
+        font-size: 20px;
+    }
+    .p-hover a{
+        font-size: 16px;
+    }
+    
+        /* nosotros */
+        .logo-blanco{
+            display: none;
+        }
+        .txt-us h4{
+            font-size: 40px;
+        }
+        .txt-us h5{
+            font-size: 25px;
+        }
+        .txt-us p{
+            font-size: 14px;
+        }
+        .ingeniero{
+            width: 30%;
+        }
+    
+    
+        /* menu */
+        .enlaces {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            background-color: #fff;
+            position: absolute;
+            top: 100%; /* Cambiado de 60px a 100% para que aparezcan más abajo */
+            left: 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: top 0.8 ease; /* Añadida una transición suave */
+        }
+    
+        .enlaces ul {
+            padding: 0;
+            flex-direction: column;
+        }
+    
+        .enlaces li {
+            margin: 10px 0;
+        }
+    
+        .btn-toggle {
+            display: block;
+        }
+    
+        .btn-toggle i {
+            color: #000;
+        }
+    
+        .enlaces.show {
+            top: 12%;
+            display: flex;
+        }
+        .contacto-nav{
+            display: none;
+        }
+        #banner{
+            padding: 2rem;
+            margin-bottom: 50px;
+        }
+        .cont-banner{
+            flex-direction: column;
+        }
+        .cont-banner img{
+            width: 100%;
+        }
+        .txt-banner{
+            margin: 50px;
+            width: 100%;
+        }
+        .txt-banner h6{
+            font-size: 20px;
+        }
+        .txt-banner h2{
+            font-size: 40px;
+            width: 100%;
+        }
+        .btn-cta{
+            font-size: 20px;
+        }
+    }
+    
+    
+    /* medidas tablet */
+    
+    @media (min-width: 820px) and (max-width: 1180px){
+
+        .menu-sol li{
+            text-align: center;
+        }
+      
+        .cont-sol h6{
+            font-size: 25px;
+        }
+        .txt-sol p{
+            margin-top: 50px;
+            font-size: 16px;
+        }
+        .txt-sol ul{
+            margin-top: 50px;
+            
+        }
+        .txt-sol li{
+            font-size: 18px;
+        }
+    
+    
+          
+    /* cctv */
+    #cctv{
+        padding: 2rem;
+        height: 70vh;
+    }
+    .cont-cctv{
+        width: 70%;
+        padding: 10px;
+    }
+    .cont-cctv h4{
+        font-size: 60pxpx;
+    }
+    .cont-cctv p{
+        font-size: 20px;
+    }
+    .info-cctv{
+        gap: 10px;
+    }
+    .item-cctv{
+        width: 200px;
+    }
+    
+        /* nosotros */
+        
+        .cont-us{
+            padding: 2rem;
+        }
+        .ingeniero{
+            width: 30%;
+        }
+    
+        /* banner */
+        #banner{
+            padding: 4rem;
+        }
+        .cont-banner{
+            justify-content: space-between;
+            margin: 0 auto;
+            gap: 40px;
+        }
+        .cont-banner img{
+           width: 50%;
+        }
+        .txt-banner h6{
+            font-size: 30px;
+            width: 100%;
+        }
+        .txt-banner h2{
+            font-size: 40px;
+        }
+        .btn-cta{
+            font-size: 20px;
+        }
+    
+    }
+    
+    /* medidas laptop */
+    @media (min-width: 1366px) and (max-width: 1400px){
+        /* cctv */
+    #cctv{
+        padding: 2rem;
+        height: 70vh;
+    }
+    .cont-cctv{
+        top: 20%;
+        width: 70%;
+        padding: 10px;
+    }
+    .cont-cctv h4{
+        font-size: 60pxpx;
+    }
+    .cont-cctv p{
+        font-size: 20px;
+    }
+    .info-cctv{
+        gap: 10px;
+    }
+    .item-cctv{
+        width: 200px;
+    }
+        #banner{
+            padding: 4rem;
+        }
+        .cont-banner{
+            gap: 40px;
+        }
+        .cont-banner img{
+            width: 40%;
+        }
+        .txt-banner h6{
+            font-size: 20px;
+        }
+        .txt-banner h2{
+            font-size: 40px;
+        }
+        .btn-cta{
+            font-size: 20px;
+        }
+        .ingeniero{
+            width: 20%;
+        }
+    
+    }
+    

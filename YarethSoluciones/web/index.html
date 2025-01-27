@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet en la Región de Pichátaro | Yareth Comunicaciones</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.jpg">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/564702e6e7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <nav>
+        <div class="container">
+            <div class="cont-nav">
+                <div class="logo">
+                    <img src="/assets/images/logo-yareth.svg" alt="Yareth Comunicaciones">
+                </div>
+                <button type="button" class="btn-toggle" id="toggleBtn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="enlaces activate">
+                    <ul>
+                        <a href="#nosotros"><li>Nosotros</li></a>
+                        <a href="#planes-yareth"><li>Internet</li></a>
+                        <a href="#soluciones"><li>Soluciones</li></a>
+                        <a href="#contacto"><li>Contacto</li></a>
+                    </ul>
+                </div>
+                <div class="contacto-nav">
+                    <i class="fa-solid fa-phone"></i>
+                    <div class="dato-contacto">
+                        <a href="">434 107 9077</a>
+                        <p>Llámanos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- banner -->
+    <section id="banner">
+       
+            <div class="cont-banner">
+                <img src="/assets/images/familia-sillon-y.png" alt="">
+                <div class="txt-banner">
+                    <h6>100% Fibra Óptica</h6>
+                    <h2>Internet para tu hogar con <span class="txt-red">Yareth</span></h2>
+                    <a href="#" class="btn-cta">Planes</a>
+                </div>
+            </div>
+       
+    </section>
+
+
+    <section id="us-yareth">
+        <div class="container">
+            <div class="cont-us">
+                <div class="txt-us">
+                    <h4>Nosotros</h4>
+                    <h5>Yareth Comunicaciones</h5>
+                    <p>Empresa especializada en brindar servicios de internet, intranet e instalación de equipo CCTV. Proveedores de Internet por microondas de banda ancha, fibra óptica para urbanizaciones y zonas rurales, siempre inovando y cumpliendo metas para nuestros usuarios finales, empresas, gobiernos locales y municipales.</p>
+                </div>
+                <img src="/assets/images/logo-yareth-blanco.svg" class="logo-blanco" alt="yareth comunicaciones">
+                
+            </div>
+        </div>
+        <img src="/assets/images/instalador.png" class="ingeniero" alt="">
+    </section>
+    
+
+    <section id="planes-yareth"> 
+        <div class="container">
+            <div class="titulos">
+                <h1 class="txt-red principal">Internet en la region de pichátaro</h1>
+                <h2>Planes por Fibra Óptica</h2>
+            </div>
+            <div class="squares-services">
+                <div class="sq-ser">
+                    <div class="cont-ser-sq">
+                        <img src="/assets/images/internet-hogar.jpg" alt="">
+                        <div class="p-hover">
+                            <img src="/assets/images/logo-yareth-blanco.svg" class="logo-plan" alt="">
+
+                            <p>Internet <br> para el Hogar <br><a href="">Ver Planes</a></p>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="cont-ser-sq">
+                        <img src="/assets/images/internet-empresarial.jpg" alt="">
+                        <div class="p-hover">
+                            <img src="/assets/images/logo-yareth-blanco.svg" class="logo-plan" alt="">
+
+                            <p>Internet para Empresas <br><a href="">Ver Planes</a></p>
+                        </div>
+                        
+                    </div>
+                   
+                </div>
+            </div>
+        </div> 
+    </section>
+
+
+
+    <section id="cctv">
+        <div class="container">
+        <div class="cont-cctv">
+            <h4>Instalaciones <span class="txt-red">CCTV</span></h4>
+            <p>Nuestra empresa se especializa en la implementación de sistemas de Circuito Cerrado de Televisión (CCTV) diseñados para proteger y vigilar de manera efectiva tanto entornos urbanos como espacios residenciales. Nuestros expertos en seguridad proporcionan soluciones a medida, utilizando tecnología de vanguardia y diseños estratégicos para garantizar la máxima cobertura y visibilidad.</p>
+            <div class="info-cctv">
+                <div class="item-cctv red">
+                    <p>CCTV <br> Urbano</p>
+                </div>
+                <div class="item-cctv grey">
+                    <p>CCTV <br> Doméstico</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="soluciones">
+        <div class="container">
+            <div class="titulos"> 
+                <h2>Soluciones Integrales 
+                    en Tecnología y Redes</h2>
+            </div>
+            <div class="menu-sol">
+                <ul>
+                    <li class="active" onclick="mostrarid('redes')">Mantenimiento de Redes</li>
+                    <li  onclick="mostrarid('computo')">Mantenimiento Equipo de Computo</li>
+                    <li  onclick="mostrarid('ti')">Asesoría TI</li>
+                    <li  onclick="mostrarid('gob')">Proyectos Gobierno</li>
+                </ul>
+            </div>
+            <section class="cont-sol" id="redes">
+                <img src="/assets/images/mantenimiento-redes.jpg" alt="">
+                <div class="txt-sol">
+                    <h6>Máximo Rendimiento, 
+                        Mínima Interrupción</h6>
+                    <p>Nuestro servicio de Mantenimiento de Equipo de Cómputo garantiza que tus sistemas operen a su máxima capacidad. Desde la reparación de hardware hasta la actualización de software, nuestros técnicos altamente capacitados están listos para mantener tu equipo en perfecto estado.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-circle-check"></i> Diagnóstica y solución de Problemas de red.</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Actualización y parches de seguridad.</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Optimización de rendimiento y ancho de banda.</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="cont-sol" id="computo">
+                <img src="/assets/images/matenimiento-computo.jpg" alt="">
+                <div class="txt-sol">
+                    <h6>Optimiza tu infraestructura Tecnología</h6>
+                    <p>Nuestro servicio de Mantenimiento de Redes asegura un rendimiento óptimo y una conectividad ininterrumpida. Contamos con expertos que mantienen tus sistemas actualizados y seguros para que tu negocio siga funcionando sin contratiempos.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-circle-check"></i> Diagnóstico y Reparación de Hardware y Software.</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Actualizaciones y Parches de Software.</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Optimización de Rendimiento y Velocidad.                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="cont-sol" id="ti">
+                <img src="/assets/images/asesoria-ti.jpg" alt="">
+                <div class="txt-sol">
+                    <h6>Potencia tu Estrategia Tecnológica</h6>
+                    <p>Nuestros expertos en TI están listos para ofrecerte asesoramiento personalizado para maximizar el potencial de tu infraestructura tecnológica. Desde la planificación estratégica hasta la implementación de soluciones innovadoras, te guiaremos en cada paso del camino.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-circle-check"></i> Evaluación de Infraestructura y Recomendaciones. </li>
+                        <li><i class="fa-solid fa-circle-check"></i> Estrategias de Seguridad y Protección de Datos. </li>
+                        <li><i class="fa-solid fa-circle-check"></i> Implementación de Soluciones Tecnológicas Avanzadas. </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="cont-sol" id="gob">
+                <img src="/assets/images/proyectos-gobierno.jpg" alt="">
+                <div class="txt-sol">
+                    <h6>Innovación Tecnológica para el Sector Público</h6>
+                    <p>Nos enorgullecemos de colaborar con entidades gubernamentales para llevar a cabo proyectos tecnológicos que impulsen el progreso y la eficiencia. Desde la conceptualización hasta la implementación, estamos comprometidos con el éxito de cada proyecto.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-circle-check"></i> Análisis y Diseño de Soluciones Tecnológicas. </li>
+                        <li><i class="fa-solid fa-circle-check"></i> Cumplimiento de Normativas y Regulaciones del Sector Público. </li>
+                        <li><i class="fa-solid fa-circle-check"></i> Implementación y Gestión de Proyectos a Gran Escala. </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+    <section id="contacto">
+        <div class="container">
+            <div class="cont-form">
+                <div class="formulario">
+                    <form action="enviar.php" method="post">
+                        <div class="input-fle">
+                            <input type="text" name="nombre" placeholder="Nombre:">
+                            <input type="text" name="celular" placeholder="Celular:"> 
+                        </div>
+                        <div class="input-fle">
+                            <input type="mail" name="correo" placeholder="Correo:">
+                        <select name="asunto" id="">
+                            <option value="" selected disabled>Asunto...</option>
+                            <option value="">Internet Hogar</option>
+                            <option value="">Internet Empresarial</option>
+                            <option value="">Instalacion CCTV</option>
+                            <option value="">Mantenimeinto</option>
+                            <option value="">Asesoria TI</option>
+                            <option value="">Otro</option>
+                        </select>
+                        </div>
+                       
+                        
+                        <textarea name="mensaje" id="" cols="30" rows="5" placeholder="Escribe tu mensaje..."></textarea>
+                        <button type="button" class="enviar">Enviar</button>
+                    </form>
+                </div>
+                <!-- termina formulario -->
+                <div class="txt-form">
+                    <h6 class="txt-red">Contacto</h6>
+                    <h5>Cotiza con nosotros sin compromiso</h5>
+                    <ul>
+                        <li>
+                            <div class="datos">
+                                <div class="circulo"><i class="fa-solid fa-location"></i></div>
+                                <p>Lázaro Cárdenas 70 San Francisco Pichátaro Michoacán</p>
+                            </div>
+                            
+                        </li>
+                        <li>
+                            <div class="datos">
+                                <div class="circulo"><i class="fa-solid fa-envelope"></i></div>
+                                <a href="mailto:atencionaclientes@yarethcomunicaciones.com"><p class="correo">atencionaclientes@yarethcomunicaciones.com</p></a>
+                           
+                        </li>
+                        <ul class="numeros">
+                            <div class="numero">
+                                <div class="circulo"><i class="fa-solid fa-phone"></i></div>
+                                <a href="tel:4341079077">434 107 9077</a>
+                            </div>
+                            <div class="numero">
+                                <div class="circulo"><i class="fa-solid fa-phone"></i></div>
+                                <a href="tel:43416569637">434 156 9637</a>
+                            </div>
+                            <div class="numero">
+                                <div class="circulo"><i class="fa-solid fa-phone"></i></div>
+                                <a href="tel:4521802477">452 180 2477</a>
+                            </div>
+                            
+
+                        </ul>
+                    </ul>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+
+    <a href="https://wa.link/46r9ha" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+      </a>
+
+
+    <footer>
+        <div class="container">
+
+    
+        <div class="cont-foo">
+            <div class="info-logo">
+                <img src="/assets/images/logo-yareth-blanco.svg" alt="">
+                <p>Internet por fibra óptica para hogar y empresas en san francisco pichátaro michoacán</p>
+                <a href=""><p><i class="fa-brands fa-facebook"></i> Siguenos</a></p>
+            </div>
+            <div class="enlaces-foo">
+                <h6>Enlaces</h6>
+                <ul>
+                    <a href="#nosotros"><li>Nosotros</li></a>
+                    <a href="#planes-yareth"><li>Planes Hogar</li></a>
+                    <a href="#planes-yareth"><li>Planes Empresariales</li></a>
+                    <a href="#cctv"><li>Instalacion de CCTV</li></a>
+                    <a href="#soluciones"><li>Gobierno</li></a>
+                    <a href="#soluciones"><li>Mantenimiento de Redes</li></a>
+                </ul>
+            </div>
+            <div class="legal enlaces-foo">
+                <h6>Legal</h6>
+            </div>
+        </div>
+
+        <div class="barra-credit">
+            <p>Todos los derechos reservados Yareth Comunicaciones Diseñado con <i style="color: #EC1C26;" class="fa-solid fa-heart"></i> por Pbxhosting</p>
+        </div>
+    
+
+
+
+    </div>
+    </footer>
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/assets/js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

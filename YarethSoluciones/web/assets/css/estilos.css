@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --first: #EC1C26;
+    --second: #232429;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+ul{
+    list-style: none;
+}
+
+nav{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: auto;
+    padding: 10px 0;
+}
+
+.logo img{
+    width: 200px;
+}
+.cont-nav{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-between;
+    
+}
+.enlaces ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.enlaces li {
+    margin-right: 20px;
+}
+
+.enlaces a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.contacto-nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.dato-contacto a{
+    color: #000;
+    font-weight: 700;
+}
+.dato-contacto a:hover{
+    color: var(--first);
+    text-decoration: none;
+}
+.contacto-nav i{
+    color: #EC1C26;
+    font-size:25px;
+    margin-top: -10px;
+}
+.dato-contacto{
+    font-size: 20px;
+    line-height: 0.9;
+}
+
+/* hamburguesa */
+.btn-toggle{
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    /* no se vea en pc */
+}
+
+
+/* banner */
+#banner{
+    padding: 6rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 100px;
+}
+.cont-banner{
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    justify-content: space-between;
+}
+
+.txt-banner{
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.txt-banner h6{
+    font-size: 30px;
+    color: var(--first);
+}
+
+.txt-banner h2{
+    width: 100%;
+    line-height: 0.9;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.btn-cta{
+    background: #EC1C26;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.txt-red{
+    color: var(--first);
+}
+
+#us-yareth{
+    background: #EC1C26;
+    height: fit-content;
+    min-height: 40vh;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 100px;
+}
+.cont-us{
+    display: flex;
+    padding: 2rem;
+    gap: 6rem;
+}
+
+.logo-blanco{
+    width: 30%;
+    float: right;
+}
+
+.ingeniero{
+    position: absolute;
+    width: 20%;
+    bottom: 0;
+    right: 0;
+}
+.txt-us h4{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+}
+.txt-us h5{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+}
+.txt-us p{
+    font-size: 18px;
+    color: #fff;
+}
+
+/* planes */
+#planes-yareth{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 100px;
+}
+
+.titulos{
+    text-align: center;
+}
+
+.titulos h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.titulos h2{
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+.squares-services{
+    margin-top: 30px;
+}
+
+.sq-ser{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.cont-ser-sq{
+    cursor: pointer;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cont-ser-sq img{
+    width: 100%;
+    z-index: 0;
+   
+}
+
+.p-hover{
+    background: rgba(255, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    padding: 20px;
+    display: none;
+    transition: height 0.5s ease-in-out;
+    overflow: hidden;
+    animation: expand 0.5s ease-in-out;
+}
+
+@keyframes expand{
+    from{
+        height: 0;
+    }
+    to{
+        height: 100%;
+    }
+}
+
+
+
+
+.p-hover p{
+    position: absolute;
+    width: 100%;
+    display: block;
+    line-height: 0.9;
+    font-size: 45px;
+    font-weight: 700;
+    bottom: 0;
+    color: #fff;
+}
+.p-hover a{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.p-hover a:hover{
+   text-decoration: none;
+   color: #232429;
+}
+
+.p-hover img{
+    width: 200px;
+    position: absolute;
+   
+
+}
+
+/* cctv */
+#cctv{
+    background-image: url(../images/fondo-cctv.jpg);
+    background-size: cover;
+    padding: 6rem;
+    background-position: center;
+    margin-bottom: 100px;
+    font-family: 'Montserrat', sans-serif;
+    height: 60vh;
+    position: relative;
+}
+
+.cont-cctv{
+    top: 10%;
+    width: 50%;
+    right: 0;
+    text-align: right;
+    position: absolute;
+    padding: 4rem;
+}
+.cont-cctv h4{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.cont-cctv p{
+    color: #fff;
+    font-size: 20px;
+    text-align: right;
+
+    
+   
+}
+.info-cctv{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    float: right;
+}
+
+.item-cctv{
+    background-color: #232429;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    width: 200px;
+    
+    
+}
+.item-cctv p{
+    margin: 10px auto;
+    text-align: center;
+    font-weight: 600;
+    line-height: 0.9;
+    color: #fff;
+    font-size: 25px;
+}
+.red{
+    background-color: #EC1C26;
+}
+.grey{
+    background-color: #A9A9A9;
+}
+
+
+/* soluciones */
+#soluciones{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 100px;
+}
+
+.menu-sol{
+    margin-top: 30px;
+}
+
+.menu-sol ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.menu-sol li{
+    background-color: #D0D0D0;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.menu-sol li:hover{
+    background-color: #EC1C26;
+    color: #fff;
+}
+
+.menu-sol .active{
+    background-color: #EC1C26;
+    color: #fff;
+}
+
+.cont-sol{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cont-sol img{
+    width: 50%;
+}
+
+.cont-sol h6{
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.txt-sol ul{
+    margin-top: 100px;
+}
+
+.txt-sol p{
+     margin-top: 100px;
+    font-size: 16px;
+}
+
+.txt-sol i{
+    color: #EC1C26;
+    font-size: 20px;
+}
+.txt-sol li{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* contacto */
+#contacto{
+    background-color: #232429;
+    font-family: 'montserrat', sans-serif;
+    padding: 4rem;
+}
+
+
+.cont-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.input-fle {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box; /* Asegura que el ancho incluye el relleno y el borde */
+}
+.txt-form h6{
+    font-size: 40px;
+    font-weight: 700;
+}
+.txt-form h5{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+}
+.circulo{
+    width: 40px;
+    height: 40px;
+    background-color: #EC1C26;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Esto es lo que centra verticalmente */
+    flex-shrink: 0;
+}
+.circulo i{
+    color: #fff;
+}
+.datos{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 60%;
+}
+.datos p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.txt-form p{
+    color: #fff;
+
+}
+
+.numeros{
+    margin-top: 20px;
+    gap: 20px;
+    display: flex;
+}
+.numero{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+.numero a{
+    color: #fff;
+    font-weight: 600;
+}
+.numero a:hover{
+    color: #EC1C26;
+   text-decoration: none;
+}
+.enviar{
+    background-color: #EC1C26;
+    border: none;
+    padding: 20px;
+    color: #fff;
+    width: 150px;
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+
+}
+
+footer{
+    background-color: #000000;
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.cont-foo{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+.info-logo{
+    width: 40%;
+}
+.info-logo img{
+    width: 200px;
+    margin-bottom: 10px;
+}
+.info-logo p{
+    color: #fff;
+    width: 100%;
+    font-size: 20px;
+}
+.info-logo i{
+    color: #EC1C26;
+    font-size: 30px;
+}
+.info-logo a{
+    font-size: 30px;
+    color: #EC1C26;
+    font-weight: 600;
+}
+.enlaces-foo{
+    color: #fff;
+}
+.enlaces-foo h6{
+    font-weight: 600;
+    font-size: 20px;
+}
+.enlaces-foo a{
+    color: #fff;
+}
+.enlaces-foo a:hover{
+    color: #EC1C26;
+    text-decoration: none;
+}
+
+
+.barra-credit p{
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*--------------------------------
+              Whatsapp
+--------------------------------*/
+.float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 20px;
+    background-color:#25d366;
+    color:#fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+    margin-top:16px;
+}
