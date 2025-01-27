@@ -1,0 +1,764 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar-toggler-icon{
+    color: #fff;
+}
+
+.navbar{
+    background-color: transparent !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background-color: transparent !important; 
+}
+
+.navbar-nav{
+    margin-left: auto !important;
+}
+
+.logo-menu{
+    width: 150px;
+}
+
+.nav-link{
+    color: #fff !important;
+}
+
+
+
+/* fin navegación */
+
+header{
+    background-image: url(assets/images/portada.png);
+    background-size: cover;
+   
+}
+
+#banner{
+    
+    background-size: cover;
+    padding: 10%;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+#banner h1{
+    text-align: center;
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 600;
+    font-style: italic;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #423B84;
+
+}
+
+.logo-titulo{
+    width: 100%;
+}
+
+/* nosotros */
+
+#nosotros{
+    background-image: url(assets/images/fondo-nosotros.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cont-us{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.izq-us{
+    width: 60%;
+}
+
+.der-us{
+    width: 100%;
+}
+
+.izq-us img{
+    width: 60%;
+    text-align: center;
+}
+
+.der-us p{
+    font-size: 20px;
+}
+
+/* servicios */
+
+#servicios{
+    background-image: url(assets/images/servicios.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.cont-ser{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.cont-ser h2{
+    font-size: 4rem;
+    padding-top: 20px;
+    text-align: center;
+    color: #020844;
+    font-weight: 600;
+
+}
+
+.servicios{
+    margin-top: 40px;
+    background: rgb(0,22,129);
+    background: linear-gradient(90deg, rgba(0,22,129,1) 0%, rgba(2,8,68,1) 100%);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.box-ser{
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
+    text-align: center;
+}
+.box-ser img{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.box-ser p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: ;
+    text-align: center;
+}
+
+#ser-wifi{
+    background-image: url(assets/images/internetradio.png);
+    background-size: cover;
+    padding: 40px;
+    
+}
+
+
+
+.con-cp{
+    width: 60%;
+    padding-top: 10vh;
+    text-align: center;
+    padding-bottom: 10vh;
+}
+.con-cp h2{
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 0.9;
+    color: #fff;
+    text-align: center;
+}
+
+.con-cp p{
+    color: #fff;
+    font-size: 35px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#ser-cam{
+    background-image: url(assets/images/camarasdeseguridad.png);
+    background-size: cover;
+    padding: 40px;
+    
+}
+
+.con-cp-der{
+    width: 60%;
+    margin-left: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    text-align: center;
+}
+
+.con-cp-der h2{
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 700;
+    color: #fff;
+    line-height: 0.9;
+    text-align: center;
+}
+
+.con-cp-der p{
+    color: #fff;
+    font-size: 35px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn-cta{
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.btn-cta:hover{
+    background-color: #fff;
+    color: #423B84;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#ser-amp{
+    background-image: url(assets/images/amplificadoresdeseñal.jpg);
+    background-size: cover;
+    padding: 40px;
+    
+}
+
+#ser-rep{
+    background-image: url(assets/images/reparaciondeequipos.png);
+    background-size: cover;
+    padding: 40px;
+}
+
+#ser-ven{
+    background-image: url(assets/images/ventadeequipos.png);
+    background-size: cover;
+    padding: 40px;
+}
+
+/* contacto */
+.cont-contac{
+    display: flex;
+}
+.conta-iz{
+    width: 100%;
+}
+.formulario{
+    background-color: #2B366C;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+}
+
+.formulario h3{
+    color: #fff;
+    font-size: 3rem;
+}
+
+form{
+    padding: 40px;
+    width: 100%;
+}
+
+input, select, textarea{
+    margin: 10px auto !important;
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.controls{
+    display: flex;
+    gap: 20px;
+}
+
+select{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+option{
+    color: #020844;
+}
+
+.formulario button{
+    padding: 10px 30px 10px 30px;
+    background-color: #4E3E91;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* footer */
+.container-main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+footer{
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+
+.cont-foo{
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.sec-foo img{
+    width: 50%;
+}
+
+.sec-foo h4{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+    color: #2B366C;
+    text-transform: uppercase;
+}
+
+.sec-foo{
+    text-align: center;
+}
+.sec-foo ul li{
+    list-style: none;
+    color: #020844;
+}
+
+footer h6{
+    text-align: center;
+    color: grey;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+  /*--------------------------------
+              Whatsapp
+  --------------------------------*/
+  .float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 40px;
+    background-color:#25d366;
+    color:#fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+     z-index: 100;
+}
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+    margin-top:16px;
+}
+
+
+@media (max-width: 320px){
+    .navbar-toggler-icon{
+        background: url(assets/images/menu_icon.png) !important;
+        background-repeat: no-repeat !important;
+    }
+    nav{
+        display: flex !important;
+    }
+    .navbar{
+        background-color: #423B84 !important;
+        display: flex;
+    }
+    .bar{
+        display: none;
+    }
+    #banner{
+        padding: 20px;
+        margin-top: 0px;
+    }
+    #banner h1{
+        font-size: 2rem !important;
+        -webkit-text-stroke-width: 1px;
+    }
+   
+    /* nosotros */
+
+    #nosotros{
+        padding: 20px;
+    }
+
+    .cont-us{
+        flex-direction: column;
+    }
+    .izq-us{
+        width: 100%;
+    }
+    .izq-us img{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .der-us p{
+        font-size: 18px;
+    }
+
+    /* servicios */
+    .cont-ser h2{
+        font-size: 3rem;
+        line-height: 0.9;
+    }
+    .servicios{
+        flex-direction: column;
+    }
+
+    .con-cp, .con-cp-der{
+        width: 100%;
+    }
+    .con-cp h2, .con-cp-der h2{
+        font-size: 1.5rem;
+    }
+
+    .con-cp p, .con-cp-der p{
+        font-size: 18px;
+    }
+
+    #ser-cam{
+        background-position: center center;
+    }
+
+    #ser-rep{
+        background-position: center;
+    }
+
+    /* contacto */
+
+    .cont-contac{
+        flex-direction: column;
+    }
+    .formulario{
+        padding: 10px;
+    }
+    form{
+        padding: 20px;
+    }
+
+    /* footer */
+    .cont-foo{
+        flex-direction: column;
+    }
+
+    .sec-foo img{
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media (min-width: 340px) and (max-width: 460px){
+    .navbar-toggler-icon{
+        background: url(assets/images/menu_icon.png) !important;
+        background-repeat: no-repeat !important;
+    }
+    nav{
+        display: flex !important;
+    }
+    .navbar{
+        background-color: #423B84 !important;
+        display: flex;
+    }
+    .bar{
+        display: none;
+    }
+    #banner{
+        padding: 20px;
+        margin-top: 0px;
+    }
+    #banner h1{
+        font-size: 2rem !important;
+        -webkit-text-stroke-width: 1px;
+    }
+   
+    /* nosotros */
+
+    #nosotros{
+        padding: 20px;
+    }
+
+    .cont-us{
+        flex-direction: column;
+    }
+    .izq-us{
+        width: 100%;
+    }
+    .izq-us img{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .der-us p{
+        font-size: 18px;
+    }
+
+    /* servicios */
+    .cont-ser h2{
+        font-size: 3rem;
+        line-height: 0.9;
+    }
+    .servicios{
+        flex-direction: column;
+    }
+
+    .con-cp, .con-cp-der{
+        width: 100%;
+    }
+    .con-cp h2, .con-cp-der h2{
+        font-size: 1.5rem;
+    }
+
+    .con-cp p, .con-cp-der p{
+        font-size: 18px;
+    }
+
+    #ser-cam{
+        background-position: center center;
+    }
+
+    #ser-rep{
+        background-position: center;
+    }
+
+    /* contacto */
+
+    .cont-contac{
+        flex-direction: column;
+    }
+    .formulario{
+        padding: 10px;
+    }
+    form{
+        padding: 20px;
+    }
+
+    /* footer */
+    .cont-foo{
+        flex-direction: column;
+    }
+
+    .sec-foo img{
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media (min-width: 760px) and (max-width: 999px){
+    
+    .navbar-toggler-icon{
+        background: url(assets/images/menu_icon.png) !important;
+        background-repeat: no-repeat !important;
+    }
+    nav{
+        display: flex !important;
+    }
+    .navbar{
+        background-color: #423B84 !important;
+        display: flex;
+    }
+    .bar{
+        display: none;
+    }
+    #banner{
+        padding: 20px;
+        margin-top: 0px;
+    }
+    #banner h1{
+        font-size: 2rem !important;
+        -webkit-text-stroke-width: 1px;
+    }
+   
+    /* nosotros */
+
+    #nosotros{
+        padding: 20px;
+    }
+
+    .cont-us{
+        flex-direction: column;
+    }
+    .izq-us{
+        width: 100%;
+    }
+    .izq-us img{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .der-us p{
+        font-size: 18px;
+    }
+
+    /* servicios */
+    .cont-ser h2{
+        font-size: 3rem;
+        line-height: 0.9;
+    }
+    .servicios{
+        flex-direction: column;
+    }
+
+    .con-cp, .con-cp-der{
+        width: 100%;
+    }
+    .con-cp h2, .con-cp-der h2{
+        font-size: 1.5rem;
+    }
+
+    .con-cp p, .con-cp-der p{
+        font-size: 18px;
+    }
+
+    #ser-cam{
+        background-position: center center;
+    }
+
+    #ser-rep{
+        background-position: center;
+    }
+
+    /* contacto */
+
+    .cont-contac{
+        flex-direction: column;
+    }
+    .formulario{
+        padding: 10px;
+    }
+    form{
+        padding: 20px;
+    }
+
+    /* footer */
+    .cont-foo{
+        flex-direction: column;
+    }
+
+    .sec-foo img{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (min-width: 1050px) and (max-width: 1200px){
+    .navbar-toggler-icon{
+        background: url(assets/images/menu_icon.png) !important;
+        background-repeat: no-repeat !important;
+    }
+    nav{
+        display: flex !important;
+    }
+    .navbar{
+        background-color: #423B84 !important;
+        display: flex;
+    }
+    .bar{
+        display: none;
+    }
+    #banner{
+        padding: 20px;
+        margin-top: 0px;
+    }
+    #banner h1{
+        font-size: 4rem !important;
+        -webkit-text-stroke-width: 1px;
+    }
+   
+    /* nosotros */
+
+    #nosotros{
+        padding: 20px;
+    }
+
+    .cont-us{
+        display: flex;
+    }
+
+    .izq-us{
+        width: 100%;
+    }
+    .izq-us img{
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    .der-us p{
+        font-size: 18px;
+    }
+
+    /* servicios */
+    .cont-ser h2{
+        font-size: 3rem;
+        line-height: 0.9;
+    }
+    .servicios{
+        display: flex;
+    }
+
+    .con-cp, .con-cp-der{
+        width: 60%;
+    }
+    .con-cp h2, .con-cp-der h2{
+        font-size: 1.5rem;
+    }
+
+    .con-cp p, .con-cp-der p{
+        font-size: 18px;
+    }
+
+    #ser-cam{
+        background-position: center center;
+    }
+
+    #ser-rep{
+        background-position: center;
+    }
+
+    /* contacto */
+
+    .cont-contac{
+        display: flex;
+    }
+    .formulario{
+        padding: 10px;
+    }
+    form{
+        padding: 20px;
+    }
+
+    /* footer */
+    .cont-foo{
+       display: flex;
+    }
+
+    .sec-foo img{
+        margin-bottom: 20px;
+    }
+}
