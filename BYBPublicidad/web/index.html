@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByR Publicidad</title>
+    <script src="https://kit.fontawesome.com/18fa7c0e1a.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="encabezado">
+            <nav>
+                
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <a href="index.html">
+                        <img src="assets/images/logo-byr.png" alt="CuboHipotecario" class="logo">
+                    </a>
+                   
+                
+                    <ul>
+                           
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#creditos">Créditos</a></li>
+                        <li><a href="#proceso">Proceso</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+
+                    </ul>
+                
+            </nav>
+            <section id="banner">
+                <div class="cont-banner">
+                    <div class="txt-titulo">
+                        <h1 class="nombre-empresa">B&R asociados en publicidad</h1>
+                        <p>¡Dale vida a tus ideas con nuestra impresión CREATIVA Y DE CALIDAD!</p>
+                        <div class="botones">
+                            <a href="" class="btn-first">Cotizar ahora</a>
+                            <a href="" class="btn-second">Servicios</a>
+                        </div>
+                    </div>
+                    <img src="assets/images/brfiguras-fondo.png" alt="">
+                    <p class="txt-flot">"Transformamos tus diseños en realidad,
+                        palabra por palabra, color por color."</p>
+                </div>
+        </section>
+        </div>
+
+       
+    </header>
+
+
+    <section id="nosotros">
+        <div class="cont-us">
+            <div class="txt-us">
+                <h3>Nosotros</h3>
+                <p>Somos un grupo mexicano dedicado a la producción y comercialización de impresos, exhibidores y artículos promocionales brindando a nuestros clientes servicios integrales de comunicación grafica.</p>
+            </div>
+            <img src="assets/images/persona-fondo-nosotros.png" alt="">
+        </div>
+    </section>
+
+
+
+
+    <section id="servicios">
+        <div class="serv-sec">
+            <img src="assets/images/servicios-logo.svg" class="logo-servicios" alt="servicios ByR ">
+            <div class="cont-ser">
+                <div class="container">
+                    <div class="menu-ser">
+                        <ul>
+                            <li><button class="activo" onclick="mostrarElemento('serigrafia', this);">Serigrafía Industrial</button></li>
+                            <li><button onclick="mostrarElemento('impresion', this);">Impresión Digital</button></li>
+                            <li><button onclick="mostrarElemento('termoformado', this);">Termoformado</button></li>
+                            <li><button onclick="mostrarElemento('articulos', this);">Artículos Publicitarios</button></li>
+                            <li><button onclick="mostrarElemento('offset', this);">Offset</button></li>
+                            <li><button onclick="mostrarElemento('exhibidores', this);">Exhibidores y Empaques</button></li>
+                        </ul>
+                    </div>
+                </div>
+
+                 <div class="ser-info" id="serigrafia">
+                     <h2>Serigrafía Industrial</h2>
+                     <div class="cont-info">
+                         <div class="carrusel">
+                             <img src="assets/images/coca.jpg" alt="">
+                             <img src="assets/images/bebe.jpg" alt="">
+                             <img src="assets/images/alpura.jpg" alt="">
+                             <img src="assets/images/quaker.jpg" alt="">
+                             <img src="assets/images/duracell.jpg" alt="">
+                             <img src="assets/images/surf-side.jpg" alt="">
+                         </div>
+                         <div class="txt-info">
+                             <img src="assets/images/print_1276942.svg" alt="">
+                             <p>Contamos con equipo de pre-prensa e impresión industrial. Nuestros formatos van desde tamaño carta hasta un máximo de 1170x250 cm con lineajes desde 55 hasta 120 LPI</p>
+                             <div class="ser-name">
+                                 <ul>
+                                     <li>Calcomanías</li>
+                                     <li>Electroestáticos</li>
+                                 </ul>
+                                 <ul>
+                                     <li>Gráficos para exhibidores</li>
+                                     <li>Standee</li>
+                                 </ul>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+
+                 <div class="ser-info " id="impresion">
+                    <h2>Impresión Digital</h2>
+                    <div class="cont-info">
+                        <div class="carrusel">
+                            <img src="assets/images/banner-aink.jpg" alt="">
+                            <img src="assets/images/nescafe.jpg" alt="">
+                            <img src="assets/images/mae.jpg" alt="">
+                            <img src="assets/images/standee-sabritas.jpg" alt="">
+                            <img src="assets/images/duracell.jpg" alt="">
+                            <img src="assets/images/surf-side.jpg" alt="">
+                        </div>
+                        <div class="txt-info">
+                            <img src="assets/images/printing-machine_6232729.svg" alt="">
+                            <p>Contamos con tecnología de punta
+                                para impresión digital de gran
+                                formato tanto de materiales rígidos
+                                como flexibles, los cuales los
+                                elaboramos con impresoras dilli UV
+                                y mimaki, con 1400 DPI de calidad</p>
+                            <div class="ser-name">
+                                <ul>
+                                    <li>Standee</li>
+                                    <li>Calcomanías</li>
+                                </ul>
+                                <ul>
+                                    <li>Copetes</li>
+                                    <li>Banderolas</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="ser-info " id="termoformado">
+                    <h2>Termoformado</h2>
+                    <div class="cont-info">
+                        <div class="carrusel">
+                            <img src="assets/images/pepsi.jpg" alt="">
+                            <img src="assets/images/acdelco.jpg" alt="">
+                            <img src="assets/images/michelin.jpg" alt="">
+                            <img src="assets/images/pepsi-stand.jpg" alt="">
+                        </div>
+                        <div class="txt-info">
+                            <img src="assets/images/heatproof-fabric_2635112.svg" alt="">
+                            <p>Dentro de nuestra área de
+                                acabado contamos con el
+                                servicio de termoformado con
+                                área máxima de 120x200
+                                cms. y 30 cms. de altura</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ser-info " id="articulos">
+                    <h2>Artículos Publicitarios</h2>
+                    <div class="cont-info">
+                        <div class="carrusel">
+                            <img src="assets/images/IMG-20231110-WA0048.jpg" alt="">
+                            <img src="assets/images/IMG-20231110-WA0052.jpg" alt="">
+                            <img src="assets/images/IMG20220506122228.jpg" alt="">
+                            <img src="assets/images/IMG20220821153117.jpg" alt="">
+                            <img src="assets/images/IMG20220923094436.jpg" alt="">
+                            <img src="assets/images/IMG_20230220_092446.jpg" alt="">
+                            <img src="assets/images/IMG_20230220_093559.jpg" alt="">
+                            <img src="assets/images/IMG_20231110_135319.jpg" alt="">
+                        </div>
+                        <div class="txt-info">
+                            <img src="assets/images/shopping-bag_2690900.svg" alt="">
+                            <p>Mochilas, hieleras, loncheras, pierneras, maletas, playeras, mangas, gorras,mandiles, carpetas, maletines
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                
+                <div class="ser-info " id="offset">
+                    <h2>Offset</h2>
+                    <div class="cont-info">
+                        <div class="carrusel">
+                            <img src="assets/images/santino.jpg" alt="">
+                            <img src="assets/images/cocazero.jpg" alt="">
+                            <img src="assets/images/coca-pasto.jpg" alt="">
+                            <img src="assets/images/subway.jpg" alt="">
+                           
+                        </div>
+                        <div class="txt-info">
+                            <img src="assets/images/paper-roll_8393361.svg" alt="">
+                            <p>Ofrecemos impresión de offset
+                                tradicional y proximamente uv,
+                                manejamos sustratos difíciles
+                                como polipap, vinil adhesivo y
+                                electrostático, además de
+                                cualquier papel o cartulina.
+                                Contamos con maquinaria
+                                Heidelberg y Solna de hasta
+                                100x72cms. de área de
+                                impresion</p>
+                            <div class="ser-name">
+                                <ul>
+                                    <li>Folletos</li>
+                                    <li>Refricalcos</li>
+                                </ul>
+                                <ul>
+                                    <li>Flyers</li>
+                                    <li>Posters</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ser-info" id="exhibidores">
+                    <h2>Exhibidores y empaque</h2>
+                    <div class="cont-info">
+                        <div class="carrusel">
+                            <img src="assets/images/exhibidor.jpg" alt="">
+                            <img src="assets/images/exhibidor-pino.jpg" alt="">
+                            <img src="assets/images/exhibidor-pioneer.jpg" alt="">
+                            <img src="assets/images/exhibidor-sam.jpg" alt="">
+                            <img src="assets/images/exhibidor-libros.jpg" alt="">
+                           
+                        </div>
+                        <div class="txt-info">
+                            <img src="assets/images/store-display_2037622.svg" alt="">
+                            <p>Diseñamos, planeamos y
+                                fabricamos cualquier tipo de
+                                empaque o exhibidor en
+                                cartón corrugado, coroplast o
+                                plástico termoformado.</p>
+                            <div class="ser-name">
+                                <ul>
+                                    <li>Counter</li>
+                                    <li>Botadores</li>
+                                    <li>Side kick</li>
+                                    <li>Standee</li>
+                                </ul>
+                                <ul>
+                                    <li>Exhibidor de mostrador</li>
+                                    <li>Exhibidor de piso</li>
+                                    <li>Cubos</li>
+                                    <li>Crucetas</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div> 
+    </section>
+
+ 
+
+<script>
+    function mostrarElemento(id, boton) {
+        var elementos = document.querySelectorAll('.ser-info');
+        elementos.forEach(function(elemento) {
+            elemento.classList.remove('visible');
+        });
+
+        var botones = document.querySelectorAll('.menu-ser button');
+        botones.forEach(function(boton) {
+            boton.classList.remove('activo');
+        });
+
+        var elementoVisible = document.getElementById(id);
+        elementoVisible.classList.add('visible');
+        boton.classList.add('activo');
+
+        // Reinicia el carrusel en el elemento visible
+        reiniciarCarrusel(elementoVisible.querySelector('.carrusel'));
+    }
+
+    function reiniciarCarrusel(carrusel) {
+        if (carrusel && typeof jQuery !== 'undefined') {
+            // Si se está utilizando jQuery y Slick, reinicia el carrusel
+            jQuery(carrusel).slick('unslick');
+            jQuery(carrusel).slick();
+        }
+    }
+
+    // Muestra el primer elemento por defecto
+    mostrarElemento('serigrafia', document.querySelector('.activo button'));
+</script>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<section id="contacto">
+    <div class="container">
+        <div class="cont-cont">
+        <h3>Contacto</h3>
+        <form action="">
+            <div class="cont-form">
+                <input type="text" name="nombre" placeholder="Nombre*" required>
+                <input type="text" name="empresa" placeholder="Empresa" >
+            </div>
+            <div class="cont-form">
+                <input type="text" name="celular" placeholder="Numero*" required>
+                <input type="text" name="correo" placeholder="Correo*" required>
+            </div>
+            <select name="asunto" id="">
+                <option disabled selected value="">Selecciona un servicio...</option>
+                <option value="Serigrafia">Serigrafía Industrial</option>
+                <option value="impresion-digital">Impresión Digital</option>
+                <option value="termoformado">Termoformado</option>
+                <option value="Offset">Offest</option>
+                <option value="Exhibidores">Exhibidores-Empaques</option>
+
+            </select>
+            <textarea name="mensaje" id="" cols="30" rows="5" placeholder="Escribe tu mensaje..."></textarea>
+            <div class="g-recaptcha" data-sitekey="6LeS8SEpAAAAAIrFDjl3abCr3q4kD27fz0_jcHLK"></div>
+            <button class="btn-send" type="submit">Enviar</button>
+        </form>
+    </div>
+    </div>
+</section>
+
+
+<a href="https://wa.link/q5shba" class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+<footer>
+    <div class="container">
+
+    <div class="cont-foo">
+        <img src="assets/images/logo-byr.png" class="logo-foo" alt="">
+        <div class="ser-foo">
+            <h4>Servicios</h4>
+            <ul class="ser-fooo">
+                <li style="color: #FF9C2B;">Impresión digital</li>
+                <li style="color:  #FF3B2B;">Termoformados</li>
+                <li style="color: #8A00F5;">Serigrafía industrial</li>
+                <li style="color: #00C4FF;">offset</li>
+                <li style="color: #F8009D;">exhibidores y empaques</li>
+                
+            </ul>
+        </div>
+        <div class="linea"></div>
+        <div class="ser-foo">
+            <h4>Contacto</h4>
+            <ul>
+               <a href="tel:5570360787"><li><i class="fa fa-phone"></i>55 7036 0787</li></a>
+               <a href="malto:ventasasociados@byrpublicidad.com.mx"><li><i class="fa-solid fa-envelope"></i>ventasasociados@byrpublicidad.com.mx</li></a>
+               <li><i class="fa-solid fa-location-dot"></i> Rancho vista hermosa 20 Fracc. Santa Cecilia Coyoacan</li>
+
+                
+            </ul>
+        </div>
+        <img src="assets/images/cmyk.svg" class="cmyk" alt="">
+    </div>
+    <h6>&copy; Copyright B&R Asociados Publicidad Diseñado por PbxHosting</h6>
+            
+</div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+
+    
+<script>
+        $(document).ready(function(){
+            $('.carrusel').slick({
+                dots: true,
+                arrows: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true
+        });
+    });
+</script>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
