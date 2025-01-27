@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b396c78e84.js" crossorigin="anonymous"></script>
+    <title>itzuri</title>
+</head>
+<body>
+
+    <header>     
+        <div class="encabezado">
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <a href="index.html">
+                    <img src="assets/images/logo_blanco.png" alt="itzuri" class="logo">
+                </a>
+                <ul>
+                    <li><a href="index.html" class="active">Inicio</a></li>
+                    <li><a href="#somos">Nosotros</a></li>
+                    <li><a href="#planes">Planes</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    
+                </ul>
+            </nav>
+        </div>  
+    </header>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/images/slider.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+             
+                <h5>Internet Para <br> Tu Hogar</h5>
+                <a href="#planes" class="btn btn-primary">Ver Planes</a>
+     
+            </div>
+          </div>
+        </div>
+     
+      </div>
+
+      <section id="somos">
+        <div class="tittle">
+          <h2>Quienes somos</h2>
+        </div>
+        <div class="container">
+          
+
+          
+            <div class="contenido">
+              <div class="wrapper">
+              <div class="info">
+                <img src="assets/images/izuri.png" alt="internet itzuri">
+              </div>
+                <div class="texto">
+                  Somos un una empresa regional,  que nace con la finalidad de crear la infraestructura que nos facilite, brindar servicios de telecomunicaciones, para cubrir las necesidades de comunicación de las poblaciones de la región Mixteca Alta oaxaqueña, haciendo uso de equipos y tecnología de vanguardia, adaptada al entorno geográfico de nuestro estado.
+                </div>
+              </div>
+            </div>
+           
+        
+         
+
+        </div>
+
+      </section>
+
+      <section id="valores">
+        <div class="container">
+          <div class="wrapper">
+              <div class="contenedor">
+              <div class="caja">
+                <h3><span>-</span> Misión</h3>
+                <p>Brindar la posibilidad a los habitantes de las comunidades de nuestra región, de contar con servicios  de telecomunicaciones que le permitan conectarse al mundo del Internet y asi puedan mejorar su calidad de vida.</p>
+              </div>
+              <div class="caja">
+                <h3><span>-</span> Visión</h3>
+                <p>Ser una referencia en servicio de telecomunicaciones regional, como una herramienta de crecimiento que cumpla con las expectativas de las personas y empresas.</p>
+              </div>
+              <div class="caja">
+                <h3><span>-</span> Valores</h3>
+                <li>Honestidad</li>
+                <li>Respeto</li>
+                <li>Integridad</li>
+              </div>
+            </div>
+       
+          </div>
+        </div>
+      </section>
+
+      <section id="planes">
+        <div class="tittle">
+          <h1>Planes de Internet Itzuri</h1>
+        </div>
+        <div class="container">
+          <div class="planes-1">
+            <div class="wrapper">
+              <div class="plan-box actived">
+                <div class="cont-box">
+                  <h4 class="fav">3 Mbps</h4>
+                  <button type="button" href="#contacto">Contratar</button>
+                </div>
+              </div>
+              <div class="plan-box">
+                <div class="cont-box">
+                  <h4>5 Mbps</h4>
+                  <div class="btn-2">
+                  <button type="button" href=#contacto">Contratar</button>
+                </div>
+                </div>
+              </div>
+              <div class="tittle-2">
+                <h2>Internet Residencial</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+     
+        <div class="container">
+          <div class="planes-2">
+            
+            <div class="wrapper">
+              <div class="tittle-3">
+                <h2>Internet Comercial</h2>
+              </div>
+              <div class="plan-box actived">
+                <div class="cont-box-2">
+                  <span>Simétrico</span>
+                  <h4 class="fav">10 Mbps</h4>
+                  <button type="button" href="#contacto">Contratar</button>
+                </div>
+              </div>
+              <div class="plan-box">
+                <div class="cont-box-2">
+                  <span class="actived">Simétrico</span>
+                  <h4>20 Mbps</h4>
+                  <div class="btn-2">
+                  <button type="button" href="#contacto">Contratar</button>
+                </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+  </section>
+
+ <section id="contacto">
+         
+        <div class="wrapper">
+            <div class="contenido-form">
+                <img src="assets/images/famila-form.jpg" alt="Clientes">
+                <div class="container">
+                <form action="enviar.php" method="POST">
+                   <h2>Contacto</h2>
+                    <input class="controls" type="text" name="nombre" placeholder="Escribe tu nombre:">
+                   
+                    <input class="controls" type="email" name="correo" placeholder="Correo electrónico:">
+                    
+                    <input class="controls" type="text" name="celular" placeholder="Número de contacto">
+               
+                    <select name="servicio" id="">
+                        <option value="Plan">Plan de internet...</option>
+                        <option value="internet">3 Mbps</option>
+                        <option value="TelefoniaIP">5 Mpbs</option>
+                        <option value="Diseñoweb">10 Mpbs</option>
+                        <option value="Diseñoweb">20 Mbps</option>
+                       
+                    </select>
+                    <br>
+                   
+                    <button type="submit" class="btn-form">Enviar <i class="fa-solid fa-arrow-right"></i></button>
+                    <div class="g-recaptcha" data-sitekey="6LeRW5EjAAAAAJsi48EdhskNneNMJrL6zahWiaDi"></div>
+                    <br/>
+       <!---          
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+       -->
+                </form>
+              </div>
+            </div>  
+        </div>
+
+   
+  </section>
+
+<!-- GOOGLE MAP PENDIENTE REVISAR -->
+<section id="google-map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d953.7057779293804!2d-97.57543817076986!3d17.032344481551654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c7ce6877a68a75%3A0xd93a97a24748b2e9!2sBenito%20Ju%C3%A1rez%2C%2071100%20Chalcatongo%20de%20Hidalgo%2C%20Oax.!5e0!3m2!1ses-419!2smx!4v1674501656546!5m2!1ses-419!2smx" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+</section>   
+
+
+  
+
+<footer>
+  <div class="container">
+  <div class="wrapper">
+      <div class="cards-footer">
+          <img src="assets/images/logo.png">
+
+      </div>
+      <div class="cards-footer">
+          <h3>Contacto</h3>
+          
+
+          <a href="mailto:admin@itzuri.com">admin@itzuri.com</a>
+      </div>
+      <div class="cards-footer">
+          <h3>Síguenos</h3>
+
+          <li><span><a href="https://www.facebook.com/profile.php?id=100087926700941"><i class="fa-brands fa-facebook"></i> Facebook</a></span></li>
+          
+
+      
+      </div>
+
+  </div>
+         
+      </div>
+      </footer>
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
