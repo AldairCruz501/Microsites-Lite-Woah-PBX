@@ -1,0 +1,1048 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: Muloka;
+    src: url(../css/Muloka\ Kerash.otf);
+  }
+
+.container-main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+
+header{
+    background-image: url(../imgs/fondo-xiimbal-oscuro.jpg);
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: "bebas-neue-v14-deprecated", sans-serif;
+    margin-left: 40px;
+    color: #fff !important;
+}
+.dropdown-item{
+    color: #000 !important;
+    font-family: "bebas-neue-v14-deprecated", sans-serif !important;
+    font-size: 25px;
+}
+
+.dropdown img{
+    width: 30px;
+}
+
+.logo-v1{
+    width: 150px;
+}
+
+
+  
+
+.txt-header h5{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    
+}
+  
+  .titulo-prin{
+    font-size: 5rem;
+    text-transform: uppercase;
+    line-height: 0.9;
+    font-weight: 600;
+    font-family: "bebas-neue-pro-semiexpanded", sans-serif;
+    font-weight: 600;
+    color: #00E1D4;
+    width: 70%;
+    margin-bottom: 20px;
+  
+  }
+  
+  .puntitos{
+    top: 0;
+    position: absolute;
+    right: 33%;
+    width: 150px;
+  }
+  
+  .txt-header p{
+    font-family: 'poppins', sans-serif;
+    width: 60%;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .cont-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+    top: 20%;
+    position: relative; /* A単ade position relative al contenedor para posicionar el carrusel */
+    z-index: 2; /* Ajusta el z-index para que el carrusel aparezca por encima de otros elementos */
+  }
+  
+  .owl-carousel {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .carrusel {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .item img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    overflow: hidden !important;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+  
+  .item:last-child img {
+    margin-right: 0;
+  }
+  
+  .owl-prev,
+  .owl-next {
+    background-color: transparent;
+    color: #fff;
+    font-size: 25px !important;
+    border: 2px solid #fff !important;
+    border-radius: 50% !important;
+    padding: 10px !important;
+    width: 50px !important;
+    height: 50px !important;
+    float: left;
+  }
+  
+  .owl-prev {
+    right: auto;
+  }
+  
+  .owl-next {
+    left: auto;
+  }
+  
+  .logo-v3{
+    display: none;
+  }
+
+  .btn-ximbal{
+    background-color: #20b3bb;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 15px 10px 15px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    width: 300px;
+    
+  }
+  .btn-ximbal:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    text-decoration: none;
+  }
+  
+  
+  
+
+/* nosotros */
+#nosotros{
+    background-image: url(../imgs/fondo-nosotros.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+  }
+  .cont-us{
+    position: relative;
+    padding-top: 50px;
+    text-align: center;
+  }
+   .logo-us{
+    width: 20%;
+   }
+   .cont-us h4{
+  
+    font-family: 'Muloka';
+    color: #fff;
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 40px;
+   }
+  
+   .cont-us p{
+    color: #fff;
+    font-family: 'poppins';
+   }
+  
+   .grid-us{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 50%;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 3;
+   }
+   .blue{
+    background-color: #00C8EC;
+   }
+   .dark-blue{
+    background-color: #007C98;
+   }
+  
+   .item-us{
+    border-radius: 20px;
+    max-height: 220px;
+    padding: 20px;
+   }
+  
+   .item-us img{
+    margin-bottom: 20px;
+    width: fit-content;
+   }
+  
+   .item-us p{
+    color: #fff;
+    font-weight: 700;
+   }
+  
+   .pequeno{
+    font-size: 12px;
+   }
+  
+   .morra1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 30%;
+   }
+  
+   .morra2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 4;
+    width: 28%;
+   }
+  
+  
+  
+  
+  
+   /* tours */
+   #tours{
+    position: relative;
+    padding: 40px;
+    background: rgb(238,255,255);
+    background: linear-gradient(90deg, rgba(238,255,255,1) 0%, rgba(125,223,225,1) 100%);
+   }
+  
+   .imagen-tours img{
+    width: 70%;
+   }
+  
+   .cont-tours{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  
+  }
+  .txt-tours h5{
+    font-family: 'Muloka';
+    font-size: 4rem;
+    text-align: center;
+    color: #007C98;
+  }
+  
+  .txt-tours p{
+    font-size: 22px;
+    color: #000;
+    font-family: 'Poppins';
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .logo-v2{
+    width: 20%;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+  }
+  
+  /* Tours */
+  #experiencias{
+    padding: 40px;
+    margin-bottom: 100px;
+  }
+  .logo-v4{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .cont-exp{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+  }
+  .txt-exp{
+    width: 100%;
+    text-align: center;
+  }
+  .txt-exp h5{
+    font-size: 4rem;
+    font-family: 'Muloka';
+    color: #007C98;
+  }
+  .txt-exp p{
+    font-family: 'poppins';
+    font-size: 20px;
+  
+  }
+  .grid-galeria{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 100%;
+  }
+  .item-galeria img{
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  /* razones */
+  #razones{
+    padding: 40px;
+    margin-bottom: 100px;
+  }
+  .cont-raz{
+    text-align: center;
+  }
+  .cont-raz h3{
+    font-size: 4rem;
+    font-family: 'Muloka';
+    color: #007C98;
+  }
+  .grid-raz{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .item-raz{
+    background-color: #fff;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .item-raz h6{
+    font-size: 25px;
+    font-family: 'Poppins';
+    color: #000;
+    font-weight: 500;
+  }
+  .item-raz p{
+    font-size: 18px;
+    font-family: 'poppins';
+  }
+  
+  .item-raz i{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #2B8AFE;
+    font-size: 3rem;
+  }
+  
+  /* contacto */
+  #contacto{
+    background-image: url(../imgs/fondo-contacto.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding: 40px;
+    position: relative;
+  }
+  form{
+    position: absolute;
+    margin-top: 5%;
+    right: 10%;
+  
+  }
+  
+  .control-form{
+    display: flex;
+    gap: 20px;
+  
+  }
+  
+  input, select, textarea{
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px auto;
+  }
+  
+  input::placeholder,
+  select::placeholder,
+  :optional,
+  textarea::placeholder{
+    color: #005668;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'poppins';
+  }
+  
+  form h3{
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Muloka';
+    color: #005668;
+  }
+  
+  .btn-send{
+    background-color: #005668;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+    
+  }
+  
+  footer{
+    background-color: #005668;
+    padding: 40px;
+    font-family: 'Poppins' !important;
+  }
+  .cont-foo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .item-foo img{
+    width: 100%;
+  }
+  .item-foo h4{
+    color: #fff;
+    font-size: 'Poppins';
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    
+  }
+  .listas{
+    display: flex;
+    justify-content: space-between;
+  }
+  .listas li{
+    font-size: 18px;
+    color: #fff;
+    margin: 5px auto;
+    font-weight: 500;
+    font-family: 'poppins';
+  }
+  .separacion{
+    transform: rotate(90deg);
+    border: 2px solid #fff;
+    width: 100%;
+  }
+  
+  .contacto li{
+    margin: 10px 0;
+    list-style: none;
+  }
+  .contacto a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  
+  
+  
+    /*--------------------------------
+                Whatsapp
+    --------------------------------*/
+    .float{
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 10px;
+      left: 10px;
+      background-color:#25d366;
+      color:#fff;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 100;
+  }
+  .float:hover {
+      text-decoration: none;
+      color: #25d366;
+    background-color:#fff;
+  }
+  
+  .my-float{
+      margin-top:16px;
+  }
+  
+  #google-map {
+      line-height: 0;
+      margin: 0;
+      padding: 0;
+    }
+  
+  @media (max-width: 320px){
+    header{
+        height: fit-content;
+        
+    }
+    .container-main{
+        margin: 0;
+    }
+    .cont-header{
+        flex-direction: column;
+        top: 10%;
+      }
+      .logo-v1{
+        width: 100px;
+      }
+      
+      .navbar{
+        background-color: #007C98;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .navbar-toggler{
+        background-color: #007C98;
+        border-radius: 10px;
+      }
+      .nav-link{
+        color: #fff !important;
+      }
+      .navbar-toggler-icon{
+        color: #007C98 !important;
+      }
+      .txt-header{
+        width: 100%;
+      }
+      .txt-header h5{
+        font-size: 16px;
+      }
+      .titulo-prin{
+        font-size: 50px; 
+        width: 100%;
+      }
+      .txt-header p{
+        width: 100%;
+        font-size: 16px;
+      }
+      .puntitos{
+        display: none;
+      }
+      .carrusel{
+        margin-top: 50px;
+      }
+    
+      
+      /* nosotros */
+      #nosotros{
+        height: fit-content;
+      }
+    
+      .logo-us{
+        width: 40%;
+      }
+    
+      .cont-us h4{
+        width: 100%;
+        font-size: 35px;
+      }
+    
+      .cont-us p{
+        font-size: 18px;
+      }
+    
+      .grid-us{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        
+      }
+
+      .item-us{
+        padding: 10px;
+      }
+
+    
+      .item-us img{
+        width: 60%;
+      }
+    
+      .morra1, .morra2{
+        display: none;
+      }
+       /* Tours */
+     
+       .cont-tours{
+        flex-direction: column;
+      }
+      .imagen-tours img{
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+      }
+      .txt-tours h5{
+        font-size: 30px;
+    
+      }
+      .txt-tours p{
+        font-size: 16px;
+        width: 100%;
+      }
+   
+     /* experiencias */
+     .cont-exp{
+       flex-direction: column;
+     }
+     .grid-galeria{
+       grid-template-columns: repeat(1, 1fr);
+     }
+     .txt-exp h5{
+       font-size: 30px;
+     }
+   
+     
+     /* razones */
+     .grid-raz{
+       grid-template-columns: repeat(1, 1fr);
+     }
+     .cont-raz h3{
+       font-size: 30px;
+     }
+     .item-raz p{
+       font-size: 16px;
+     }
+   
+     /* footer */
+     #contacto{
+        position: unset;
+        height: fit-content;
+     }
+     .g-recaptcha{
+        transform: scale(0.8);
+        display: flex;
+        justify-content: center;
+     }
+     form{
+        position: unset;
+     }
+     .control-form{
+        flex-direction: column;
+        gap: 10px;
+     }
+     input, select, textarea{
+        margin: 5px auto;
+     }
+     .cont-foo{
+       flex-direction: column;
+       margin-left: 5%;
+       margin-right: 5%;
+     }
+     .contacto a{
+       margin: 0 auto;
+       text-align: center;
+       font-size: 18px;
+     }
+     .listas{
+        flex-direction: column;
+     }
+     .correo{
+        font-size: 14px !important;
+     }
+  }
+
+
+  @media (min-width: 360px) and (max-width: 720px){
+   
+    header{
+        height: fit-content;
+        
+    }
+    .container-main{
+        margin: 0;
+    }
+    .cont-header{
+        flex-direction: column;
+        top: 10%;
+      }
+      .logo-v1{
+        width: 100px;
+      }
+      
+      .navbar{
+        background-color: #007C98;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .navbar-toggler{
+        background-color: #007C98;
+        border-radius: 10px;
+      }
+      .nav-link{
+        color: #fff !important;
+      }
+      .navbar-toggler-icon{
+        color: #007C98 !important;
+      }
+      .txt-header{
+        width: 100%;
+      }
+      .txt-header h5{
+        font-size: 16px;
+      }
+      .titulo-prin{
+        font-size: 50px; 
+        width: 100%;
+      }
+      .txt-header p{
+        width: 100%;
+        font-size: 16px;
+      }
+      .puntitos{
+        display: none;
+      }
+      .carrusel{
+        margin-top: 50px;
+      }
+    
+      
+      /* nosotros */
+      #nosotros{
+        height: fit-content;
+      }
+    
+      .logo-us{
+        width: 40%;
+      }
+    
+      .cont-us h4{
+        width: 100%;
+        font-size: 35px;
+      }
+    
+      .cont-us p{
+        font-size: 18px;
+      }
+    
+      .grid-us{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        
+      }
+
+      .item-us{
+        padding: 20px;
+      }
+
+    
+      .item-us img{
+        width: 80%;
+      }
+    
+      .morra1, .morra2{
+        display: none;
+      }
+       /* Tours */
+     
+       .cont-tours{
+        flex-direction: column;
+      }
+      .imagen-tours img{
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+      }
+      .txt-tours h5{
+        font-size: 30px;
+    
+      }
+      .txt-tours p{
+        font-size: 16px;
+        width: 100%;
+      }
+   
+     /* experiencias */
+     .cont-exp{
+       flex-direction: column;
+     }
+     .grid-galeria{
+       grid-template-columns: repeat(1, 1fr);
+     }
+     .txt-exp h5{
+       font-size: 30px;
+     }
+   
+     
+     /* razones */
+     .grid-raz{
+       grid-template-columns: repeat(1, 1fr);
+     }
+     .cont-raz h3{
+       font-size: 30px;
+     }
+     .item-raz p{
+       font-size: 16px;
+     }
+   
+     /* footer */
+     
+     #contacto{
+        position: unset;
+        height: fit-content;
+     }
+     .g-recaptcha{
+        transform: scale(1);
+        display: flex;
+        justify-content: center;
+     }
+     form{
+        position: unset;
+     }
+     .control-form{
+        flex-direction: column;
+        gap: 10px;
+     }
+     input, select, textarea{
+        margin: 5px auto;
+     }
+     .cont-foo{
+       flex-direction: column;
+       margin-left: 5%;
+       margin-right: 5%;
+     }
+     .contacto a{
+       margin: 0 auto;
+       text-align: center;
+       font-size: 18px;
+     }
+     .listas{
+        flex-direction: column;
+     }
+     .correo{
+        font-size: 18px !important;
+     }
+   
+   }
+   
+   
+   
+   @media (min-width: 767px) and (max-width: 990px){
+    header{
+        height: fit-content;
+        
+    }
+    .container-main{
+        margin: 0;
+    }
+    .cont-header{
+        flex-direction: column;
+        top: 10%;
+      }
+      .logo-v1{
+        width: 100px;
+      }
+      
+      .navbar{
+        background-color: #007C98;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .navbar-toggler{
+        background-color: #007C98;
+        border-radius: 10px;
+      }
+      .nav-link{
+        color: #fff !important;
+      }
+      .navbar-toggler-icon{
+        color: #007C98 !important;
+      }
+    .txt-header{
+      width: 100%;
+    }
+    .txt-header h5{
+      font-size: 16px;
+    }
+    .titulo-prin{
+      font-size: 5rem; 
+      width: 100%;
+    }
+    .txt-header p{
+      width: 100%;
+      font-size: 20px;
+    }
+    .puntitos{
+      display: none;
+    }
+    .carrusel{
+      margin-top: 50px;
+    }
+  
+  
+  
+     /* nosotros */
+     #nosotros{
+      height: fit-content;
+    }
+  
+    .logo-us{
+      width: 40%;
+    }
+  
+    .cont-us h4{
+      width: 100%;
+      font-size: 35px;
+    }
+  
+    .cont-us p{
+      font-size: 18px;
+    }
+  
+    .grid-us{
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
+    }
+    .item-us{
+      width: 150px;
+    }
+  
+    .item-us img{
+      width: 100%;
+    }
+  
+    .morra1, .morra2{
+      display: none;
+    }
+  
+    
+  /* experiencias */
+  .cont-exp{
+    flex-direction: column;
+  }
+  .grid-galeria{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .txt-exp h5{
+    font-size: 40px;
+  }
+  
+   /* razones */
+   .grid-raz{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .cont-raz h3{
+    font-size: 40px;
+  }
+  .item-raz p{
+    font-size: 16px;
+  }
+  
+  
+  
+   }
+  
+  @media (min-width: 1080px) and (max-width: 1350px){
+    .txt-header{
+      width: 100%;
+    }
+    .txt-header h5{
+      font-size: 18px;
+    }
+    .txt-header h4{
+      font-size: 3rem;
+    }
+    .txt-header p{
+      font-size: 16px;
+      width: 60%;
+    }
+    /* nosotros */
+    .item-us{
+      width: 150px;
+    }
+  
+    .cont-foo{
+      display: flex;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  
+  @media (width: 1366px) and (max-width: 1440px){
+    .txt-header h4{
+      font-size: 3rem;
+    }
+    .carrusel img{
+      max-width: 500px !important;
+    }
+    .puntitos{
+      right: 20%;
+    }
+  
+    /* nosotros */
+    #nosotros{
+      height: 120vh;
+    }
+    .item-us{
+      width: 150px;
+    }
+  
+    #contacto{
+      height: 120vh;
+    }
+  
+    .cont-foo{
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  
+  }
