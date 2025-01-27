@@ -1,0 +1,106 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        margin: 0px 12px;
+    }
+  
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .logo {
+        padding-top: 5px;
+    }
+    .banner {
+        min-height: 550px;
+    }
+    .text-bg h1 {
+        font-size: 70px;
+    }
+   
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        padding-top: 0px !important;
+        margin-top: -31px;
+    }
+    .navigation .navbar-collapse {
+        background: #;
+        padding: 20px;
+        margin-top: 73px;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .d_none {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        height: 122px;
+    }
+    .logo {
+        padding-top: 5px;
+        float: left;
+        width: 140px;
+    }
+    .banner {
+        min-height: 550px;
+        padding-top: 37%;
+    }
+    .text-bg h1 {
+        font-size: 44px;
+        line-height: 55px;
+    }
+   
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+    }
+    .navigation .navbar-collapse {
+        background: #003B79;
+        padding: 20px;
+        margin-top: 10px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        border: inherit;
+        margin-top: -71px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .d_none {
+        display: none;
+    }
+}
