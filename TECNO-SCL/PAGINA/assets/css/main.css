@@ -1,0 +1,1076 @@
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+p{
+    font-family: 'Rajdhani', sans-serif;
+    color: #717171;
+}
+h1{
+    font-family: 'Rajdhani', sans-serif;
+}
+h2{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+/* Navegacion */
+nav{
+    background-color: #083aa9;
+    height: 5.26vw;
+}
+
+.checkbtn{
+    display: none;
+}
+
+nav .container{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 5.26vw;
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: 1fr 4fr;
+    position: fixed;
+    background-color: #083aa9;
+    z-index: 100;
+}
+
+.nav-elements-list{
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    color: white;
+    font-size: 1.8421vw;
+    font-weight: 1000;
+    margin-left: 2.6315vw;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: #caa72f;
+}
+
+.nav-element{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    justify-content: center;
+}
+
+.nav-logo{
+    margin-left: 1.578vw;
+}
+.nav-element h1{
+    color: white;
+    font-size: 2.6315vw;
+    font-weight: 1000;
+}
+
+/* Variedad */
+
+/* Variedad box */
+
+.var-container{
+    width: 100%;
+    height: 9.47vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 4.736vw;
+    
+}
+
+
+.var-container .box{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #2f65c7;
+    border-radius: 0.9473vw;
+    margin-right: 1.315vw;
+    height: 100%;
+    width: 20vw;
+    color: white;
+}
+
+.box-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-text p{
+    font-size: 1.578vw;
+    color: white;
+}
+.box-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-img img{
+    width: 5.263vw;
+    height: auto;
+}
+
+/* Variedad-content */
+
+#variedad{
+    background-color: #083aa9;
+    background-image: url('../imgs/fondo.jpg');
+    height: 15.789vw;
+    width: 100%;
+}
+.variedad-content{
+    position: relative;
+    bottom: 3.684vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    text-align: center;
+}
+
+.variedad-content h2{
+    font-size: 3.684vw;
+}
+
+/* Experiencia */
+
+#exp{
+    height: auto;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.exp-content{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+}
+
+.exp-txt{
+    display: flex;
+    align-items: center;
+}
+
+.exp-txt-container{
+    margin-right: 3.684vw;
+}
+.exp-txt-container h2{
+    color: #083aa9;
+    font-size: 4.473vw;
+    font-weight: 1000;
+}
+.exp-txt-container p{
+    font-size: 2.631vw;
+    line-height: 1.1;
+}
+
+.exp-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .exp-img-container{
+    height: 750px;
+    width: 500px;
+    border-radius: 20px;
+} */
+
+/* Reparacion */
+#reparacion{
+    margin-top: 1.052vw;
+    height: 23.684vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.reparacion-content{
+    border-radius: 4.21vw;
+    height: 100%;
+    width: 84%;
+    background-color: #083aa9;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.reparacion-txt{
+    margin-left: 5.263vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.105vw;
+}
+.reparacion-txt h2{
+    line-height: 0.9;
+    margin-right: 9.473vw;
+    color: white;
+    font-size: 5.263vw;
+}
+
+.reparacion-img img{
+    height: 23.684vw;
+    width: auto;
+}
+
+
+/* Venta */
+#venta{
+    margin-top: 3.684vw;
+    height: 63.157vw;
+    width: 100%;
+}
+
+.venta-title{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.venta-title h2{
+    color: #083aad;
+    font-size: 4.736vw;
+}
+
+.venta-content{
+    height: 80%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.venta-content-prod{
+    display: flex;
+    justify-content: center;
+}
+
+.venta-items{
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+}
+
+.venta-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 17.842vw;
+    width: auto;
+}
+
+.venta-img img{
+    max-height: 100%;
+}
+
+.venta-txt{
+    display: flex;
+    justify-content: center;
+    color: #083aad;
+    font-size: 2.105vw;
+    font-weight: 600;
+}
+
+/* fotografia */
+#fotografia{
+    height: 36.842vw;
+    width: 100%;
+    margin-top: 3.684vw;
+}
+
+.fotografia-content{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.fotografia-content-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotografia-txt{
+    width: 31.052vw;
+    margin-left: 8.947vw;
+}
+
+.fotografia-txt h2{
+    color: #083aa9;
+    font-size: 4.21vw;
+}
+.fotografia-txt p{
+    color: #083aa9;
+    font-size: 1.842vw;
+}
+
+.fotografia-content-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8.947vw;
+}
+
+.fotografia-content-img img{
+    width: 26.315vw;
+    height: auto;
+    border-radius: 2.631vw;
+}
+
+/* Ision */
+#ision{
+    width: 100%;
+    height: auto;
+}
+
+.icion-content{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2.1052vw;
+    padding-bottom: 2.1052vw;
+    padding-left: 3.15789vw;
+    padding-right: 1.5789vw;
+}
+.mision{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mision h2{
+    color: #083aa9;
+    font-size: 4.21vw;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.mision p{
+    font-size: 2.631vw;
+    text-align: justify;
+    line-height: 90%;
+}
+
+.vision{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vision h2{
+    color: #083aa9;
+    font-size: 4.21vw;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.vision p{
+    font-size: 2.631vw;
+    text-align: justify;
+    line-height: 90%;
+}
+
+/* Valores */
+
+#valores{
+    height: auto;
+    width: 100%;
+    margin-bottom: 6.3157vw;
+}
+.valores-content{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.valores-txt h2{
+    color: #083aa9;
+    font-size: 4.21vw;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.valores-txt ul{
+    list-style-type: none;
+    font-size: 2.631vw;
+    color: black;
+    line-height: 90%;
+}
+
+.valores-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.valores-txt div{
+    width: 90%;
+}
+
+.valores-img img{
+    width: 29.21052vw;
+    height: auto;
+}
+
+
+/* INTERNET */
+
+#internet{
+    height: auto;
+    width: 100%;
+    background-color: #083aa9;
+}
+
+.internet-content{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.internet-txt{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.internet-txt div{
+    width: 60%;
+    margin-top: 1.5789vw;
+}
+
+.internet-txt h2{
+    color: white;
+    font-size: 8.61vw;
+    font-weight: 1000;
+}
+
+.internet-txt p{
+    color: white;
+    font-size: 2.1052vw;
+}
+
+.internet-img img{
+    width: 28.57894vw;
+    height: auto;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18.4210vw;
+    height: 3.6842vw;
+    background-color: #caa72f;
+    color: white !important;
+    font-size: 2.1052vw;
+    font-weight: 1000;
+}
+
+.btn:active{
+    background-color: #2f65c7;
+}
+
+
+/* Mision-internet */
+
+#mision-internet{
+    height: auto;
+    width: 100%;
+    padding: 1.05263vw;
+}
+
+.mision-internet-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.526315vw;
+}
+
+.mision-internet-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mision-internet-box div{
+    height: auto;
+    width: 87%;
+    background-color: #f1f1f1;
+    padding: 0.526315vw 1.31578vw 0.526315vw 1.05263vw;
+    border-radius: 1.05263vw;
+}
+
+.mision-internet-box h2{
+    text-align: center;
+    color: #083aa9;
+    font-size: 1.8421vw;
+    font-weight: 1000;
+}
+
+.mision-internet-box p{
+    color: black;
+    font-size: 1.57894vw;
+    line-height: 120%;
+}
+
+
+/* FOOTER */
+
+footer{
+    height: auto;
+    width: 100%;
+    padding-top: 1.0526vw;
+    padding-bottom: 1.0526vw;
+    background-color: #083aa9;
+}
+
+.footer-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.footer-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content h2{
+    color: white;
+    font-size: 2.63157vw;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.footer-content p{
+    color: white;
+    text-align: center;
+    font-size: 1.31578vw;
+}
+
+.footer-content a{
+    color: white;
+    text-align: center;
+    letter-spacing: 0.0736842105vw;
+}
+
+.footer-content i{
+    text-align: center;
+}
+
+.hamb{
+    display: none;
+}
+
+/* Responsive */
+@media (max-width: 1650px) {
+    .exp-img-container img{
+        height: 49.878vw;
+        width: auto;
+    }
+}
+@media (max-width: 1500px){
+    .exp-txt{
+        padding-left: 0.5263vw;
+    }
+}
+
+@media (max-width: 768px) {
+    nav{
+        display: flex;
+        align-items: center;
+        height: 6.510vw;
+    }
+    .nav-logo h1{
+        font-size: 3.90625vw;
+    }
+    #variedad{
+        display: block;
+        height: auto;
+        padding-top: 1.953125vw;
+    }
+    .variedad-content{
+        position: static;
+    }
+
+    .variedad-content h2{
+        font-size: 5.859375vw;
+    }
+    .var-container{
+        position: static;
+        height: 58.59375vw;
+        display: none;
+    }
+    .var-container .box{
+        height: 30%;
+        margin-bottom: 1.953125vw;
+        width: 58.59375vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .var-container .box p{
+        font-size: 4.557vw;
+    }
+
+    .box-img img{
+        height: 11.71875vw;
+        width: auto;
+    }
+}
+
+@media (max-width: 425px) {
+
+    /* Nav */
+
+    nav{
+        height: 90px;
+        /* background-color: #083aa9; */
+    }
+    .nav-elements-list{
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #083aa9;
+        z-index: 999;
+        /* left: -100%; */
+        visibility: collapse;
+    }
+
+    .checkbtn{
+        margin: 0;
+        display: inline-block;
+    }
+
+    .nav-logo{
+        margin: 0;
+        vertical-align: middle;
+    }
+
+    .nav-logo h1{
+        margin: 0;
+        font-size: 40px;
+    }
+
+    .fa-bars{
+        font-size: 30px;
+        color: white;
+    }
+
+    #check:checked ~ * .fa-bars{
+        color: #caa72f;
+    }
+
+    .nav-main{
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px; 
+    }
+
+    #carouselExampleControls{
+        /* position: fixed; */
+        z-index: -1;
+    }
+
+    .nav-list{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .nav-list a{
+        font-size: 40px;
+    }
+    .nav-tel{
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-tel a{
+        font-size: 40px;
+    }
+    
+
+    nav .container{
+        display: block;
+        position: fixed;
+        height: 90px;
+        background-color: #083aa9;
+    }
+
+    #check:checked ~ .nav-elements-list{
+        /* left: 0; */
+        visibility: visible;
+    }
+
+    
+    
+
+    /* variedad */
+    .variedad-content h2{
+        font-size: 8.5882vw;
+    }
+
+    #exp{
+        height: auto;
+        padding-top: 4.70588vw;
+        margin-top: 0;
+    }
+    .exp-content{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .exp-txt{
+        margin-top: 4.70588vw;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .exp-txt-container{
+        width: 75.2941vw;
+        margin: 0;
+    }
+
+    .exp-txt h2{
+        text-align: center;
+        font-size: 9.4117vw;
+    }
+    .exp-txt p{
+        text-align: center;
+        font-size: 4.7058vw;
+    }
+    .exp-img-container img{
+        height: 82.3529vw;
+        width: auto;
+    }
+
+    #reparacion{
+        height: 94.1176vw;
+    }
+
+    .reparacion-content{
+        display: block;
+        padding-top: 4.7058vw;
+    }
+
+    .reparacion-txt{
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 4.7058vw;
+    }
+
+    .reparacion-txt h2{
+        margin: 0;
+        font-weight: 700;
+        font-size: 7.764705vw;
+    }
+
+    .reparacion-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .reparacion-img img{
+        height: 47.0588vw;
+    }
+
+    .reparacion-txt div{
+        width: 80%;
+    }
+    
+
+    #venta{
+        height: auto;
+    }
+
+    .venta-title{
+        height: auto;
+    }
+
+    .venta-title h2{
+        font-size: 7.0588vw;
+        font-weight: 900;
+    }
+
+    .venta-content{
+        display: block;
+    }
+
+    .venta-img{
+        height: auto;
+    }
+    .venta-img img{
+        height: 37.6470vw;
+        width: auto;
+    }
+    .venta-txt{
+        font-size: 5.8823vw;
+        font-weight: 400;
+    }
+
+    #fotografia{
+        height: auto;
+        margin-bottom: 4.7058vw;
+    }
+
+    .fotografia-content{
+        display: block;
+    }
+
+    .fotografia-txt{
+        margin: 0;
+        height: auto;
+        width: 80%;
+        text-align: center;
+    }
+
+    .fotografia-txt h2{
+        font-size: 10.5882vw;
+        font-weight: 700;
+    }
+
+    .fotografia-txt p{
+        font-size: 7.0588vw;
+    }
+
+    .fotografia-content-img{
+        margin: 0;
+        height: auto;
+        width: 100%;
+    }
+
+    .fotografia-content-img img{
+        height: 42.3529vw;
+        width: auto;
+    }
+
+
+    /* Mision-vision-valores */
+    .icion-content{
+        width: 100%;
+        height: 100%;
+        display: block;
+        padding: 0;
+    }
+
+    .mision{
+        width: 100%;
+    }
+
+    .mision div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 75.2941vw;
+        height: auto;
+    }
+
+    .mision h2{
+        text-align: center;
+        font-size: 9.4117vw;
+    }
+    .mision p{
+        text-align: center;
+        font-size: 4.7058vw;
+        line-height: 1.1;
+    }
+
+    .vision{
+        width: 100%;
+    }
+
+    .vision div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 75.2941vw;
+        height: auto;
+    }
+
+    .vision h2{
+        text-align: center;
+        font-size: 9.4117vw;
+    }
+    .vision p{
+        text-align: center;
+        font-size: 4.7058vw;
+        line-height: 1.1;
+    }
+
+    /* Valores */
+
+    .valores-content{
+        display: block;
+    }
+
+    .valores-content h2{
+        text-align: center;
+        font-size: 9.4117vw;
+    }
+
+    .valores-content ul{
+        padding: 0;
+        text-align: center;
+        font-size: 4.7058vw;
+        line-height: 1.1;
+    }
+
+    .valores-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .valores-img img{
+        width: 80%;
+        height: auto;
+    }
+
+    /* Internet */
+    .internet-content{
+        display: block;
+    }
+
+    .internet-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .internet-txt h2{
+        text-align: center;
+        font-size: 10.5882vw;
+    }
+
+    .internet-txt p{
+        text-align: center;
+        font-size: 4.7058vw;
+        line-height: 1.1;
+    }
+
+    .internet-txt div{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .internet-txt a{
+        width: 180px;
+        height: 40px;
+        font-size: 4.7058vw;
+    }
+
+    .internet-img img{
+        width: 80%;
+        height: auto;
+    }
+
+    /* mision-internet */
+
+    #mision-internet{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .mision-internet-content{
+        display: block;
+    }
+
+    .mision-internet-box{
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+    .mision-internet-box div{
+        padding-top: 20px;
+        border-radius: 20px;
+    }
+    .mision-internet-box h2{
+        font-size: 10.5882vw;
+    }
+
+    .mision-internet-box p{
+        text-align: center;
+        font-size: 4.7058vw;
+        line-height: 1.1;
+    }
+
+    /* Footer */
+
+    footer{
+        padding: 20px;
+    }
+
+    .footer-content{
+        display: block;
+    }
+
+    .footer-logo h2{
+        font-size: 10.5882vw;
+    }
+
+    .footer-contacto h2{
+        font-size: 10.5882vw;
+    }
+
+    .footer-contacto p{
+        font-size: 4.7058vw;
+    }
+
+    .footer-contacto div{
+        width: 80%;
+    }
+}
+  /*--------------------------------
+              Whatsapp
+  --------------------------------*/
+  .float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 40px;
+    background-color:#25d366;
+    color:#fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+     z-index: 100;
+}
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+    margin-top:16px;
+}
+
+#google-map {
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+  }

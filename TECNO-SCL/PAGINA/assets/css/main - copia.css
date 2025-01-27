@@ -1,0 +1,291 @@
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+p{
+    font-family: 'Rajdhani', sans-serif;
+}
+h1{
+    font-family: 'Rajdhani', sans-serif;
+}
+h2{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+/* Navegacion */
+nav{
+    background-color: #083aa9;
+    height: 5.26vw;
+}
+
+nav .container{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 5.26vw;
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nav-element{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    margin-left: 30px;
+}
+.nav-element h1{
+    color: white;
+    font-size: 35px;
+}
+
+/* Variedad */
+
+/* Variedad box */
+
+.var-container{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 90px;
+    
+}
+
+
+.var-container .box{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #2f65c7;
+    border-radius: 18px;
+    margin-right: 25px;
+    height: 100%;
+    width: 380px;
+    color: white;
+}
+
+.box-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-text p{
+    font-size: 30px;
+}
+.box-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-img img{
+    width: 100px;
+    height: auto;
+}
+
+/* Variedad-content */
+
+#variedad{
+    background-color: #083aa9;
+    background-image: url('../imgs/fondo.jpg');
+    height: 300px;
+    width: 100%;
+}
+.variedad-content{
+    position: relative;
+    bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    text-align: center;
+}
+
+.variedad-content h2{
+    font-size: 70px;
+}
+
+/* Experiencia */
+
+#exp{
+    height: 990px;
+    width: 100%;
+}
+
+.exp-content{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+}
+
+.exp-txt{
+    display: flex;
+    align-items: center;
+}
+
+.exp-txt-container{
+    margin-right: 70px;
+}
+.exp-txt-container h2{
+    color: #083aa9;
+    font-size: 85px;
+}
+.exp-txt-container p{
+    font-size: 50px;
+    line-height: 1.1;
+}
+
+.exp-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .exp-img-container{
+    height: 750px;
+    width: 500px;
+    border-radius: 20px;
+} */
+
+/* Reparacion */
+#reparacion{
+    margin-top: 20px;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.reparacion-content{
+    border-radius: 80px;
+    height: 100%;
+    width: 84%;
+    background-color: #083aa9;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.reparacion-txt{
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+.reparacion-txt h2{
+    line-height: 0.9;
+    margin-right: 180px;
+    color: white;
+    font-size: 100px;
+}
+
+
+/* Venta */
+#venta{
+    margin-top: 70px;
+    height: 1200px;
+    width: 100%;
+}
+
+.venta-title{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.venta-title h2{
+    color: #083aad;
+    font-size: 90px;
+}
+
+.venta-content{
+    height: 80%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.venta-content-prod{
+    display: flex;
+    justify-content: center;
+}
+
+.venta-items{
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+}
+
+.venta-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.venta-txt{
+    display: flex;
+    justify-content: center;
+    color: #083aad;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* fotografia */
+#fotografia{
+    height: 700px;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.fotografia-content{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.fotografia-content-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotografia-txt{
+    width: 590px;
+    margin-left: 170px;
+}
+
+.fotografia-txt h2{
+    color: #083aa9;
+    font-size: 80px;
+}
+.fotografia-txt p{
+    color: #083aa9;
+    font-size: 35px;
+}
+
+.fotografia-content-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 170px;
+}
+
+.fotografia-content-img img{
+    width: 500px;
+    height: auto;
+    border-radius: 50px;
+}
+
+/* Responsive */
+
+@media (max-width: 1500px){
+    .exp-txt{
+        padding-left: 10px;
+    }
+}
