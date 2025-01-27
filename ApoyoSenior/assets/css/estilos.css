@@ -1,0 +1,1304 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito", sans-serif !important;
+}
+
+.container-main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* menu */
+.navbar-brand img{
+    width: 200px;
+}
+
+.navbar{
+    background-color: #fff !important;
+}
+
+.navbar-nav{
+    margin-left: auto !important;
+}
+
+.nav-link{
+    color: #0094BD !important;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.insta{
+    background-color: #0094BD;
+    border-radius: 50%;
+    color: #fff !important;
+    display: flex;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.celular{
+   
+    padding: 2px 2px 2px 2px;
+    border: 2px solid #0094BD;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+.celular:hover{
+    color: #fff !important;
+    background-color: #0094BD;
+}
+
+/* banner */
+.banner{
+    background-image: url(/assets/images/banner.jpg);
+    background-size: cover;
+    height: auto;
+}
+
+.cont-banner{
+    padding: 10%;
+    width: 60%;
+    font-family: "Nunito", sans-serif;
+}
+
+.cont-banner h1{
+    color: #0094BD;
+    font-size: 3.5rem;
+    line-height: 0.9;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.cont-banner h2{
+    color: #0094BD;
+    font-size: 2rem;
+    font-weight: 700;
+    width: 85%;
+}
+
+.cont-banner p{
+    color: #000;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.btn-ref{
+    background-color: #0094BD;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+/* nosotros */
+#nosotros{
+    background-image: url(/assets/images/nosotros2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10%;
+    font-family: "Nunito", sans-serif;
+}
+
+.cont-us{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.r-us{
+    width: 90%;
+}
+.r-us h2{
+    font-size: 4.5rem;
+    color: #0094BD;
+    font-weight: 700;
+}
+.r-us p{
+
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.l-us img{
+    width: 90%;
+    margin-right: 0;
+}
+
+/* valores */
+#valores{
+    padding: 10% 10% 0 10%;
+    font-family: "Nunito", sans-serif;
+    margin-top: 20px;
+    
+}
+
+
+
+.cont-val{
+    text-align: center;
+    
+}
+
+.cont-val h2{
+    font-size: 4rem;
+    color: #0094BD;
+    font-weight: 700;   
+}
+
+.cont-val p{
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.1;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.valores{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0 auto;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+.imagen-val{
+    position: relative;
+    z-index: 0;
+}
+
+
+
+.imagen-val img{
+    width: 100%;
+}
+
+.txt-val{
+    position: absolute;
+    z-index: 1;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.txt-val img{
+    width: 50%;
+}
+
+.txt-val h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    width: 80%;
+    margin: 20px auto;
+    line-height: 0.9;
+}
+
+/* Mision */
+#mision{
+    margin-top: -100px;
+    background-color: #0094BD;
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+    padding: 10%;
+    text-align: center;
+}
+
+.cont-mis h2{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.cont-mis p{
+    font-size: 1.5rem;
+}
+
+/* servicios */
+#servicios{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+
+.servicio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.l-ser, .r-ser{
+    width: 100%;
+}
+
+
+
+.tit-ser{
+    margin-top: 100px;
+    font-size: 4rem;
+    color: #0094BD;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.txt-ser h2{
+    color: #0094BD;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.txt-ser p{
+    font-size: 25px;
+    color: #000;
+    font-weight: 500;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.img-ser img{
+    width: 100%;
+}
+
+
+/* contacto */
+#contacto{
+    width: 100%;
+    background-image: url(/assets/images/fondo-contacto.png);
+    background-size: cover;
+   
+}
+.cont-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.r-cont{
+    width: 100%;
+}
+.r-cont img{
+    width: 100%;
+}
+
+.l-cont{
+    padding: 10px;
+    width: 100%;
+}
+
+.l-cont h2{
+    text-align: center;
+    color: #0094BD;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.l-cont form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+form input, form textarea{
+    background-color: #0094BD;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 80% !important;
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+input::placeholder, textarea::placeholder{
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+form button{
+    width: 150px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px;
+    background-color: #0094BD;
+    border: none;
+    margin: 25px auto;
+    border-radius: 10px;
+}
+
+/* footer */
+footer{
+    background-color: #0094BD;
+    padding: 5%;
+}
+.cont-foo{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.img-foo{
+    width: 100%;
+    text-align: center;
+}
+
+.txt-link, .contacto-foo{
+    width: 100%;
+}
+
+.img-foo img{
+    width: 30%;
+}
+
+.img-foo p{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.txt-link{
+    text-align: left !important;
+    color: #fff;
+}
+
+.txt-link h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.txt-link a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.txt-link a:hover{
+    color: aqua;
+    text-decoration: none;
+}
+
+.contacto-foo{
+    color: #fff;
+}
+
+.lista-contacto{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.lista-contacto a{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.lista-contacto a:hover{
+    color: aqua;
+    text-decoration: none;
+}
+
+footer h6{
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+footer h6 a{
+    color: #fff;
+}
+
+
+/*--------------------------------
+              Whatsapp
+  --------------------------------*/
+  .float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    left: 20px;
+    background-color:#25d366;
+    color:#fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+     z-index: 100;
+}
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+    margin-top:16px;
+}
+
+.g-recaptcha{
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* responsive */
+@media (min-width: 100px) and (max-width: 320px){
+    .main-container{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /* faltan main container para otros medios */
+
+    /* nav */
+    .navbar-brand img{
+        width: 80px;
+    }
+
+
+    /* banner */
+
+    .banner{
+        padding: 20px;
+        background-position: center;
+    }
+    .cont-banner{
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px;
+    }
+    .cont-banner h1{
+        font-size: 1.2rem;
+    }
+    .cont-banner h2{
+        font-size: 18px;
+    }
+    .cont-banner p{
+        font-size: 16px;
+    }
+    .btn-ref{
+        font-size: 16px;
+    }
+
+    /* nosotros */
+    #nosotros{
+        padding: 20px;
+    }
+    .cont-us{
+        flex-direction: column;
+    }
+    .r-us{
+        width: 100%;
+    }
+    .r-us h2{
+        font-size: 2rem;
+    }
+    .r-us p{
+        font-size: 16px;
+    }
+    .l-us img{
+        width: 100%;
+    }
+    /*  */
+    #valores{
+        padding: 0;
+    }
+    
+
+    .valores {
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+
+    .con-valor {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Ensure the content is centered */
+        text-align: center;
+        width: 100%;
+    }
+
+    .cont-val h2{
+        font-size: 2rem;
+    }
+
+    .cont-val p{
+        font-size: 18px;
+    }
+
+    .txt-val {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center the text and icons */
+    }
+
+    .txt-val h3 {
+        font-size: 17px;
+        margin-top: 10px; /* Added margin for better spacing */
+    }
+
+    .txt-val img {
+        width: 25%;
+    }
+
+    .imagen-val img {
+        width: 100%;
+    }
+
+    /* Mision */
+
+    #mision{
+        margin: 0;
+        padding: 5%;
+    }
+
+    .cont-mis h2{
+        font-size: 2rem;
+    }
+
+    .cont-mis p{
+        font-size: 18px;
+    }
+
+    /* servicios */
+    #servicios{
+        padding: 10%;
+    }
+    .servicio{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .tit-ser{
+        font-size: 2rem;
+        margin-bottom: 50px;
+    }
+
+    
+
+    .txt-ser h2{
+        font-size: 1.5rem;
+    }
+
+    .txt-ser p{
+        font-size: 18px;
+        width: 100%;
+    }
+
+    /* contacto */
+    #contacto{
+        padding: 0;
+    }
+    .cont-con{
+        flex-direction: column;
+    }
+
+    .cont-foo{
+        flex-direction: column;
+    }
+
+
+}
+
+@media (min-width: 330px) and (max-width: 650px){
+    .main-container{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /* faltan main container para otros medios */
+
+    /* nav */
+    .navbar-brand img{
+        width: 90px;
+    }
+
+    .celular{
+        margin-top: 20px;
+    }
+
+    /* banner */
+
+    .banner{
+        padding: 10px;
+        background-position: center;
+    }
+    .cont-banner{
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px;
+    }
+    .cont-banner h1{
+        font-size: 1.5rem;
+    }
+    .cont-banner h2{
+        font-size: 20px;
+    }
+    .cont-banner p{
+        font-size: 18px;
+    }
+    .btn-ref{
+        font-size: 18px;
+    }
+
+    /* nosotros */
+    #nosotros{
+        padding: 20px;
+    }
+    .cont-us{
+        flex-direction: column;
+    }
+    .r-us{
+        width: 100%;
+    }
+    .r-us h2{
+        font-size: 2.5rem;
+    }
+    .r-us p{
+        font-size: 18px;
+    }
+    .l-us img{
+        width: 100%;
+    }
+    /* Valores */
+    #valores{
+        padding: 0;
+    }
+    
+
+    .valores {
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+
+    .con-valor {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Ensure the content is centered */
+        text-align: center;
+        width: 100%;
+    }
+
+    .cont-val h2{
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+
+    .cont-val p{
+        font-size: 20px;
+    }
+
+    .txt-val {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center the text and icons */
+    }
+
+    .txt-val h3 {
+        font-size: 18px;
+        margin-top: 10px; /* Added margin for better spacing */
+    }
+
+    .txt-val img {
+        width: 50%;
+    }
+
+    .imagen-val img {
+        width: 100%;
+    }
+
+    /* Mision */
+
+    #mision{
+        margin: 0;
+        padding: 5%;
+    }
+
+    .cont-mis h2{
+        font-size: 2.5rem;
+    }
+
+    .cont-mis p{
+        font-size: 20px;
+    }
+
+    /* servicios */
+    #servicios{
+        padding: 10%;
+    }
+    .servicio{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .tit-ser{
+        font-size: 2.5rem;
+        margin-bottom: 50px;
+
+    }
+
+    .txt-ser h2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 2rem;
+    }
+
+    .txt-ser p{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    /* contacto */
+    #contacto{
+        padding: 0;
+    }
+    .cont-con{
+        flex-direction: column;
+    }
+
+    .cont-foo{
+        flex-direction: column;
+    }
+
+
+}
+
+@media (min-width: 660px) and (max-width: 1024px){
+    .main-container{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /* faltan main container para otros medios */
+
+    /* nav */
+    .navbar-brand img{
+        width: 90px;
+    }
+
+
+    /* banner */
+
+    .banner{
+        padding: 20px;
+        background-position: center;
+    }
+    .cont-banner{
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px;
+    }
+    .cont-banner h1{
+        font-size: 2rem;
+        width: 70%;
+    }
+    .cont-banner h2{
+        font-size: 25px;
+        width: 60%;
+        margin-bottom: 25px;
+    }
+    .cont-banner p{
+        font-size: 20px;
+        width: 60%;
+        line-height: 1.2;
+    }
+    .btn-ref{
+        font-size: 20px;
+    }
+
+    /* nosotros */
+    #nosotros{
+        padding: 20px;
+    }
+    .cont-us{
+        flex-direction: column;
+    }
+    .r-us{
+        width: 100%;
+    }
+    .r-us h2{
+        font-size: 3rem;
+    }
+    .r-us p{
+        font-size: 22px;
+    }
+    .l-us img{
+        width: 100%;
+    }
+    /* Valores */
+    #valores{
+        padding: 0;
+    }
+    
+
+    .valores {
+        grid-template-columns: repeat(3, 1fr);
+       
+    }
+
+    .con-valor {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Ensure the content is centered */
+        text-align: center;
+        width: 100%;
+    }
+
+    .cont-val h2{
+        font-size: 3rem;
+        line-height: 1;
+    }
+
+    .cont-val p{
+        font-size: 25px;
+    }
+
+    .txt-val {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center the text and icons */
+    }
+
+    .txt-val h3 {
+        font-size: 20px;
+        margin-top: 10px; /* Added margin for better spacing */
+    }
+
+    .txt-val img {
+        width: 50%;
+    }
+
+    .imagen-val img {
+        width: 100%;
+    }
+
+    /* Mision */
+
+    #mision{
+        margin: 0;
+        padding: 5%;
+    }
+
+    .cont-mis h2{
+        font-size: 4rem;
+    }
+
+    .cont-mis p{
+        font-size: 25px;
+    }
+
+    /* servicios */
+    #servicios{
+        padding: 0;
+    }
+    .servicio{
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .tit-ser{
+        font-size: 2.5rem;
+        margin-bottom: 50px;
+
+    }
+
+    .txt-ser h2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+    }
+
+    .txt-ser p{
+        font-size: 18px;
+        width: 60%;
+    }
+
+    /* contacto */
+    #contacto{
+        padding: 0;
+    }
+    .cont-con{
+        flex-direction: column;
+    }
+
+    .cont-foo{
+        flex-direction: column;
+    }
+
+
+}
+
+@media (min-width: 1024px) and (max-width: 1340px){
+    .main-container{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /* faltan main container para otros medios */
+
+    /* nav */
+    .navbar-brand img{
+        width: 90px;
+    }
+
+
+    /* banner */
+
+    .banner{
+        padding: 20px;
+        background-position: center;
+    }
+    .cont-banner{
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px;
+    }
+    .cont-banner h1{
+        font-size: 2rem;
+        width: 70%;
+    }
+    .cont-banner h2{
+        font-size: 25px;
+        width: 60%;
+        margin-bottom: 25px;
+    }
+    .cont-banner p{
+        font-size: 20px;
+        width: 60%;
+        line-height: 1.2;
+    }
+    .btn-ref{
+        font-size: 20px;
+    }
+
+    /* nosotros */
+    #nosotros{
+        padding: 20px;
+    }
+    .cont-us{
+        flex-direction: column;
+    }
+    .r-us{
+        width: 100%;
+    }
+    .r-us h2{
+        font-size: 3rem;
+    }
+    .r-us p{
+        font-size: 22px;
+    }
+    .l-us img{
+        width: 100%;
+    }
+    /* Valores */
+    #valores{
+        padding: 0;
+    }
+    
+
+    .valores {
+        grid-template-columns: repeat(3, 1fr);
+       
+    }
+
+    .con-valor {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Ensure the content is centered */
+        text-align: center;
+        width: 100%;
+    }
+
+    .cont-val h2{
+        font-size: 3rem;
+        line-height: 1;
+    }
+
+    .cont-val p{
+        font-size: 25px;
+    }
+
+    .txt-val {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center the text and icons */
+    }
+
+    .txt-val h3 {
+        font-size: 20px;
+        margin-top: 10px; /* Added margin for better spacing */
+    }
+
+    .txt-val img {
+        width: 50%;
+    }
+
+    .imagen-val img {
+        width: 100%;
+    }
+
+    /* Mision */
+
+    #mision{
+        margin: 0;
+        padding: 5%;
+    }
+
+    .cont-mis h2{
+        font-size: 4rem;
+    }
+
+    .cont-mis p{
+        font-size: 25px;
+    }
+
+    /* servicios */
+    #servicios{
+        padding: 0;
+    }
+    .servicio{
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .tit-ser{
+        font-size: 2.5rem;
+        margin-bottom: 50px;
+
+    }
+
+    .txt-ser h2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+    }
+
+    .txt-ser p{
+        font-size: 18px;
+        width: 60%;
+    }
+
+    /* contacto */
+    #contacto{
+        padding: 0;
+    }
+
+    .cont-con{
+        align-items: center;
+    }
+
+    .l-cont{
+        padding: 0;
+    }
+
+    
+    form{
+        width: 100%;
+        padding: 0;
+    }
+    
+
+    /* footer */
+
+    .cont-foo{
+        display: flex;
+    }
+
+
+}
+
+@media (min-width: 1360px) and (max-width: 1910px){
+    .main-container{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /* faltan main container para otros medios */
+
+    /* nav */
+    .navbar-brand img{
+        width: 120px;
+    }
+
+
+    /* banner */
+
+    .banner{
+        padding: 20px;
+        background-position: center;
+    }
+    .cont-banner{
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px;
+    }
+    .cont-banner h1{
+        font-size: 3rem;
+        width: 60%;
+    }
+    .cont-banner h2{
+        font-size: 35px;
+        width: 60%;
+        margin-bottom: 25px;
+        line-height: 1.1;
+    }
+    .cont-banner p{
+        font-size: 25px;
+        width: 60%;
+        line-height: 1.2;
+    }
+    .btn-ref{
+        font-size: 25px;
+    }
+
+    /* nosotros */
+    #nosotros{
+        padding: 20px;
+    }
+   
+    .r-us{
+        width: 100%;
+    }
+    .r-us h2{
+        font-size: 4rem;
+    }
+    .r-us p{
+        font-size: 25px;
+    }
+    .l-us img{
+        width: 100%;
+    }
+    /* Valores */
+    #valores{
+        padding: 0;
+    }
+    
+
+    .con-valor {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Ensure the content is centered */
+        text-align: center;
+        width: 100%;
+    }
+
+    .cont-val h2{
+        font-size: 4rem;
+        line-height: 1;
+    }
+
+    .cont-val p{
+        font-size: 25px;
+    }
+
+    
+
+    .txt-val h3 {
+        font-size: 20px;
+        margin-top: 10px; /* Added margin for better spacing */
+    }
+
+    .txt-val img {
+        width: 50%;
+    }
+
+    .imagen-val img {
+        width: 100%;
+    }
+
+    /* Mision */
+
+    #mision{
+        margin: -50px;
+        padding: 5%;
+    }
+
+    .cont-mis h2{
+        font-size: 4rem;
+    }
+
+    .cont-mis p{
+        font-size: 25px;
+    }
+
+    /* servicios */
+    #servicios{
+        padding: 0;
+    }
+    .servicio{
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .tit-ser{
+        font-size: 4rem;
+        margin-bottom: 50px;
+
+    }
+
+    .txt-ser h2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 2.5rem;
+    }
+
+    .txt-ser p{
+        font-size: 25px;
+        width: 60%;
+    }
+
+    /* contacto */
+    #contacto{
+        padding: 0;
+    }
+
+    .cont-con{
+        align-items: center;
+    }
+
+    .l-cont{
+        padding: 0;
+    }
+
+    
+    form{
+        width: 100%;
+        padding: 0;
+    }
+    
+
+    /* footer */
+
+    .cont-foo{
+        display: flex;
+    }
+
+
+}
