@@ -1,0 +1,1382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.main-container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+/* navegación */
+
+.navbar-nav{
+    text-align: center !important;
+    margin: 0 auto;
+}
+.navbar-brand img{
+    width: 80px;
+}
+.nav-link{
+    margin-top: 40px !important;
+    margin-left: 30px;
+    color: #1D3B6D !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*banner*/
+
+#banner{
+    background-image: url(../images/imagenes/fondo_Banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cont-banner{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    padding: 5%;
+}
+
+.izq-banner{
+    width: 100%;
+}
+
+
+.izq-banner h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.izq-banner h2{
+    font-size: 70px;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 0.9;
+}
+
+
+.der-banner img{
+    margin: 0 auto;
+    width: 40%;
+}
+
+/*realizamos*/
+#mision{
+    margin-bottom: 100px;
+}
+
+#reali{
+    padding: 20px;
+}
+
+.tituloser{
+    text-align: center;
+    color: #1D3B6D;
+    font-size: 80px;
+    font-weight: 500;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.realiza{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.realiza-1{
+    justify-content: center;
+}
+
+.reali h2{
+    font-size: 30px;
+    color: 1D3B6D;
+}
+.realiza-1 img{
+    width: 100%;
+}
+
+.realiza-1 p{
+    font-size: 30px;
+    color: #1D3B6D;
+    text-align: center;
+}
+
+/*nosotros*/
+#nosotros{
+    background-image:url(../images/imagenes/fondo_nosotros.jpg);
+    background-size: cover;
+    padding: 100px;
+    margin-bottom: 100px;
+}
+
+.cont-nosotros{
+    text-align: left;
+    align-items: center;
+    width: 60%;
+}
+
+.izq-nosotros{
+    width: 100%;
+}
+
+.izq-nosotros h3{
+    text-align: left;
+    font-size: 100px;
+    color: #ffffff;
+}
+
+.izq-nosotros p{
+    text-align: left;
+    font-size: 25px;
+    color: #ffffff;
+    line-height: 1.5; 
+}
+
+.btn-cta{
+    margin-top: 40px;
+    text-align: left;
+}
+
+.btn-cta a{ 
+    background-color: #ffffff;
+    color: #1D3B6D;
+    padding: 10px;
+    text-align: right !important;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+.btn-cta a:hover{
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;  
+}
+
+/*Cuadros*/
+.mvision{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.cuadrom{
+    background-image: url(/assets/images/fondo-cuadros.jpg);
+    text-align: center;
+    border-radius: 10px;
+    background-size: cover;
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+    color: #fff;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.mvalores{
+    background-image: url(/assets/images/fondo-cuadros.jpg);
+    text-align: center;
+    border-radius: 10px;
+    background-size: cover;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.grid-val{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    margin: 20px;
+}
+
+/*carrusel servicios*/
+
+.btn-vermas{
+    margin-top: 10px;
+    text-align: right;
+}
+.btn-vermas button{ 
+ 
+    background-color: #1D3B6D;
+    color: #ffffff;
+    padding: 10px;
+    text-align: right !important;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-vermas button:hover{
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #1D3B6D;
+    color: #1D3B6D;
+}
+
+#industrial{
+    background-image:url(/assets/images/imagenes/fondo-carrusel.png);
+    background-size: cover;
+    padding: 100px;
+    margin-bottom: 100px; 
+}
+
+.industrial{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+}
+
+.titulos h2{
+    color: #1D3B6D;
+    text-align: center;
+    font-size: 60px;
+}
+
+.titulos h3{
+    color: #1D3B6D;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.box-industrial{
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    background-size: cover;
+    padding: 20px;
+    color: #1D3B6D;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.box-industrial img{
+    text-align: center;
+    width: 100%;
+}
+
+
+#algodon{
+    
+    background-size: cover;
+    padding: 100px;
+    margin-bottom: 100px; 
+}
+
+.algodon{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.titulo-algodon h3{
+    color: #1D3B6D;
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+}
+.box-algodon{
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    background-size: cover;
+    padding: 20px;
+    color: #1D3B6D;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.box-algodon img{
+    text-align: center;
+    width: 100%;
+}
+
+#gabardina{
+    
+    background-size: cover;
+    padding: 100px;
+    margin-bottom: 100px; 
+}
+
+.gabardina{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.titulo-gabardina h3{
+    color: #1D3B6D;
+    text-align: center;
+    font-size: 40px;
+}
+
+.box-gabardina{
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    background-size: cover;
+    padding: 20px;
+    color: #1D3B6D;
+    font-size: 20px;
+    justify-content: center;
+}
+
+#soldador{
+    
+    background-size: cover;
+    padding: 100px;
+    margin-bottom: 100px; 
+}
+
+.soldador{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.titulo-soldador h3{
+    color: #1D3B6D;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.box-soldador{
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    background-size: cover;
+    padding: 20px;
+    color: #1D3B6D;
+    font-size: 20px;
+}
+
+/* modal */
+.modal-content{
+    background-image: url(/assets/images/imagenes/fondo-carrusel.jpg);
+}
+.cont-mbody{
+    display: flex;
+    align-items: center;
+}
+.txt-mbody h3{
+    font-size: 3rem;
+    line-height: 0.9;
+    color: #1D3B6D;
+}
+.txt-mbody h5{
+    font-style: italic;
+    font-size: 20px;
+}
+
+.txt-mbody li{
+    font-size: 20px;
+}
+
+.colores{
+    margin-top: 20px;
+}
+
+.btn-primary{
+    color: #fff !important;
+    background-color: #1D3B6D !important;
+}
+
+
+/* estilos boton catálogo */
+
+
+.floating-button {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+.floating-button .button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px 30px 10px;
+    background-color: #1d3557; /* Cambia el color de fondo */
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.floating-button .button:hover {
+    background-color: #457b9d; /* Cambia el color en hover */
+}
+
+.floating-button .button i {
+    transform: rotate(90deg);
+    margin-top: 8px;
+}
+
+.floating-button .button span {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+
+/*clientes satisfechos*/
+
+.clientes-sati h4{
+    text-align: center;
+    color: #1D3B6D;
+    font-size: 60px;
+}
+
+.grid-clientes{
+    display: grid;
+    grid-template-columns: repeat(6,3fr);
+    margin: 20px;
+    gap: 20px
+
+}
+
+.grid-clientes img{
+    width: 100%;
+}
+
+/*formulario*/
+
+#contacto{
+    background-image:url(/assets/images/imagenes/fondo-contacto.png);
+    background-size: cover;
+    padding: 100px;
+    margin-bottom: 100px; 
+}
+
+.titulo-contacto h4{
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+input, select, textarea{
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    margin: 10px !important;
+}
+
+input::placeholder{
+    color: #1D3B6D;
+}
+
+textarea::placeholder{
+    color: #1D3B6D;
+}
+
+.controls{
+    display: flex;
+    gap: 20px;
+}
+
+select{
+    color: #1D3B6D;
+}
+
+.formulario button{
+    border: none;
+    color: #1D3B6D;
+    padding: 10px;
+}
+
+
+.slick-list img{
+    margin: 0 27px !important;
+}
+
+.slick-slide{
+    margin: 0 24px !important;
+}
+
+
+
+/*--------------------------------
+              Whatsapp
+  --------------------------------*/
+  .float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    left: 20px;
+    background-color:#25d366;
+    color:#fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+    margin-top:16px;
+}
+
+/* footer */
+.cont-foo{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.sec-foo{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.sec-foo img{
+    width: 30%;
+    margin: 0 auto;
+}
+footer li{
+    list-style: none;
+    font-size: 20px;
+    color: #000;
+}
+
+footer a{
+    color: #000;
+    font-size: 20px;
+}
+.sec-foo h3{
+    font-size: 30px;
+}
+.iconos-redes{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+
+/*creditos*/
+
+.creditos{
+   color: #23232359;
+   font-size: 16px;
+   text-align: center;
+}
+.creditos a{
+   text-decoration: none;
+   color: #23232359;
+}
+.creditos a:hover{
+   text-decoration: none;
+}
+
+.movil{
+    display: none !important;
+}
+
+
+
+@media (max-width: 300px){
+    .navbar-nav{
+        text-align: left !important;
+    }
+    .pc{
+        display: none !important;
+    }
+    .movil{
+        display: block !important;
+    }
+    .navbar-brand img{
+        width: 60px !important;
+    }
+    .nav-link{
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
+    /* banner */
+    .cont-banner{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .izq-banner h1{
+        font-size: 20px;
+        line-height: 0.9;
+        margin: 0 auto;
+    }
+    .izq-banner span{
+        font-size: 40px;
+    }
+
+    /* realizamos */
+    #reali{
+        padding: 10px;
+    }
+
+    .tituloser{
+        margin-top: 20px;
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .realiza{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+     }
+
+    /* nosotros */
+    #nosotros{
+        padding: 20px;
+    }
+
+    .cont-nosotros{
+        width: 100%;
+    }
+
+    .izq-nosotros h3{
+        font-size: 30px;
+    }
+
+    .izq-nosotros p{
+        font-size: 18px;
+    }
+    .btn-cta a{
+        font-size: 18px;
+    }
+
+
+    /* cuadros */
+    .mvision{
+        flex-direction: column;
+    }
+    .cuadrom{
+        height: fit-content;
+        margin: 0 auto;
+    }
+
+    .mvalores{
+        margin-top: 20px;
+    }
+
+    .grid-val{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid-val li{
+        list-style: none;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    /* carrusel */
+
+    #industrial, #algodon, #soldador, #gabardina{
+        padding: 20px;
+    }
+
+    .titulos h2{
+        font-size: 30px;
+    }
+
+    .titulos h3{
+        font-size: 25px;
+    }
+
+    .box-industrial, .box-gabardina, .box-industrial, .box-soldador{
+        padding: 10px;
+    }
+    .box-industrial h6, .box-gabardina h6, .box-algodon h6, .box-soldador{
+        font-size: 18px;
+    }
+
+    .box-industrial img, .box-algodon img, .box-gabardina img, .box-soldador img{
+        width: 60%;
+    } 
+    .btn-vermas button{
+        text-align: center !important;
+    }
+
+    .clientes-sati h4{
+        font-size: 30px;
+    }
+    .grid-clientes{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* contacto */
+    #contacto{
+        padding: 10px;
+    }
+    
+    .formulario{
+        width: 100%;
+        padding: 0;
+    }
+
+    .titulo-contacto h4{
+        font-size: 30px;
+    }
+    
+    input, select, textarea{
+        margin: 10px !important; 
+        width: 100%;
+        padding: 10px;
+    }
+
+    .controls{
+        margin: 10px;
+        flex-direction: column;
+        gap: 0;
+    }
+    /* modal */
+    .cont-mbody{
+        flex-direction: column;
+    }
+    .txt-mbody h3{
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+    .im-mbody img{
+        width: 100%;
+
+    }
+
+   /* footer */
+    .cont-foo{
+        flex-direction: column;
+    }
+    .sec-foo{
+        margin: 50px auto;
+    }
+
+    .iconos-redes{
+        width: 50%;
+    }
+    .creditos{
+        font-size: 14px;
+    }
+
+    .creditos a{
+        font-size: 14px;
+    }
+
+    .floating-button .button{
+        font-size: 18px;
+    }
+
+
+}
+
+
+@media (min-width:320px) and (max-width: 700px){
+    .navbar-nav{
+        text-align: left !important;
+    }
+    .pc{
+        display: none !important;
+    }
+    .movil{
+        display: block !important;
+    }
+    .navbar-brand img{
+        width: 60px !important;
+    }
+    .nav-link{
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    /* banner */
+    .cont-banner{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .izq-banner h1{
+        font-size: 20px;
+        line-height: 0.9;
+        margin: 0 auto;
+    }
+    .izq-banner span{
+        font-size: 40px;
+    }
+
+    /* realizamos */
+    #reali{
+        padding: 10px;
+    }
+
+    .tituloser{
+        margin-top: 20px;
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .realiza{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* nosotros */
+    #nosotros{
+        padding: 20px;
+    }
+
+    .cont-nosotros{
+        width: 100%;
+    }
+
+    .izq-nosotros h3{
+        font-size: 30px;
+    }
+
+    .izq-nosotros p{
+        font-size: 18px;
+    }
+    .btn-cta a{
+        font-size: 18px;
+    }
+
+
+    /* cuadros */
+    .mvision{
+        flex-direction: column;
+    }
+    .cuadrom{
+        height: fit-content;
+        margin: 0 auto;
+    }
+
+    .mvalores{
+        margin-top: 20px;
+    }
+
+    .grid-val{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid-val li{
+        list-style: none;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    /* carrusel */
+
+    #industrial, #algodon, #soldador, #gabardina{
+        padding: 20px;
+    }
+
+    .titulos h2{
+        font-size: 30px;
+    }
+
+    .titulos h3{
+        font-size: 25px;
+    }
+
+    .box-industrial, .box-gabardina, .box-industrial, .box-soldador{
+        padding: 10px;
+    }
+    .box-industrial h6, .box-gabardina h6, .box-algodon h6, .box-soldador{
+        font-size: 18px;
+    }
+
+    .box-industrial img, .box-algodon img, .box-gabardina img, .box-soldador img{
+        width: 60%;
+    } 
+    .btn-vermas button{
+        text-align: center !important;
+    }
+
+    .clientes-sati h4{
+        font-size: 30px;
+    }
+    .grid-clientes{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* contacto */
+    #contacto{
+        padding: 10px;
+    }
+    
+    .formulario{
+        width: 100%;
+        padding: 0;
+    }
+
+    .titulo-contacto h4{
+        font-size: 30px;
+    }
+    
+    input, select, textarea{
+        margin: 10px !important; 
+        width: 100%;
+        padding: 10px;
+    }
+
+    .controls{
+        margin: 10px;
+        flex-direction: column;
+        gap: 0;
+    }
+    /* modal */
+    .cont-mbody{
+        flex-direction: column;
+    }
+    .txt-mbody h3{
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+    .im-mbody img{
+        width: 100%;
+
+    }
+
+   /* footer */
+    .cont-foo{
+        flex-direction: column;
+    }
+    .sec-foo{
+        margin: 50px auto;
+    }
+
+    .iconos-redes{
+        width: 50%;
+    }
+    .creditos{
+        font-size: 14px;
+    }
+
+    .creditos a{
+        font-size: 14px;
+    }
+
+    .floating-button .button{
+        font-size: 18px;
+    }
+
+
+}
+
+
+@media (min-width: 770px) and (max-width: 999px){
+    .navbar-nav{
+        text-align: left !important;
+    }
+    .pc{
+        display: none !important;
+    }
+    .movil{
+        display: block !important;
+    }
+    .navbar-brand img{
+        width: 60px !important;
+    }
+    .nav-link{
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    /* banner */
+    .cont-banner{
+        margin: 0 auto;
+        
+        padding: 20px;
+    }
+    .izq-banner h1{
+        font-size: 20px;
+        line-height: 0.9;
+        margin: 0 auto;
+    }
+    .izq-banner span{
+        font-size: 40px;
+    }
+
+    /* realizamos */
+    #reali{
+        padding: 10px;
+    }
+
+    .tituloser{
+        margin-top: 20px;
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .realiza{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* nosotros */
+    #nosotros{
+        padding: 20px;
+    }
+
+    .cont-nosotros{
+        width: 60%;
+    }
+
+    .izq-nosotros h3{
+        font-size: 30px;
+    }
+
+    .izq-nosotros p{
+        font-size: 18px;
+    }
+    .btn-cta a{
+        font-size: 18px;
+    }
+
+
+    /* cuadros */
+    .mvision{
+        flex-direction: column;
+    }
+    .cuadrom{
+        height: fit-content;
+        margin: 0 auto;
+    }
+
+    .mvalores{
+        margin-top: 20px;
+    }
+
+    .grid-val{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid-val li{
+        list-style: none;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    /* carrusel */
+
+    #industrial, #algodon, #soldador, #gabardina{
+        padding: 20px;
+    }
+
+    .titulos h2{
+        font-size: 30px;
+    }
+
+    .titulos h3{
+        font-size: 25px;
+    }
+
+    .box-industrial, .box-gabardina, .box-industrial, .box-soldador{
+        padding: 10px;
+    }
+    .box-industrial h6, .box-gabardina h6, .box-algodon h6, .box-soldador{
+        font-size: 18px;
+    }
+
+    .box-industrial img, .box-algodon img, .box-gabardina img, .box-soldador img{
+        width: 60%;
+    } 
+    .btn-vermas button{
+        text-align: center !important;
+    }
+
+    .clientes-sati h4{
+        font-size: 30px;
+    }
+    .grid-clientes{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* contacto */
+    #contacto{
+        padding: 10px;
+    }
+    
+    .formulario{
+        width: 100%;
+        padding: 0;
+    }
+
+    .titulo-contacto h4{
+        font-size: 30px;
+    }
+    
+    input, select, textarea{
+        margin: 10px !important; 
+        width: 100%;
+        padding: 10px;
+    }
+
+    .controls{
+        margin: 10px;
+        flex-direction: column;
+        gap: 0;
+    }
+    /* modal */
+    .cont-mbody{
+        flex-direction: column;
+    }
+    .txt-mbody h3{
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+    .im-mbody img{
+        width: 100%;
+
+    }
+
+   /* footer */
+    .cont-foo{
+        flex-direction: column;
+    }
+    .sec-foo{
+        margin: 50px auto;
+    }
+
+    .iconos-redes{
+        width: 50%;
+    }
+    .creditos{
+        font-size: 14px;
+    }
+
+    .creditos a{
+        font-size: 14px;
+    }
+
+    .floating-button .button{
+        font-size: 18px;
+    }
+
+
+}
+
+
+@media (min-width: 1010px) and (max-width: 1360px){
+    .navbar-nav{
+        text-align: left !important;
+    }
+    .pc{
+        display: block !important;
+    }
+    .movil{
+        display: none !important;
+    }
+    .navbar-brand img{
+        width: 60px !important;
+    }
+    .nav-link{
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    /* banner */
+    .cont-banner{
+        margin: 0 auto;
+        
+        padding: 20px;
+    }
+    .izq-banner h1{
+        font-size: 20px;
+        line-height: 0.9;
+        margin: 0 auto;
+    }
+    .izq-banner span{
+        font-size: 40px;
+    }
+
+    /* realizamos */
+    #reali{
+        padding: 10px;
+    }
+
+    .tituloser{
+        margin-top: 20px;
+        font-size: 30px;
+        width: 100%;
+    }
+    
+    /* nosotros */
+    #nosotros{
+        padding: 20px;
+    }
+
+    .cont-nosotros{
+        width: 60%;
+    }
+
+    .izq-nosotros h3{
+        font-size: 30px;
+    }
+
+    .izq-nosotros p{
+        font-size: 18px;
+    }
+    .btn-cta a{
+        font-size: 18px;
+    }
+
+
+    /* cuadros */
+    .mvision{
+        flex-direction: column;
+    }
+    .cuadrom{
+        height: fit-content;
+        margin: 0 auto;
+    }
+
+    .mvalores{
+        margin-top: 20px;
+    }
+
+    .grid-val{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid-val li{
+        list-style:disc;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    /* carrusel */
+
+    #industrial, #algodon, #soldador, #gabardina{
+        padding: 20px;
+    }
+
+    .titulos h2{
+        font-size: 2rem;
+    }
+
+    .titulos h3{
+        font-size: 3rem;
+    }
+
+    .box-industrial, .box-gabardina, .box-industrial, .box-soldador{
+        padding: 10px;
+    }
+    .box-industrial h6, .box-gabardina h6, .box-algodon h6, .box-soldador{
+        font-size: 18px;
+    }
+
+    .box-industrial img, .box-algodon img, .box-gabardina img, .box-soldador img{
+        width: 60%;
+    } 
+    .btn-vermas button{
+        text-align: center !important;
+    }
+
+    .clientes-sati h4{
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    .grid-clientes{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    /* contacto */
+    #contacto{
+        padding: 10px;
+    }
+    
+    .formulario{
+        width: 100%;
+        padding: 0;
+    }
+
+    .titulo-contacto h4{
+        font-size: 30px;
+    }
+    
+    input, select, textarea{
+        margin: 10px !important; 
+        width: 100%;
+        padding: 10px;
+    }
+
+    .controls{
+        margin: 10px;
+        flex-direction: column;
+        gap: 0;
+    }
+    /* modal */
+    .cont-mbody{
+        flex-direction: column;
+    }
+    .txt-mbody h3{
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+    .im-mbody img{
+        width: 100%;
+
+    }
+
+   /* footer */
+    
+    .sec-foo{
+        margin: 50px auto;
+    }
+
+    .iconos-redes{
+        width: 50%;
+    }
+    .creditos{
+        font-size: 14px;
+    }
+
+    .creditos a{
+        font-size: 14px;
+    }
+
+    .floating-button .button{
+        font-size: 18px;
+    }
+
+
+}
