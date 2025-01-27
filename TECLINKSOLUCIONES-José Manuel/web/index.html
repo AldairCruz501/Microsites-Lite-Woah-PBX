@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b396c78e84.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
+    <title>TeckLink</title>
+</head>
+<body>
+
+    <header>       
+        <div class="encabezado" id="inicio">
+            <nav>
+                <input type="checkbox" id="check" ">
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars""></i>
+                </label>
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="XAPPIEST" class="logo">
+                </a>
+                <ul id="barra-menu" >
+                    <li><a href="index.html" class="active">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#planes" >Planes</a></li>
+                    <li><a href="#contacto" >Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   
+    <section id="banner">
+        <div class="contenido-ban">
+            <div class="wrapper">
+                <div class="info">
+                    <h3><br><span>Especializados en el servicio de internet</span></h3>                   
+                    
+                </div>
+                <div class="info">
+                    <img src="assets/images/chica-laptop.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="boxes">
+            <div class="wrapper">
+                    <div class="caja">
+                        <div class="content-box">
+                            <i class="fa-solid fa-wifi"></i>
+                            <p>Planes de Internet</p>
+                        </div>
+                    </div>
+                    <div class="caja">
+                        <div class="content-box ">
+                            <i class="fa-solid fa-video"></i>
+                            <p>VideoVigilancia</p>
+                        </div>
+                    </div>
+                    <div class="caja">
+                        <div class="content-box">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            <p>Mantenimiento</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+        
+    <section id="nosotros">
+        <div class="contenido">
+            <div class="tittle">
+                <h2>Quienes Somos</h2>
+            </div>
+            <div class="wrapper">
+                <div class="qnsomos">
+                    <img src="assets/images/tecnology.png" alt="">
+                </div>
+                <div class="qnsomos">
+                    
+                    <p class="text">La misión es satisfacer las necesidades de  servicios de tecnología e informática a la población con el fin de llegar donde nadie más llega; brindando servicio de calidad, soluciones de Internet, Soporte Técnico, mantenimiento de equipos inalámbricos, fomentando a su vez al desarrollo de comunidades. </p><br>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="planes"></div>
+    
+    <section id="internet">
+        <div class="contenido">
+            <div class="tittle">
+                <h2>Planes de Internet</h2>
+            </div>
+            <div class="container">
+               
+                    <div class="wrapper">
+                        <div class="planes">
+                            <div class="info">
+                            <h6>Residencial básico</h6>
+                            <h2>$250</h2>
+                            <h4>3Mbps de Velocidad</h4>
+                            </div>
+                        </div>
+                        <div class="planes">
+                            <div class="info">
+                            <h6>Residencial Profesional</h6>
+                            <h2>$500</h2>
+                            <h4>6Mbps de Velocidad</h4>
+                            </div>
+                        </div>
+                        <div class="planes">
+                            <div class="info">
+                            <h6>Negocios</h6>
+                            <h2>$750</h2>
+                            <h4>10Mbps de Velocidad</h4>
+                         </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="video">
+        <div class="contenido">
+            <div class="tittle-video">
+                <h2>VideoVigilancia</h2>
+            </div>
+            <div class="wrapper">
+                
+                <div class="videotext">
+                    
+                    <p class="text">Configuración y administración de circuito cerrado. </p>
+                    
+                </div>
+                <div class="videoimg">
+                    <img src="assets/images/camara.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+
+    <div class="container">
+        <section id="contacto"> 
+                <div class="encabezado-plans">
+                    <div class="tittle-video">
+                        <h2>¡Contactanos!</h2>
+                    </div>
+                    <div class="wrapper">
+                        <div class="contenido-form">
+                            <img src="assets/images/teclink.png" alt="TeckLink">
+                            <form action="enviar.php" method="POST">
+                                <input class="controls" type="text" name="nombre" placeholder="Nombre:">
+                                <input class="controls" type="email" name="correo" placeholder="Correo electrónico:">
+                                <input class="controls" type="text" name="celular" placeholder="Número de Celular:">
+                                <select class="controls" name="servicio" id="">
+                                    <option value="servicio">Servicio de interes...</option>
+                                    <option value="Cajas de luz">Internet</option>
+                                    <option value="Impresion de lona">VideoVigilancia</option>
+                                    
+                                </select>
+                               
+                                <button type="submit" class="btn-form">Enviar</button>
+                                <br>
+                                <br>
+                                <div class="g-recaptcha" data-sitekey="6LeNsDcjAAAAAHz6jIDV5j93508Q_22MGq5itO4C"></div>
+                                <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                                
+                            </form>
+                        </div>  
+                    </div>
+                </div>
+        </section>
+    </div>
+
+     <!-- GOOGLE MAP -->
+     <section id="google-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.1683266633663!2d-97.71234744977956!3d20.27396837685567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85da79439b16f223%3A0x2d15d150910a334d!2sC.%20Abasolo%2C%20Progreso%20de%20Zaragoza%2C%20Ver.!5e0!3m2!1ses-419!2smx!4v1669478438876!5m2!1ses-419!2smx" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+     </section>  
+
+
+
+    
+     <footer>
+        <div class="container">
+        <div class="wrapper">
+            <div class="cards-footer">
+                <img src="assets/images/logo_blanco.png">
+
+            </div>
+            <div class="cards-footer">
+                <h3>Contacto</h3>
+                <span>Calle Abasolo NO. 130 Colonia Centro, Progreso de Zaragoza, Coahuitlan, veracruz. <br></span>
+                <a href="tel:7841239122"><i class="fa fa-phone"> </i> 784 123 9122</a>
+                <a href="mailto:contacto@teclinksoluciones.com.mx">contacto@teclinksoluciones.com.mx</a>
+            </div>
+          
+
+        </div>
+      
+        </div>
+        <h4 class="pie">Diseñado con <i style="color: red" class="fa-solid fa-heart"></i>  por PbxHosting</h4>
+        </footer>
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   <a href="https://wa.link/6xs0ey" class="float" target="_blank">
+   <i class="fa fa-whatsapp my-float"></i>
+   </a>
+
+</body>
+</html>
