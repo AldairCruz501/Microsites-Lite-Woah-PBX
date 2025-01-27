@@ -1,0 +1,1229 @@
+@font-face{
+    font-family: Crafter;
+    src: url('../fonts/Crafter-Regular.otf');
+}
+
+@font-face{
+    font-family: Gascogne;
+    src: url('../fonts/Gascogne-Regular-Regular.ttf');
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: Crafter, sans-serif;
+    background-color: #f8f8dc;
+    /* height: auto; */
+    /* overflow-x: hidden; */
+}
+
+h1{
+    font-family: Crafter, sans-serif;
+}
+
+h2{
+    font-family: Crafter, sans-serif;
+}
+
+p{
+    font-family: Crafter, sans-serif;
+}
+
+a{
+    font-family: Crafter, sans-serif;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.svg{
+    background-color: transparent;
+}
+
+#checkbtn{
+    display: none;
+}
+
+.carousel-body-responsive{
+    display: none;
+}
+
+/* 
+-----------------------------------------------------------
+--------------------------NAV------------------------------
+-----------------------------------------------------------
+*/
+
+.nav-logo{
+    display: none;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    background-color: transparent;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.nav-list{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-link{
+    color: #f8f8dc;
+    padding: 7px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 0.842105263vw;
+}
+
+.nav-link:hover{
+    border: 2px solid #f8f8dc;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #f8f8dc;
+}
+
+/* 
+-----------------------------------------------------------
+-------------------------BANNER----------------------------
+-----------------------------------------------------------
+*/
+
+.banner-container img{
+    height: 21.0526315vw;
+}
+
+.banner-container{
+    background-image: url('../imgs/menu.png');
+    height: 31.57894736vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 
+-----------------------------------------------------------
+------------------------ABOUT US---------------------------
+-----------------------------------------------------------
+*/
+
+.about-img img{
+    height: 25.7894736vw;
+    position: relative;
+    z-index: 4;
+}
+
+.about-txt h1{
+    font-family: Gascogne;
+    font-size: 2.8947368421vw;
+    text-align: center;
+    line-height: 1;
+    color: #4f1410;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 400px; */
+    padding: 0 12%;
+}
+
+.svg1{
+    position: absolute;
+    transform: translateY(-2.63157894vw);
+    height: 3.68421052vw;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+
+.svg1 path{
+    fill: #f8f8dc;
+}
+
+#about-us{
+    background-color: #f8f8dc;
+}
+
+.about-txt-container{
+    width: 30%;
+}
+
+.about-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.about-btn .pbtn{
+    padding: 15px 30px;
+    background-color: #0a7b43;
+    color: #f8f8dc;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    font-size: 0.8421052631vw;
+}
+
+.about-btn .pbtn:hover{
+    background-color: #f8f8dc;
+    color: #0a7b43;
+    border: 2px solid #0a7b43;
+}
+
+.svg2{
+    position: absolute;
+    transform: translateY(-0.526315789vw);
+    height: 3.68421052vw;
+    overflow: hidden;
+    width: 100%;
+}
+
+.svg2 path{
+    fill: #f8f8dc;
+}
+
+/* 
+-----------------------------------------------------------
+------------------------PASTELES---------------------------
+-----------------------------------------------------------
+*/
+
+.pasteles-container{
+    background-image: url('../imgs/pasteles.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vw;
+}
+
+.pasteles-img img{
+    height: 23.6842105vw;
+    position: relative;
+    z-index: 2;
+}
+
+.pasteles-txt h2{
+    font-size: 6.8421052631vw;
+    letter-spacing: 15px;
+    color: #f8f8dc;
+}
+
+.pasteles-txt-container{
+    padding-top: 50px;
+}
+
+
+
+/* 
+-----------------------------------------------------------
+------------------------PASTELES2---------------------------
+-----------------------------------------------------------
+*/
+
+.svg3{
+    position: absolute;
+    transform: translateY(-1.5789473vw);
+    height: 3.68421052vw;
+    overflow: hidden;
+    width: 100%;
+}
+
+.svg3 path{
+    fill: #f8f8dc;
+}
+
+
+.box-img img{
+    width: 100%;
+}
+
+#pasteles2{
+    background-color: #f8f8dc;
+}
+
+.pasteles2-container{
+    padding-top: 70px;
+}
+
+.pasteles2-box-container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 31.57894736vw;
+    /* width: 100px; */
+}
+
+.box-main1{
+    background-color: #b5aad4;
+    width: 100%;
+    height: 27.89473684vw;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box-main2{
+    background-color: #8c6fa9;
+    width: 100%;
+    height: 27.89473684vw;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pasteles2-box1{
+    width: 19%;
+    display: flex;
+    align-items: end;
+}
+
+.pasteles2-box2{
+    width: 19%;
+    display: flex;
+    /* align-items: end; */
+}
+
+.pasteles2-container{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.box-txt-container{
+    padding: 25px;
+    padding-bottom: 0;
+}
+
+.box-img{
+    display: flex;
+    justify-content: center;
+}
+
+.box-txt h2{
+    text-align: center;
+    font-size: 1.8vw;
+    margin: 0;
+    margin-top: 20px;
+    color: #f8f8dc;
+}
+
+.box-btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.bbtn{
+    width: 90%;
+    height: 3.157894736vw;
+    background-color: #f8f8dc;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b5aad4;
+    font-family: Gascogne;
+    font-size: 1.5789473vw;
+    letter-spacing: 4px;
+    border: 2px solid transparent;
+}
+
+.bbtn:hover{
+    background-color: #b5aad4;
+    color: #f8f8dc;
+    border: 2px solid #f8f8dc;
+}
+
+.color2{
+    color: #8c6fa9;
+}
+
+.color2 .bbtn:hover{
+    background-color: #8c6fa9;
+}
+
+/* 
+-----------------------------------------------------------
+------------------------PASTELES3---------------------------
+-----------------------------------------------------------
+*/
+
+#pasteles3{
+    background-color: #f8f8dc;
+    padding: 40px 0;
+}
+
+
+.pasteles3-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pasteles3-main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #b5aad4;
+    width: 60%;
+    border-radius: 30px;
+}
+
+.pasteles3-item{
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pasteles3-txt h2{
+    text-align: center;
+    color: #f8f8dc;
+}
+
+.pasteles3-img img{
+    width: 15.78947368vw;
+}
+
+.pasteles3-txt h2{
+    font-size: 1.68421052vw;
+}
+
+
+/* 
+-----------------------------------------------------------
+------------------------PASTELES4--------------------------
+-----------------------------------------------------------
+*/
+
+#pasteles4{
+    background-color: #f8f8dc;
+}
+
+.pasteles4-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.pasteles4-txt{
+    width: 80%;
+    background-color: #b5aad4;
+    padding: 20px 35px;
+    border-radius: 20px;
+}
+
+.pasteles4-txt p{
+    font-family: Gascogne;
+    font-size: 1.5789473vw;
+    margin: 0;
+    color: #f8f8dc;
+    text-align: justify;
+}
+
+.svg4{
+    position: absolute;
+    transform: translateY(-0.526315789vw);
+    height: 3.68421052vw;
+    overflow: hidden;
+    width: 100%;
+}
+
+.svg4 path{
+    fill: #f8f8dc;
+}
+
+
+
+/* 
+-----------------------------------------------------------
+-------------------------POSTRES---------------------------
+-----------------------------------------------------------
+*/
+
+.postres-container{
+    background-image: url('../imgs/postres.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vw;
+}
+
+.postres-img img{
+    height: 450px;
+    position: relative;
+    z-index: 2;
+}
+
+.postres-txt h2{
+    font-size: 6.8421052vw;
+    letter-spacing: 15px;
+    color: #f8f8dc;
+}
+
+.postres-txt-container{
+    padding-top: 50px;
+}
+
+
+/* 
+-----------------------------------------------------------
+-------------------------POSTRES---------------------------
+-----------------------------------------------------------
+*/
+
+.svg5{
+    position: absolute;
+    transform: translateY(-3.15789473vw);
+    height: 3.68421052vw;
+    overflow: hidden;
+    width: 100%;
+}
+
+.svg5 path{
+    fill: #f8f8dc;
+}
+
+
+
+/* 
+-----------------------------------------------------------
+------------------------CAROUSEL---------------------------
+-----------------------------------------------------------
+*/
+
+
+
+.carousel-body{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.carousel-left, .carousel-right{
+    width: 5%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    position: static;
+    width: 100%;
+    height: 100%;
+}
+
+.green{
+    color: #0a7b43;
+}
+
+.fa-chevron-right, .fa-chevron-left{
+    font-size: 1.57894736vw;
+}
+
+#carouselExampleControls, #carouselExampleControls2{
+    width: 90%;
+}
+
+.carousel-item1{
+    width: 20%;
+    height: 26.31578947vw;
+    background-color: #0a7b43;
+    border-radius: 30px;
+    overflow: hidden;
+    /* display: none; */
+}
+
+.carousel-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.carousel-item1 img{
+    width: 100%;
+}
+
+.carousel-body{
+    padding-top: 40px;
+}
+
+.yellow{
+    color: #f2ae41;
+}
+
+
+/* 
+-----------------------------------------------------------
+-------------------------POSTRES---------------------------
+-----------------------------------------------------------
+*/
+#carousel1-txt{
+    margin-top: 20px;
+}
+
+.carousel1-txt-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.carousel1-txt{
+    width: 80%;
+    background-color: #0a7b43;
+    padding: 20px 35px;
+    border-radius: 20px;
+}
+
+.carousel1-txt p{
+    font-family: Gascogne;
+    font-size: 1.57894736vw;
+    margin: 0;
+    color: #f8f8dc;
+    text-align: justify;
+}
+
+/* 
+-----------------------------------------------------------
+-----------------------MESA POSTRES------------------------
+-----------------------------------------------------------
+*/
+
+
+.mesa-postres-container{
+    background-image: url('../imgs/mesa_de_postres.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vw;
+}
+
+.mesa-postres-img img{
+    height: 23.6842105vw;
+    position: relative;
+    z-index: 2;
+}
+
+
+.mesa-postres-txt h2{
+    font-size: 6.84210526vw;
+    letter-spacing: 15px;
+    color: #f8f8dc;
+}
+
+.mesa-postres-txt-container{
+    padding-top: 2.631578947vw;
+    width: 50%;
+}
+
+/* 
+-----------------------------------------------------------
+------------------MESA POSTRES CONTENIDO-------------------
+-----------------------------------------------------------
+*/
+
+.mPostres-container{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    width: 100%;
+    height: 31.5789473vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mPostres-img-container{
+    height: 100%;
+    padding: 0 1.57894736vw;
+    border-radius: 1.57894736vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ef573f;
+}
+
+.mPostres-img-container img{
+    height: 90%;
+    border-radius: 1.57894736vw;
+}
+
+
+.mPostres-txt-container{
+    width: 40%;
+    padding: 1.052631578vw;
+    background-color: #ff8c68;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.mPostres-txt p{
+    font-family: Gascogne;
+    color: #f8f8dc;
+    font-size: 1.578947368vw;
+    line-height: 1;
+    margin: 0;
+}
+
+@media (max-width: 1600px){
+    .mPostres-container{
+        height: 36vw;
+    }
+}
+
+@media (max-width: 1000px){
+    .mPostres-container{
+        height: 40vw;
+    }
+}
+/* 
+-----------------------------------------------------------
+-------------------------SIN AZUCAR------------------------
+-----------------------------------------------------------
+*/
+
+.sAzucar-container{
+    background-image: url('../imgs/sin_azucar.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vw;
+}
+
+.sAzucar-img img{
+    height: 34.2105263vw;
+    position: relative;
+    transform: translateY(-4.210526315vw);
+    z-index: 2;
+}
+
+
+.sAzucar-txt h2{
+    font-size: 6.842105263vw;
+    letter-spacing: 15px;
+    color: #f8f8dc;
+}
+
+.sAzucar-txt-container{
+    padding-top: 2.631578947vw;
+    width: 40%;
+}
+
+@media (max-width: 1000px){
+    .sAzucar-txt h2{
+        font-size: 5.84vw;
+    }
+}
+
+/* 
+-----------------------------------------------------------
+----------------------Carousel azucuar---------------------
+-----------------------------------------------------------
+*/
+
+#sAzucar-txt{
+    margin-top: 20px;
+}
+
+.cAzucar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.cAzucar-txt{
+    width: 80%;
+    background-color: #f2ae41;
+    padding: 20px 35px;
+    border-radius: 20px;
+}
+
+.cAzucar-txt p{
+    font-family: Gascogne;
+    font-size: 1.5789473684vw;
+    margin: 0;
+    color: #f8f8dc;
+    text-align: justify;
+}
+
+/* 
+-----------------------------------------------------------
+------------------------Google map-------------------------
+-----------------------------------------------------------
+*/
+
+#google-map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-map{
+    width: 60%;
+    height: 500px;
+}
+
+/* 
+-----------------------------------------------------------
+--------------------------CONTACT--------------------------
+-----------------------------------------------------------
+*/
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact-container{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.contact-title h2{
+    font-family: Gascogne;
+    font-size: 1.84210526vw;
+    margin: 0;
+}
+
+
+.contact-container p, .contact-container a{
+    font-family: Gascogne;
+    color: black;
+    margin: 0;
+    font-size: 1.05263157vw;
+    line-height: 1.3;
+}
+
+.contact-container a{
+    width: 90%;
+    border: 1px solid transparent;
+    line-height: 1.8;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.contact-container a:hover{
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.contact-title{
+    width: 33%;
+}
+
+.contact-adress{
+    width: 31%;
+    font-family: Gascogne;
+    font-size: 1.05263157vw;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-hour{
+    width: 31%;
+    font-family: Gascogne;
+    font-size: 1.05263157vw;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* 
+-----------------------------------------------------------
+------------------------Carousel 3-------------------------
+-----------------------------------------------------------
+*/
+
+
+
+.svg6{
+    position: absolute;
+    transform: translateY(-0.52631578vw);
+    height: 3.68421052vw;
+    overflow: hidden;
+    width: 100%;
+}
+
+.svg6 path{
+    fill: #f8f8dc;
+}
+
+/* 
+-----------------------------------------------------------
+---------------------------FOOTER--------------------------
+-----------------------------------------------------------
+*/
+
+
+footer{
+    background-image: url('../imgs/menu.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4.210526315vw;
+}
+
+.footer-container{
+    display: flex;
+    width: 90%;
+}
+
+.footer-logo{
+    width: 20%;
+}
+
+.footer-nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-logo img{
+    width: 100%;
+}
+
+.footer-nav .nav-link{
+    height: fit-content;
+}
+
+/* 
+-----------------------------------------------------------
+---------------------------MODAL---------------------------
+-----------------------------------------------------------
+*/
+
+
+.modal-title, .modal-body, .btn-secondary{
+    font-family: Gascogne;
+    color: #f8f8dc;
+}
+
+.modal-content{
+    background-color: #ef573f;
+}
+
+
+/* 
+-----------------------------------------------------------
+-------------------------RESPONSIVE------------------------
+-----------------------------------------------------------
+*/
+
+
+@media (max-width: 768px){
+
+    .footer-nav{
+        display: none;
+    }
+    
+    .nav-container{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        left: -100%;
+        background-color: #f8f8dc;
+        z-index: 998;
+        bottom: 0;
+        transition: all 0.5s;
+        flex-direction: column;
+    }
+    
+    .nav-link{
+        color: black;
+        font-size: 2.6041666vw;
+        padding: 2.6041666vw 7.8125vw;
+    }
+    
+    #checkbtn{
+        width: 100%;
+        position: fixed;
+        display: flex;
+        justify-content: end;
+        padding: 2.6041666vw;
+        z-index: 999;
+    }
+    
+    .checkbtn{
+        font-size: 3.90625vw;
+    }
+    
+    #check:checked ~ .nav-container{
+        left: 0;
+    }
+    
+    .nav-list{
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+    }
+    
+    .nav-logo{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .nav-logo img{
+        width: 50%;
+    }
+    
+    
+    /* BANNER */
+    
+    .banner-container{
+        height: 40vw;
+    }
+    
+    .banner-container img{
+        height: 28vw;
+    }
+    
+    
+    /* ABOUT */
+    
+    .about-container{
+        padding: 2.6041666vw 0;
+        flex-direction: column;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .about-txt-container{
+        width: 80%;
+    }
+    
+    .about-txt h1{
+        font-size: 4.94791666vw;
+    }
+    
+    .about-btn .pbtn{
+        font-size: 2.86458333vw;
+    }
+    
+    .about-img img{
+        height: 30vw;
+    }
+    
+    
+    /* PASTELES 2 */
+    
+    .pasteles2-box-container{
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+    
+    .pasteles2-box1, .pasteles2-box2{
+        width: 80%;
+        margin: 2.6041666vw 0;
+    }
+    
+    .box-main1, .box-main2{
+        height: fit-content;
+    }
+    
+    .bbtn{
+        font-size: 3.5vw;
+        height: 7.2vw;
+        letter-spacing: 0.260416666vw;
+        border-radius: 1.302083333vw;
+    }
+    
+    .box-btn{
+        padding-bottom: 3.25520833vw;
+    }
+    
+    .box-txt h2{
+        font-size: 3.5vw;
+        margin: 2.6041666vw 0;
+    }
+    
+    
+    
+    
+    /* PASTELES 3 */
+    
+    .pasteles3-main{
+        width: 80%;
+        flex-wrap: wrap;
+        padding: 1.953125vw 0;
+    }
+    
+    .pasteles3-item{
+        width: 90%;
+    }
+    
+    .pasteles3-img{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+    
+    .pasteles3-img img{
+        width: 80%;
+    }
+    
+    .pasteles3-txt h2{
+        font-size: 4.5vw;
+    }
+    
+    /* PASTELES 4 */
+    
+    .pasteles4-txt p{
+        font-size: 2.6041666vw;
+    }
+    
+    .carousel-body{
+        display: none;
+    }
+    
+    .carousel-body-responsive{
+        padding-top: 3.90625vw;
+        display: flex;
+    }
+    
+    .carousel-item1{
+        width: 80%;
+        height: 52.0833333vw;
+    }
+    
+    .carousel-left, .carousel-right{
+        height: 52.0833333vw;
+    }
+    
+    #carouselExampleControls3, #carouselExampleControls4{
+        width: 90%;
+    }
+    
+    .carousel1-txt p{
+        font-size: 2.6041666vw;
+    }
+    
+    /* MPOSTRES */
+    
+    .mPostres-container{
+        flex-direction: column;
+        height: fit-content;
+    }
+    
+    .mPostres-img-container{
+        height: 78.125vw;
+    }
+    
+    .mPostres-txt-container{
+        border-radius: 0;
+        border-end-end-radius: 2.6041666vw;
+        border-end-start-radius: 2.6041666vw;
+        width: 60%;
+        padding: 2.6041666vw;
+    }
+    
+    .mPostres-txt p{
+        font-size: 2.6041666vw;
+        text-align: justify;
+    }
+    
+    
+    /* CAZUCAR */
+    .cAzucar-txt p{
+        font-size: 2.6041666vw;
+    }
+    
+    
+    /* GOOGLE MAPS */
+    
+    .google-map{
+        width: 80%;
+    }
+    
+    /* CONTACT */
+    
+    .contact-container{
+        width: 80%;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    
+    .contact-title, .contact-adress, .contact-hour{
+        width: 100%;
+    }
+    
+    .contact-title h2{
+        font-size: 4.55729166vw;
+    }
+    
+    .contact-adress, .contact-adress a, .contact-hour, .contact-hour a{
+        font-size: 2.86458333vw;
+    }
+    
+    /* FOOTER */
+    
+    .footer-logo{
+        width: 35%;
+    }
+    
+    .footer-container{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 525px){
+    .pasteles-txt-container, .postres-txt-container{
+        padding-top: 20px;
+    }
+
+    .mesa-postres-txt-container{
+        width: 60%;
+    }
+
+    .mesa-postres-txt h2{
+        font-size: 5vw;
+    }
+
+    .sAzucar-txt-container{
+        width: 50%;
+    }
+
+    .pasteles-txt h2{
+        font-size: 6vw;
+        letter-spacing: 10px;
+    }
+}
+
+@media (max-width: 425px){
+    .svg2, .svg4, .svg6{
+        height: 5.5vw;
+    }
+
+    .mesa-postres-txt h2 ,.sAzucar-txt h2{
+        margin: 0;
+        padding-top: 5px;
+    }
+
+    .sAzucar-txt h2{
+        letter-spacing: 12px;
+    }
+}
