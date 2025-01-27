@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Formulario Venta</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <style type="text/css">
+    #part-2, #part-3, #part-4, #part-5, #part-6, #part-input, #part-7, #part-8, #part-9, #butn{
+        display: none;
+    }
+    
+</style>
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+    <div class="container">
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a class="navbar-brand text-brand" href="index.html"><img src="img/logo.jpg"></a>
+      <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse"
+        data-target="#navbarTogglerDemo01" aria-expanded="false">
+        <span class="fa fa-search" aria-hidden="true"></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="https://casv3.com/index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://casv3.com/#nosotros">Nosotros</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Casas
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://casv3.com/#casa">Comprar</a>
+              <a class="dropdown-item" href="https://casv3.com/#casa">Vender</a>
+              <a class="dropdown-item" href="https://casv3.com/#casa">Rentar</a>
+            
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://casv3.com/#propiedades">Terrenos</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://casv3.com/#contacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tel:526692380313">Llámanos: 669 238 0313</a>
+          </li>
+        </ul>
+        
+      </div>
+      
+        
+      
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+
+
+
+
+  <!--/ Contact Star /-->
+  <div class="cuestionario">
+    <section class="contact">
+      <div class="container">
+        <div class="content-box">
+          <div class="encabezado">
+            <h1>Estas a un paso de vender tu casa tu casa</h1>
+            <hr>
+        <div class="">
+          <div class="">
+            <div class="">
+              <div class="">
+                <form class="form-a contactForm" action="enviar_venta.php" method="post" role="form">
+                  <div id="sendmessage">Your message has been sent. Thank you!</div>
+                  <div id="errormessage"></div>
+                  <div class="">
+                    
+                    <div id="part-1" class="form-group">
+                      <input type="text" name="nombre" placeholder="Escribe tu nombre..." class="form-class">
+                      <button type="button" class="btn btn-a" onclick="mostrarParte2();">Siguiente</button>  
+                    <div class="validation"></div>
+                    </div>
+
+                    <div id="part-2" class="form-group">
+                      <input type="number" name="numero" placeholder="Número de Teléfono" class="form-class">    
+                     <a  class="btn btn-a" onclick="mostrarParte3();">Siguiente</a>
+                    
+                      <div class="validation"></div>
+                    </div>
+              
+                     <div id="part-3" class="form-group">
+                      <label for="">¿Donde está ubicada tu vivienda?</label>
+                     <input type="text" name="vivienda" placeholder="Escribe la dirección" class="form-class">
+                      <a class="btn btn-a" onclick="mostrarParte4();">Siguiente</a>
+                      
+                      <div class="validation"></div>
+                    </div>
+                 
+                    <div id="part-4" class="form-group">
+                      <label for="">¿La vivienda está libre de gravamen?</label>
+                      <select name="gravamen" >
+                        <option value="Si">Si</option>
+                        <option value="No">No</option>
+                      </select>
+                      <a  class="btn btn-a" onclick="mostrarParte5();">Siguiente</a>
+                      <div class="validation"></div>
+                    </div>     
+                 
+                  
+                    <div id="part-5" class="form-group">
+                      <label for="">¿Ya tienes un avaluó de tu vivienda?</label>
+                      <select name="hm">
+                        <option value="Si">Si</option>
+                        <option value="No">No</option>
+                      </select>
+                      <a  class="btn btn-a" onclick="mostrarParte6();">Siguiente</a>
+                      
+                      <div class="validation"></div>
+                    </div>
+                    
+                    <div id="part-6" class="form-group">
+                      <input type="text" name="cuartos" placeholder="¿Cuántos cuartos tiene la vivienda?" class="form-class"> 
+                      <a  class="btn btn-a" onclick="mostrarParte7();">Siguiente</a>              
+                      <div class="validation"></div>
+                    </div>
+                 
+                   
+                    <div id="part-7" class="form-group">
+                      <input type="text" name="tiempo" placeholder="¿Cuánto tiempo llevas vendiéndola?" class="form-class">
+                      <a class="btn btn-a" onclick="mostrarParte8();">Siguiente</a>               
+                      <div class="validation"></div>
+                    </div>
+
+                    <div id="part-8" class="form-group">
+                      <p>Gracias por contestar este formulario, después de checar las respuestas uno de nuestros agentes inmobiliarios se pondrá en contacto contigo para agendar una cita para conocer la casa, después de pasar los filtros solicitados se tomará fotografías para la promoción de tu vivienda.</p>
+                      <div class="g-recaptcha" data-sitekey="6LeRcRoiAAAAABaDhs5pWywepn-ZzCbTJGP0QxC8"></div>
+                      <button type="submit" class="btn btn-a">Enviar</button>     
+                    </div>
+                           
+
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+  </div>
+ 
+
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="js/form.js"></script>
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/scrollreveal/scrollreveal.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
