@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/imgs/favicon.jpg" type="image/x-icon">
+    <title>TallerMecánico | ECOAUTO</title>
+    <!--Fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect"  href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--Estilos-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!--Librerias-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b396c78e84.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <section id="navegacion">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/imgs/logo_blanco.png" class="logo-ecoauto" alt="taller ecoauto"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#nosotros">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#servicios">Servicios</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="form-contacto">Contacto</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+            </ul>
+            </div>
+        </div>
+      </nav>
+
+   </section>
+
+   <section id="carrusel">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="contenido-carrusel">
+                <div class="izq-cont">
+                    <img src="assets/imgs/coche1.png" alt="">
+                </div>
+                <div class="der-cont">
+                    <h2>segmento Premier</h2>
+                    <p>Mantenimiento regular y las reparaciones necesarias para asegurar un óptimo funcionamiento y seguridad del vehículo.</p>
+                    <div class="logos-carros">
+                        <img src="assets/imgs/bmw_logo.png" alt="">
+                        <img src="assets/imgs/volvo_logo.png" alt="">
+                        <img src="assets/imgs/audi_logo.png" alt="">
+                        <img src="assets/imgs/jaguar_logo.png" alt="">
+                    </div>
+                    <div class="btn-cta">
+                        <a href="#servicios">Ver más</a>
+                    </div>
+                    
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="contenido-carrusel">
+                <div class="izq-cont2 ">
+                    <h2>Diesel Ligero</h2>
+                    <p>Garantiza su rendimiento y seguridad mediante cambios de aceite regulares y reparaciones preventivas.</p>
+                    <div class="logos-carros2">
+                        <img src="assets/imgs/fiat_logo.png" alt="">
+                        <img src="assets/imgs/ford_logo.png" alt="">
+                        <img src="assets/imgs/peugeot_logo.png" alt="">
+                        <img src="assets/imgs/isuzu_logo.png" alt="">
+                    </div>
+                    <div class="btn-cta2">
+                        <a href="#servicios">Ver más</a>
+                    </div>
+                   
+                </div>
+                <div class="der-cont2">
+                    <img src="assets/imgs/coche2.png" alt="">
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="contenido-carrusel">
+                <div class="izq-cont">
+                    <img src="assets/imgs/coche3.png" alt="">
+                </div>
+                <div class="der-cont">
+                    <h2>Vehículos Híbridos</h2>
+                    <p>Mantenimiento de vehículos híbridos, garantizando su rendimiento óptimo y durabilidad.</p>
+                    <div class="logos-carros">
+                        <img src="assets/imgs/audi_logo.png" alt="">
+                        <img src="assets/imgs/kia_logo.png" alt="">
+                        <img src="assets/imgs/honda_logo.png" alt="">
+                        <img src="assets/imgs/toyota_logo.png" alt="">
+                    </div>
+                    <div class="btn-cta">
+                        <a href="#servicios">Ver más</a>
+                    </div>
+                </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+   </section>
+
+   <section id="nosotros">
+        <div class="cont-nos">
+            <h3>¿Por qué escoger a Taller Mecánico ECOAUTO?</h3>
+
+            <div class="cont-datosnos">
+                <div class="primero-nos">
+                    <h4>+15</h4>
+                    <p>Años de Experiencia</p>
+                </div>
+                <div class="primero-nos">
+                    <h4>+10,000</h4>
+                    <p>Clientes Satisfechos</p>
+                </div>
+            </div>
+            <h3>En ECOAUTO nos diferenciamos por:</h3>
+            
+            <div class="cont-otrosnos">
+                <p> Mejoramos Presupuestos</p>
+                <p>Motores Importados</p>
+                <p>Garantía de Servicios</p>
+            </div>
+        </div>
+   </section>
+
+
+   <section id="servicios">
+        <div class="barraser">
+            <h2>Nuestros <span> Servicios</span></h2>
+        </div>
+
+        <section id="motores">
+            <div class="cont-motores">
+                <div class="izq-mot">
+                    <h1>venta y reparación <span> de motores </span></h1>
+                    <p> El servicio de cotización y venta de motores ofrece precios estimados y asesoría sobre motores adecuados a las necesidades del cliente, culminando en la venta y soporte para su instalación y mantenimiento.</p>
+                    <div class="btn-cta">
+                        <a href="#form-contacto"> Cotizar</a>
+                    </div>
+                </div>
+                <div class="der-mot">
+                    <img src="assets/imgs/motor_rojo.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="vehiculo">
+            <div class="cont-vehiculos">
+                <div class="izq-veh">
+                    <img src="assets/imgs/choche4.png" alt="">
+                </div>
+
+                <div class="der-veh">
+                    <h1> Vehículos <span> Híbridos</span></h1>
+                   <ul class="lista">
+                        <li>Inspección del sistema de propulsión híbrido.</li>
+                        <li>Mantenimiento del sistema de frenos regenerativos.</li>
+                        <li>Cambio de aceite y filtro.</li>
+                        <li>Inspección del sistema de refrigeración.</li>
+                        <li>Mantenimiento del sistema de batería.</li>
+                        <li>Inspección del sistema de transmisión.</li>
+                        <li>Mantenimiento del sistema de control electrónico.</li>
+                   </ul>
+                   <div class="btn-cta">
+                    <a href="#form-contacto"> Cotizar</a>
+                   </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="motores">
+            <div class="cont-diesel">
+                <div class="izq-diesel">
+                    <h1> diesel <span> ligero</span></h1>
+                        <ul class="lista">
+                            <li>Cambio de aceite y filtro.</li>
+                            <li>Revisión del sistema de combustible.</li>
+                            <li>Inspección del sistema de refrigeración.</li>
+                            <li>Mantenimiento del sistema de admisión de aire.</li>
+                            <li>Revisión del sistema de escape.</li>
+                            <li>Inspección de la transmisión.</li>
+                            <li>Revisión del sistema eléctrico.</li>
+                        </ul>
+                    <div class="btn-cta">
+                            <a href="#form-contacto"> Cotizar</a>
+                    </div>
+                </div>
+            
+                <div class="der-diesel">
+                    <img src="assets/imgs/motor_diesel.png" alt="">
+                </div>
+            </div>
+        </section>
+
+
+        <section id="mas-servicios">
+            <div class="cont-masser">
+                <div class="item-serv">
+                    <h3>Diagnóstico por <br> Computadora</h3>
+                    <img src="assets/imgs/diagnostico.png" alt="">
+                    <button type="button" class="btn-cta" data-toggle="modal" data-target="#computadora"> Ver Más</button>
+                </div>
+                <!-- fin pc -->
+
+                <div class="item-serv">
+                    <h3>Cambio de Bandas <br> y Cadenas de Tiempo</h3>
+                    <img src="assets/imgs/banda_tiempo.png" alt="">
+                    <button type="button" class="btn-cta" data-toggle="modal" data-target="#bandas"> Ver Más</button>
+                </div>
+                <!-- fin pc -->
+
+                <div class="item-serv">
+                    <h3>VENTA Y REPARACIÓN DE TRANSMISIONES <br> DE TODOS LOS TIPOS</h3>
+                    <img src="assets/imgs/transmisiones.png" class="transmision" alt="">
+                    <button type="button" class="btn-cta"data-toggle="modal" data-target="#transmisiones"> Ver Más</button>
+                </div>
+                <!-- fin pc -->
+
+                <div class="item-serv">
+                    <h3>Afinación Mayor <br> de Motor</h3>
+                    <img src="assets/imgs/afinacion.png" alt="">
+                    <button type="button" class="btn-cta" data-toggle="modal" data-target="#afinacion"> Ver Más</button>
+                </div>
+                <!-- fin pc -->
+
+                <div class="item-serv">
+                    <h3>Reparaciones <br> de Motor</h3>
+                    <img src="assets/imgs/reparacion.png" alt="">
+                    <button type="button" class="btn-cta" data-toggle="modal" data-target="#reparaciones"> Ver Más</button>
+                </div>
+                <!-- fin pc -->
+
+                <div class="item-serv">
+                    <h3>Fallas de Motor</h3>
+                    <img src="assets/imgs/fallas.png" alt="">
+                    <button type="button" class="btn-cta" data-toggle="modal" data-target="#fallas"> Ver Más</button>
+                </div>
+                <!-- fin pc -->
+            </div>
+            <!-- fin grid -->
+
+        </section>
+
+    <!--Modal 1-->
+        <!-- Button trigger modal -->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="computadora" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Diagnóstico por Computadora</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Escaneo de códigos de error.</li>
+            <li>Monitoreo de sensores en tiempo real</li>
+            <li>Verificación del estado del motor y sus componentes.</li>
+            <li>Ajuste de parámetros para mejorar el rendimiento.</li>
+            <li>Resetear luces de advertencia del tablero.</li>
+            <li>Diagnóstico de sistemas electrónicos como ABS, TCS, ESC, etc.</li>
+            <li>Programación de llaves electrónicas.</li>
+            <li>Actualización de software del vehículo.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!--Modal 2-->
+
+    <!-- Button trigger modal -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="bandas" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Cambio de Banda y Cadenas de Tiempo</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Extracción de la cubierta protectora y accesorios relacionados.</li>
+            <li>Retiro de la banda o cadena de tiempo vieja.</li>
+            <li>Inspección visual de los componentes asociados (poleas, tensores, etc.).</li>
+            <li>Instalación de la nueva banda o cadena de tiempo.</li>
+            <li>Ajuste de la tensión adecuada según las especificaciones del fabricante.</li>
+            <li>Verificación de la alineación y sincronización del motor.</li>
+            <li>Instalación de la cubierta protectora y accesorios.</li>
+            <li>Prueba de funcionamiento para asegurar el correcto funcionamiento del sistema.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Modal 3-->
+
+  <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="transmisiones" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Venta y Reparación de Transmisiones de Todos los Tipos</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Diagnóstico de problemas de transmisión.</li>
+            <li>Desmontaje de la transmisión defectuosa.</li>
+            <li>Inspección visual de los componentes internos.</li>
+            <li>Reemplazo de piezas desgastadas o dañadas.</li>
+            <li>Reconstrucción o reparación de la transmisión según sea necesario.</li>
+            <li>Ajuste y calibración de la transmisión reconstruida.</li>
+            <li>Instalación de la transmisión reparada en el vehículo.</li>
+            <li>Prueba de funcionamiento para garantizar el correcto rendimiento.</li>
+            <li>Venta de transmisiones nuevas o reconstruidas según las necesidades del cliente.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4-->
+
+  <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="afinacion" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Afinación Mayor de Motor</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Reemplazo de bujías.</li>
+            <li>Cambio de filtros de aire, aceite y combustible.</li>
+            <li>Inspección y ajuste de los sistemas de ignición y de encendido.</li>
+            <li>Verificación y ajuste de la sincronización del motor.</li>
+            <li>Inspección y limpieza de inyectores de combustible.</li>
+            <li>Verificación y ajuste de la presión de combustible.</li>
+            <li>Inspección y ajuste de las correas de transmisión.</li>
+            <li>Revisión y cambio de aceite y filtro de aceite.</li>
+            <li>Verificación y ajuste de niveles de líquidos.</li>
+            <li>Prueba de funcionamiento para asegurar un rendimiento óptimo del motor.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5-->
+
+  <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="reparaciones" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Reparaciones de Motor</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <ul>
+                <li>Diagnóstico de problemas del motor.</li>
+                <li>Desmontaje del motor para acceder a las partes internas.</li>
+                <li>Inspección visual de componentes, como pistones, bielas, árbol de levas, etc.</li>
+                <li>Reemplazo o reparación de piezas dañadas o desgastadas.</li>
+                <li>Rectificación de cilindros y culatas si es necesario.</li>
+                <li>Instalación de nuevas piezas, como anillos de pistón, cojinetes, juntas, etc.</li>
+                <li>Ajuste y montaje de componentes según las especificaciones del fabricante.</li>
+                <li>Verificación de la compresión y la presión del aceite después de la reparación.</li>
+                <li>Puesta en marcha y prueba de funcionamiento del motor.</li>
+                <li>Ajuste final y entrega al cliente.</li>
+              </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+<!--Modal 6-->
+
+<!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="fallas" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Fallas de Motor</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        <ul>
+            <li>Diagnóstico de la causa raíz de la falla.</li>
+            <li>Escaneo de códigos de error del motor.</li>
+            <li>Inspección visual de componentes clave, como bujías, cables, inyectores, etc.</li>
+            <li>Pruebas de compresión y presión de combustible.</li>
+            <li>Verificación de la sincronización del motor y la ignición.</li>
+            <li>Inspección de los sistemas de admisión y escape en busca de fugas.</li>
+            <li>Prueba de sensores y actuadores para detectar mal funcionamiento.</li>
+            <li>Reemplazo o reparación de piezas defectuosas o desgastadas.</li>
+            <li>Ajuste de parámetros electrónicos o mecánicos según sea necesario.</li>
+            <li>Prueba de funcionamiento después de la reparación para asegurar que la falla se haya corregido</li>
+        </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   </section>
+
+<section id="proceso-trabajo">
+    <div class="proceso">
+        <h1> NUESTRO PROCESO DE TRABAJO</h1>
+    </div>
+
+    <section id="procesos">
+        <div class="container">
+            <div class="cont-procesos">
+                <ul>
+                 <li><i class="fa-solid fa-check"></i> Trae tu Vehículo</li>
+                 <li><i class="fa-solid fa-check"></i> Solicita tu Cotización</li>
+                 <li><i class="fa-solid fa-check"></i> Repáralo</li>
+            </ul>  
+            </div>
+          
+        </div>
+    </section>
+
+    <img src="assets/imgs/chico_llanta.png" class="guapo" alt="">
+
+</section>
+
+<section id="form-contacto">
+    <div class="formulario">
+        <form action="enviar.php" method="post">
+            <h2>Cotizaciones y Dudas</h2>
+            <h3>Contacto</h3>
+            <div class="controls">
+                <input type="text" name="nombre" placeholder="Nombre: " required>
+                <input type="email" name="correo" placeholder="Correo electrónico" required>
+            </div>
+            <div class="controls">
+                <input type="number" name="celular" placeholder="Número de contacto: " required>
+                <select name="asunto" id="" required>
+                    <option value="Servicio de interes" selected disabled>Servicio de interes...</option>
+                    <option value="reparacion de motores">Venta y Reparación de Motores</option>
+                    <option value="hibridos"> Vehículos híbridos</option>
+                    <option value="diesel ligero"> Diesel Ligero</option>
+                    <option value="diagnostico por computadora"> Diagnóstico por Computadora</option>
+                    <option value="cambio de bandas y cadenas de tiempo"> Cambio de Bandas y Cadenas de Tiempo</option>
+                    <option value="venta y reparacion de transmisiones de todos los tipos"> Venta y Reparación de Transmisiones de Todos los Tipos  </option>
+                    <option value="afinacion mayor de motor"> Afinación Mayor de Motor</option>
+                    <option value="reparaciones de motor"> Reparaciones de Motor </option>
+                    <option value="fallas de motor"> Fallas de Motor</option>
+                </select>
+            </div>
+            <textarea name="mensaje" id="" cols="30" rows="5" placeholder="Escribe tu mensaje..."></textarea>
+            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+            <div class="g-recaptcha" data-sitekey="6Ld1XKQpAAAAABq6Ccr0WQufLL4DH93AThSu8dsN"></div>
+            <button type="submit" class="btn-cta">Enviar</button>
+            
+
+        </form>
+        <div class="google-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d556.5844930489559!2d-87.46485223580856!3d20.207377198983362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4fd6ade788d7e9%3A0x392ba665e1b4b484!2sOmega%20Sur%2C%2077760%20Tulum%2C%20Q.R.!5e0!3m2!1ses-419!2smx!4v1704820084553!5m2!1ses-419!2smx" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>         
+        </div>
+    </div>
+    
+    <a href="https://wa.link/ufkwhb" class="float" target="_blank">
+      <i class="fa fa-whatsapp my-float"></i>
+  </a>
+  
+  
+
+</section>
+
+<section id="footer">
+   
+     <div class="cont-foo">
+           <div class="logo-footer">
+            <img src="assets/imgs/logo_blanco.png" alt="">
+           </div>
+           <div class="enlaces">
+            <h2>Enlaces</h2>
+            <ul>
+                <li> <i class="fa-solid fa-play"></i><a href="#nosotros"> Nosotros</a></li>
+                <li><i class="fa-solid fa-play"></i><a href="#motores"> Mantenimiento Motores</a></li>
+                <li><i class="fa-solid fa-play"></i><a href="#"> Servicio Diesel Ligero</a></li>
+            </ul>
+           </div>
+           <div class="contacto">
+            <h2>Contacto</h2>
+            <ul>
+                <li><i class="fa-solid fa-phone"></i> 33 4295 6342</li>
+                <li><i class="fa-solid fa-location-dot"></i> Ignacio carillo 1281, col. Jardines, Plaza del Sol, 44510, Guadalajara</li>
+                <li><i class="fa-solid fa-envelope"></i> contacto@ecoautomotores.com</li>
+            </ul>
+           </div>
+        </div>
+        <div class="creditos">
+          <h6>Todos los derechos reservados por ECOAUTO | Diseñador por <a href="https://woah.pbxhosting.com.mx/">Woah!</a></h6>
+        </div>
+    
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+    $('#myModal').modal(options)
+</script>
+</body>
+
+</html>

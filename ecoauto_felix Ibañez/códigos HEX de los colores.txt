@@ -1,0 +1,13 @@
+rojo banner: C80000
+boton: 940000
+titulos carrusel: 464343
+titulos:D70000
+boton enviar: D70000
+footer:A30000
+textos: 000000
+fondo servicios: F4F4F4
+
+
+h1: venta y repaciones de motores
+h2:vehiculos hibridos
+h3: diagnostico por computadora

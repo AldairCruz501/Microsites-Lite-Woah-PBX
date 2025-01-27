@@ -1,0 +1,1269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style: none;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* Navegacion */
+.navbar{
+    background-color: #C80000 !important;
+    font-family: 'Poppins', sans-serif;
+}
+.logo-ecoauto{
+    width: 150px;
+}
+.navbar-nav{
+    margin-left: auto !important;
+}
+.nav-link{
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* carrusel */
+.carousel-item{
+    background-image: url(../imgs/fondo_carrusel.png);
+    background-size: cover;
+    background-repeat: none;
+}
+.contenido-carrusel{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 80%;
+    margin: 0 auto;
+}
+.izq-cont{
+    width: 40%;
+    padding: 30px;
+}
+.der-cont{
+    width: 60%;
+    padding: 30px;
+}
+.der-cont h2{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: right;
+    color: #464343;
+}
+.der-cont p{
+    font-size: 22px;
+    text-align: right;
+}
+.izq-cont2{
+    margin-top: 20px;
+    width: 50%;
+    padding: 30px;
+}
+
+.der-cont2{
+    width: 50%;
+    text-align: left;
+    padding: 30px;
+}
+
+.izq-cont2 h2{
+    margin-top: 40px;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #464343;
+}
+.izq-cont2 p{
+    font-size: 22px;
+}
+
+
+.logos-carros{
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    width: 100%;
+}
+.logos-carros2{
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+    width: 100%;
+}
+
+.btn-cta{
+    margin-top: 40px;
+    text-align: right;
+}
+.btn-cta a{ 
+ 
+    background-color: #C80000;
+    color: #fff;
+    padding: 10px;
+    text-align: right !important;
+    border-radius: 10px;
+    font-size: 22px;
+}
+.btn-cta a:hover{
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #C80000;
+    color: #C80000;
+    
+}
+
+.btn-cta2{
+    margin-top: 40px;
+    text-align: left;
+}
+
+.btn-cta2 a{ 
+    background-color: #C80000;
+    color: #fff;
+    padding: 10px;
+    text-align: left !important;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+.btn-cta2 a:hover{
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #C80000;
+    color: #C80000;
+    
+}
+
+/* nosotros */
+#nosotros{
+    background-image: url(../imgs/fondo1.png);
+    background-size: cover;
+    padding: 10%;
+}
+
+.cont-nos{
+    width: 60%;
+    padding: 20px;
+    margin-left: auto;
+    text-align: right;
+    color: #fff;
+}
+
+.cont-datosnos{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.primero-nos h4{
+    font-size: 60px;
+    font-weight: 600;
+}
+.cont-nos h3{
+font-size: 50px;
+}
+
+.cont-otrosnos{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    margin: 20px 0 20px 0;
+
+}
+
+.cont-otrosnos p{
+    font-size: 30px;
+    text-align: center;
+
+}
+
+/* servicios */
+
+.barraser{
+    background-color: #C80000;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.barraser h2{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 200;
+    width: 20%;
+    margin: 0 auto;
+    line-height: 0.9;
+}
+
+.barraser span{
+    font-size: 60px;
+    font-weight: 600;
+    margin: 0 auto;
+    text-align: center;
+    width: 5%;
+    text-transform: uppercase;
+}
+
+
+/* servicio motores */
+
+#motores{
+    background-image: url(../imgs/tuercas1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cont-motores{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.izq-mot, .der-mot{
+    width: 50%;
+    padding: 20px;
+}
+
+.izq-mot h1{
+    text-align: center;
+    color: #D70000;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 65%;
+    line-height: 0.9;
+    margin: 20px auto;
+}
+
+.izq-mot span{
+    font-size:80px;
+    
+}
+
+.izq-mot p{
+    text-align: left;
+    font-size: 20px;
+}
+
+.cont-motores .btn-cta{
+    text-align: left;
+
+}
+
+.der-mot img{
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* vehiculos hibridos*/
+
+#vehiculo{
+    background-image: url(../imgs/tuercas2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cont-vehiculos{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.der-veh, .izq-veh{
+    width: 50%;
+    padding: 20px;
+}
+
+.der-veh h1{
+    text-align: center;
+    color: #D70000;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 65%;
+    line-height: 0.9;
+    margin: 20px auto;
+}
+
+.der-veh span{
+    font-size: 80px;
+}
+
+.der-veh ul{
+    text-align: right;
+    font-size: 20px;
+}
+
+
+
+.cont-veh .btn-cta{
+    text-align: right;
+
+}
+
+.izq-veh img{
+    margin-left: -20%;
+}
+
+/* diesel ligero */
+
+#diesel{
+    background-image: url(../imgs/tuercas1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cont-diesel{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.izq-diesel, .der-diesel{
+    width: 50%;
+    padding: 20px;
+}
+.izq-diesel h1{
+
+    text-align: center;
+    color: #D70000;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 40%;
+    line-height: 0.9;
+    margin: 20px auto;
+}
+
+.izq-diesel span{
+    font-size:80px;
+}
+
+.izq-diesel ul{
+    text-align: left;
+    font-size: 20px;
+}
+
+.lista li{
+    margin-top: 10px;
+}
+
+.cont-diesel .btn-cta{
+    text-align: left;
+}
+
+
+.der-diesel img{
+    margin-left: 6rem ;
+    width: 70%;
+}
+
+/* mas servicios */ 
+.cont-masser button{
+    background-color: #C80000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 22px;
+    outline: none;
+    width: 200px !important;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+#mas-servicios{
+    background-color: #f4f4f4;
+    padding: 40px;
+}
+
+.cont-masser{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+.item-serv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    margin: 5px auto;
+}
+
+.transmision{
+    width: 50% !important;
+}
+
+.item-serv h3{
+    text-transform: uppercase;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.item-serv img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Procesos */
+#proceso-trabajo{
+    position: relative;
+}
+
+.proceso{
+background-color: #C80000;
+padding: 40px;
+
+}
+
+.proceso h1{
+    text-align: left;
+    color: #fff;
+    font-size: 80px;
+    width: 45%;
+    line-height: 0.9;
+    
+}
+
+.cont-procesos{
+    margin-top: 10%;
+    padding: 30px;
+}
+
+.cont-procesos li{
+    font-size: 40px;
+    line-height: 2;
+}
+
+.cont-procesos .fa-check{
+    color: #D70000 !important;
+}
+
+.guapo{
+    position: absolute;
+    top: 20px;
+    
+    right: 0;
+}
+
+/* formulario */
+
+#form-contacto{
+    padding: 40px;
+    position: relative;
+    z-index: 100;
+    background-image: url(../imgs/fondo_contacto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formulario{
+    display: flex;
+    justify-content: space-between;
+    gap: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+form{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+form h2, form h3{
+    color: #fff;
+    line-height: 0.9;
+    text-align: left;
+}
+form h2{
+    font-size: 40px;
+}
+form h3{
+    font-size: 4rem;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+input, select, textarea{
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+input::placeholder{
+    color: #f4f4f4;
+}
+
+textarea::placeholder{
+    color: #f4f4f4;
+}
+
+form button{
+    background-color: #C80000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 22px;
+    outline: none;
+   
+}
+select{
+    color: #fff;
+}
+option{
+    color: #000;
+}
+  
+  /*--------------------------------
+              Whatsapp
+  --------------------------------*/
+  .float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    left: 20px;
+    background-color:#25d366;
+    color:#fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+    margin-top:16px;
+}
+
+.google-map {
+    width: 100%;
+    line-height: 0;
+    margin: 0;
+    padding: 50px auto;
+  }
+
+
+/* footer*/
+#footer{
+   padding: 20px;
+    background-color: #A30000;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cont-foo{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.enlaces h2{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+
+.enlaces{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    line-height: 2;
+}
+
+.enlaces .fa-play{
+    color: #fff !important;
+}
+
+.contacto h2{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+.contacto{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    line-height: 2;
+}
+
+.enlaces a{
+    color: #fff;
+}
+.enlaces a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.creditos h6{
+    color: #f4f4f459;
+    font-size: 14px;
+    text-align: center;
+}
+.creditos a{
+    text-decoration: none;
+    color: #f4f4f459;
+}
+.creditos a:hover{
+    text-decoration: none;
+}
+
+
+/* Responsive */ 
+/* celulares */
+@media (max-width: 450px){
+    .contenido-carrusel{
+        flex-direction: column;
+        padding: 0;
+    }
+    .izq-cont, .der-cont{
+        width: 100%;
+    }
+    .der-cont h2{
+        font-size: 2rem;
+    }
+    .der-cont p{
+        font-size: 18px;
+    }
+    .izq-cont img{
+        width: 100%;
+    }
+    .logos-carros img{
+        width: 15%;
+    }
+    .logos-carros2 img{
+        width: 15%;
+    }
+    
+    .izq-cont2, .der-cont2{
+        width: 100%;
+    }
+    .izq-cont2 h2{
+        font-size: 2rem;
+    }
+    .izq-cont2 p{
+        font-size: 18px;
+    }
+   
+    .der-cont2 img{
+        width: 100%;
+    }
+    .logos-carros2 img{
+        width: 15%;
+    }
+
+    /* Nosotros */
+    #nosotros{
+        background-position: center center;
+    }
+    .cont-nos{
+        width: 100%;
+        padding: 0;
+    }
+    .cont-nos h3{
+        font-size: 2rem;
+    }
+    .primero-nos h4{
+        font-size: 50px;
+    }
+    .cont-otrosnos{
+        flex-direction: column;
+    }
+    .cont-otrosnos p{
+        text-align: right;
+    }
+    
+    /* servicios */
+
+
+    .barraser h2{
+       
+        font-size: 20px;   font-weight: 200;
+        width: 50%;
+        margin: 0 auto;
+        
+    }
+
+    .barraser span{
+        font-size: 30px;
+    }
+
+
+    /* servicio motores */
+
+    #motores{
+        background-image: url(../imgs/tuercas1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .cont-motores{
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .izq-mot, .der-mot{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .izq-mot h1{
+        text-align: center;
+        color: #D70000;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 80%;
+        line-height: 0.9;
+        margin: 20px auto;
+    }
+
+    .izq-mot span{
+        font-size:30px;
+        
+    }
+
+    .izq-mot p{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .cont-motores .btn-cta{
+        text-align: center;
+
+    }
+
+    .der-mot img{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    
+    /* vehiculos hibridos*/
+
+    #vehiculo{
+       background-position: center center;
+        
+    }
+
+    .cont-vehiculos{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .der-veh, .izq-veh{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .der-veh h1{
+        text-align: center;
+        color: #D70000;
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .der-veh span{
+        font-size: 40px;
+    }
+
+    .der-veh ul{
+        text-align: center;
+        font-size: 18px;
+    }
+
+
+
+    .cont-vehiculos .btn-cta{
+        text-align: center !important;
+
+    }
+
+    .izq-veh img{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    
+    /* diesel ligero */
+
+    #diesel{
+        background-image: url(../imgs/tuercas1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .cont-diesel{
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .izq-diesel, .der-diesel{
+        width: 100%;
+        padding: 20px;
+    }
+    .izq-diesel h1{
+
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        width: 60%;
+        margin: 20px auto;
+    }
+
+    .izq-diesel span{
+        font-size:40px;
+    }
+
+    .izq-diesel ul{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .lista li{
+        margin-top: 10px;
+    }
+
+    .cont-diesel .btn-cta{
+        text-align: center;
+    }
+
+
+    .der-diesel img{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    /* mas servicios */
+
+
+    .cont-masser{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+    
+    .item-serv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        margin: 5px auto;
+    }
+    
+    .transmision{
+        width: 80% !important;
+    }
+    
+    .item-serv h3{
+        font-size: 20px;
+        text-transform: uppercase;
+        width: 100%;
+        font-weight: 600;
+        margin: 0 auto;
+    }
+    
+    .item-serv img{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* Procesos */
+    #proceso-trabajo{
+        position: unset;
+    }
+
+    .proceso{
+    background-color: #C80000;
+    padding: 40px;
+
+    }
+
+    .proceso h1{
+        text-align: center;
+        color: #fff;
+        font-size: 30px;
+        width: 100%;
+        line-height: 0.9;
+        
+    }
+
+    .cont-procesos{
+        margin-top: 10%;
+        padding: 30px;
+    }
+
+    .cont-procesos li{
+        font-size: 20px;
+        line-height: 2;
+    }
+
+    .cont-procesos .fa-check{
+        color: #D70000 !important;
+    }
+
+    .guapo{
+        position: unset;
+        top: 20px;
+        width: 100%;
+        right: 0;
+    }
+
+    /* formulario */
+
+    #form-contacto{
+        padding: 40px;
+        position: relative;
+        z-index: 100;
+        background-image: url(../imgs/fondo_contacto.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .formulario{
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    }
+    
+
+    form{
+        text-align: center;
+       
+    }
+
+    form h2, form h3{
+        color: #fff;
+        line-height: 0.9;
+        text-align: center;
+    }
+    form h2{
+        font-size: 20px;
+    }
+    form h3{
+        font-size: 40px;
+    }
+
+    .controls{
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+      
+    }
+
+    input, select, textarea{
+        width: 100%;
+        background-color: transparent;
+        border: 2px solid #fff;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    input::placeholder{
+        color: #f4f4f4;
+    }
+    textarea::placeholder{
+        color: #f4f4f4;
+    }
+
+    form button{
+        background-color: #C80000;
+        color: #fff;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 22px;
+        outline: none;
+    
+    }
+
+        
+    /* footer*/
+    .logo-footer img{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .cont-foo{
+        
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px;
+    }
+
+    .enlaces h2{
+        text-align: center;
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .enlaces{
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        line-height: 2;
+    }
+    .enlaces a{
+        color: #fff;
+    }
+    .enlaces a:hover{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .enlaces .fa-play{
+        color: #fff !important;
+    }
+
+    .contacto h2{
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+    }
+    .contacto{
+        text-align: center;
+        color: #fff;
+        font-size: 14px;
+        line-height: 2;
+    }
+    
+
+    .creditos h6{
+        color: #f4f4f459;
+        font-size: 12px;
+        text-align: center;
+    }
+    .creditos a{
+        text-decoration: none;
+        color: #f4f4f459;
+    }
+    .creditos a:hover{
+        text-decoration: none;
+    }
+
+    .google-map {
+        margin-top: 50px;
+       height: 350px;
+      }
+
+
+}
+/* tablet vertical */
+@media (min-width: 767px) and (max-width: 990px){
+    .contenido-carrusel{
+        flex-direction: column;
+        padding: 0;
+    }
+    .izq-cont, .der-cont{
+        width: 100%;
+    }
+    .der-cont h2{
+        font-size: 2rem;
+    }
+    .der-cont p{
+        font-size: 18px;
+    }
+    .izq-cont img{
+        width: 100%;
+    }
+    .logos-carros img{
+        width: 15%;
+    }
+    .logos-carros2 img{
+        width: 15%;
+    }
+    
+    .izq-cont2, .der-cont2{
+        width: 100%;
+    }
+    .izq-cont2 h2{
+        font-size: 2rem;
+    }
+    .izq-cont2 p{
+        font-size: 18px;
+    }
+   
+    .der-cont2 img{
+        width: 100%;
+    }
+    .logos-carros2 img{
+        width: 15%;
+    }
+
+     /* Nosotros */
+     #nosotros{
+        background-position: center center;
+    }
+    .cont-nos{
+        width: 100%;
+        padding: 0;
+    }
+    .cont-nos h3{
+        font-size: 2rem;
+    }
+    .primero-nos h4{
+        font-size: 60px;
+    }
+    .cont-otrosnos{
+        flex-direction: column;
+    }
+    .cont-otrosnos p{
+        text-align: right;
+    }
+
+
+}
+/* tablet horizontal */
+@media (min-width: 1010px) and (max-width: 1300px){
+    .izq-cont{
+        width: 80%;
+    }
+    .izq-cont img{
+        width: 100%;
+    }
+    .der-cont2{
+        width: 80%;
+    }
+    .der-cont2 img{
+        width: 100%;
+    }
+    .der-cont h2{
+        font-size: 2rem;
+    }
+    .izq-cont2 h2{
+        margin: 0;
+        font-size: 2rem;
+    }
+    .izq-cont2 p{
+        font-size: 18px;
+    }
+    .der-cont p{
+        font-size: 18px;
+    }
+    .logos-carros img{
+        width: 15%;
+    }
+    .logos-carros2 img{
+        width: 15%;
+    }
+    .btn-cta a{
+        font-size: 20px;
+    }
+    .btn-cta2{
+        font-size: 20px;
+    }
+     /* Nosotros */
+     #nosotros{
+        background-position: center center;
+    }
+    .cont-nos{
+        width: 100%;
+        padding: 0;
+    }
+    .cont-nos h3{
+        font-size: 2rem;
+    }
+    .primero-nos h4{
+        font-size: 60px;
+    }
+    .cont-otrosnos{
+        flex-direction: column;
+    }
+    .cont-otrosnos p{
+        text-align: right;
+    }
+    
+
+    
+}
+
+/* laptop */
+@media (min-width: 1360px) and (max-width: 1440px){
+    .izq-cont{
+        width: 80%;
+    }
+    .izq-cont img{
+        width: 100%;
+    }
+    .der-cont2{
+        width: 80%;
+    }
+    .der-cont2 img{
+        width: 100%;
+    }
+    .der-cont h2{
+        font-size: 2rem;
+    }
+    .izq-cont2 h2{
+        margin: 0;
+        font-size: 2rem;
+    }
+    .izq-cont2 p{
+        font-size: 18px;
+    }
+    .der-cont p{
+        font-size: 18px;
+    }
+    .logos-carros img{
+        width: 15%;
+    }
+    .logos-carros2 img{
+        width: 15%;
+    }
+    .btn-cta a{
+        font-size: 20px;
+    }
+    .btn-cta2{
+        font-size: 20px;
+    }
+     /* Nosotros */
+     #nosotros{
+        background-position: center center;
+    }
+    .cont-nos{
+        width: 100%;
+        padding: 0;
+    }
+    .cont-nos h3{
+        font-size: 2rem;
+    }
+    .primero-nos h4{
+        font-size: 60px;
+    }
+   
+    .cont-otrosnos p{
+        text-align: right;
+    }
+}
