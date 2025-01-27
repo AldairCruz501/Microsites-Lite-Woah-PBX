@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/18fa7c0e1a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/css/estilos-reysal.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Reysal</title>
+
+</head>
+<body>
+  <header>
+    <div class="topbar">
+      <div class="cont-bar">
+        <ul class="redes-sociales">
+          <li><i class="fa-brands fa-facebook"></i></li>
+          <li><i class="fa-brands fa-linkedin"></i></li>
+         
+        </ul>
+        <div class="datos-contacto">
+          <p class="telefono"><a href=""><i class="fa-solid fa-phone"></i> 55 4170 8990</a></p>
+          <p class="telefono"><a href=""><i class="fa-solid fa-envelope"></i> ventas@reysaltransport.com.mx</a></p>
+        </div>
+       
+      </div>
+    </div>
+
+    <nav class="navbar">
+      <div class="container">
+        <div class="menu-cont">
+          <img src="/assets/images/logo-reysal.svg" alt="">
+          <button class="navbar-toggle" id="toggle-button">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+       
+        <ul class="menu" id="menu-list">
+          <li class="menu-item">
+            <a href="#">Inicio</a>
+          </li>
+          <li class="menu-item">
+            <a href="#nosotros">Nosotros</a>
+          </li>
+          <li class="menu-item">
+            <a href="#servicios">Servicios</a>
+          </li>
+          <li class="menu-item">
+            <a href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <script>
+     document.getElementById('toggle-button').addEventListener('click', function() {
+  var menu = document.getElementById('menu-list');
+  menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+});
+
+// Asegúrate de agregar este código adicional para ocultar el menú en dispositivos móviles
+window.addEventListener('resize', function() {
+  var screenWidth = window.innerWidth;
+  var menu = document.getElementById('menu-list');
+  
+  if (screenWidth > 767) {
+    menu.style.display = 'flex';
+  } else {
+    menu.style.display = 'none';
+  }
+});
+    </script>
+
+    <div class="botones">
+      <div class="container">
+      <div class="btns">
+        <a href="" class="btn-first">Rentar ahora <i class="fa-solid fa-circle-chevron-right"></i></a>
+        <a href="" class="btn-second">Más información</a>
+      </div>
+    </div>
+    </div>
+
+  </header>
+
+
+  <main>
+    <section id="nosotros">
+      <div class="container">
+        <div class="cont-us">
+          <div class="txt-us">
+            <h4>Nosotros</h4>
+            <p>Somos un corporativo dedicado al transporte terrestre en México y E.U.A., así como a servicios de almacenamiento, comprometido con un equipo de trabajo de expertos enfocados en la mejora continua en beneficio de nuestros clientes.</p>
+          </div>
+          <div class="img-us">
+            <img src="/assets/images/delivery.svg" alt="delivery">
+          </div>
+        </div>
+      </div>
+      <hr class="barra-roja">
+    </section>
+
+
+    
+    <section id="mvision">
+      <div class="container">
+        <div class="grid-mvision">
+          <div class="item-mvision">
+            <div class="circulo">
+              <img src="/assets/images/mision.svg" alt="">
+            </div>
+            <h5>Mision</h5>
+            <p>Lograr la satisfacción de cliente, colocando su mercancía en el tiempo, costo y calidad adecuado</p>
+          </div>
+          <div class="item-mvision ">
+            <div class="circulo activo">
+              <img src="/assets/images/vision.svg" alt="">
+            </div>
+            <h5>Vision</h5>
+            <p>Lograr la satisfacción de cliente, colocando su mercancía en el tiempo, costo y calidad adecuado</p>
+          </div>
+          <div class="item-mvision">
+            <div class="circulo">
+              <img src="/assets/images/valores.svg" alt="">
+            </div>
+            <h5>Valores</h5>
+            <p>
+              <ul>
+                <li>Puntualidad</li>
+                <li>Calidad en servicio</li>
+                <li>Rentabilidad</li>
+                <li>Eficiencia</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+<section id="servicios">
+  <div class="container">
+
+  <div class="cont-ser">
+      <h3 class="titulo">Servicios</h3>
+      <img src="/assets/images/baras.svg" class="barras" alt="">
+
+      <div class="squares-services">
+          <div class="sq-ser">
+              <div class="contenedor-ser">
+                <h4>Transporte</h4>
+                <div class="cont-ser-sq">
+                  <img src="/assets/images/transporte.jpg" alt="">
+                  <div class="p-hover">
+                      <p>Servico puerta a puerta de Transporte terrestre con unidades 1.5 a caja de 53"</p>
+                  </div>
+              </div>
+              </div>
+              
+              <div class="contenedor-ser">
+                <h4>Agencia Aduanal</h4>
+                <div class="cont-ser-sq">
+                  <img src="/assets/images/agencia-aduanal.jpg" alt="">
+                  <div class="p-hover">
+                      <p> Despacho Aduanal por puerto marítimos, Nuevo Laredo, Qro y CDMX</p>
+                  </div>
+              </div>
+              </div>
+              <div class="contenedor-ser">
+                <h4>Seguro de Mercancia</h4>
+                <div class="cont-ser-sq">
+                  <img src="/assets/images/mercancia.jpg" alt="">
+                  <div class="p-hover">
+                      <p>Aseguramos tu carga para mayor tranquilidad en los traslados</p>
+                  </div>
+              </div>
+              </div>
+              <div class="contenedor-ser">
+                <h4>Almacenaje</h4>
+                <div class="cont-ser-sq">
+                  <img src="/assets/images/almacenaje.jpg" alt="">
+                  <div class="p-hover">
+                      <p> Contamos con Almacenes estratégicos en Laredo, Tx, Manzanillo y Querétaro con más de 6,000 m2</p>
+                  </div>
+              </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    
+</div>
+</section>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+  const contSerSq = document.querySelectorAll('.cont-ser-sq');
+
+  contSerSq.forEach(element => {
+      element.addEventListener('mouseover', function() {
+          const pHover = this.querySelector('.p-hover');
+          pHover.style.display = 'block';
+      });
+
+      element.addEventListener('mouseout', function() {
+          const pHover = this.querySelector('.p-hover');
+          pHover.style.display = 'none';
+      });
+  });
+});
+</script>
+
+
+<section class="parallax-section">
+  <div class="parallax-image"></div>
+</section>
+
+<section id="contacto" class="contact-section">
+  <div class="contact-left"></div>
+  <div class="contact-right">
+    <h2>Contacto</h2>
+    <form method="post" action="enviar.php">
+      <!-- Aquí coloca los campos de tu formulario -->
+      <div class="datos-form">
+        <input type="text" name="nombre" placeholder="Nombre">
+        <input type="text" name="empresa" placeholder="Empresa">
+      </div>
+
+      <div class="datos-form">
+        <input type="number" name="celular" placeholder="Numero">
+        <input type="email" name="correo" placeholder="Correo">
+      </div>
+
+      <select name="asunto" id="">
+        <option value="" selected hidden>Escoge una opción...</option>
+        <option value="transporte">Transporte</option>
+        <option value="agencia aduanal">Agencia Aduanal</option>
+        <option value="almacenaje">Almacenaje</option>
+        <option value="seguro">Seguro de mercancia</option>
+      </select>
+      
+      <textarea name="mensaje" id="" cols="30" rows="5" placeholder="Detalles de su envio (Dimensiones (alto x largo x ancho en cm) - Peso (kg) - Dirección de salida y entrega - Fecha de recogida - Fecha de entrega - Tipo de mercancía)"></textarea>
+      
+      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+      <div class="g-recaptcha" data-sitekey="6LfJm-0oAAAAAIhLq8LgtH-Zm70Xp7CgEV2yk1Oe"></div>
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
+</section>
+
+
+   <!-- GOOGLE MAP -->
+   <section id="google-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3701.2000206968114!2d-102.30179162397779!3d21.926860656326156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429efa83f49e517%3A0xecbe3a29e899258b!2sPotreros%20801%2C%20Villas%20de%20San%20Nicol%C3%A1s%2C%2020115%20Aguascalientes%2C%20Ags.!5e0!3m2!1ses-419!2smx!4v1698873794057!5m2!1ses-419!2smx" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </section> 
+
+    <a href="https://wa.me/5542793473" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+  </main>
+
+
+  <footer>
+    <div class="container">
+      <div class="cont-foo">
+        <div class="img-foo">
+          <img src="/assets/images/logo-reysal.svg" alt="">
+        </div>
+        <div class="enlaces">
+          <h4>Servicios</h4>
+          <ul>
+            <li>Transporte</li>
+            <li>Agencia Aduanal</li>
+            <li>Seguro de mercancia</li>
+            <li>Almacenamiento</li>
+          </ul>
+        </div>
+       <div class="datos">
+        <div class="cont-datos">
+          <h4>Contacto</h4>
+          <ul>
+            
+            <a href="tel:4499289583"><li><i class="fa-solid fa-phone"></i> 449 128 9553</li></a>
+            <a href="mailto: ventas@reysaltransport.com.mx"><li><i class="fa-solid fa-envelope"></i> ventas@reysaltransport.com.mx</li></a>
+          </ul>
+        </div>
+        <div class="cont-datos">
+          <h4>Siguenos</h4>
+          <ul>
+            <a href=""><li><i class="fa-brands fa-facebook"></i> Facebook</li></a>
+            <a href=""><li><i class="fa-brands fa-linkedin"></i> Linkedin</li></a>
+          </ul>
+        </div>
+
+       </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
