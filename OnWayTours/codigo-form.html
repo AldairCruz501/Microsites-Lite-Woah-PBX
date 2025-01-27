@@ -1,0 +1,235 @@
+<form action="/Agency/paymentProcess" method="POST" id="formBook">
+    <input type="hidden" name="_token" value="OUDt1Ro2UguRnuHjUowUFWQfDRn4vX5y0V9fHYSw">        
+    <div class="col-md-8 mt-5" style="">
+
+            <div class="accordion ">Service</div>
+            <div class="panel">
+                <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="input-service">Service</label>
+                                <select class="form-control input-sm getPrice displayTicket" id="input-service" name="input-service"><option value="1">One Way - Airport to Hotel</option><option value="2">One Way - Hotel to Airport</option><option value="3">Roundtrip</option></select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="input-vehicle">Vehicle</label>
+                                <select onchange="validateCap(1)" class="form-control input-sm getPrice displayTicket" name="input-vehicle" id="input-vehicle">
+                                                                                    <option value="1" data-name="Suburban" data-cap="5">Suburban  ( 1 to 5 Passengers ) </option>
+                                                                                    <option value="2" data-name="Transporter" data-cap="7">Transporter  ( 1 to 7 Passengers ) </option>
+                                                                                    <option value="3" data-name="Toyota" data-cap="10">Toyota  ( 1 to 10 Passengers ) </option>
+                                                                                    <option value="4" data-name="Urban" data-cap="10">Urban  ( 1 to 10 Passengers ) </option>
+                                                                        </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label for="vehicle">Hotel</label>
+                                <select name="input-hotels" class="form-control input-sm displayTicket" id="input-hotels" required>
+                                    <option value="">select Hotel..</option>
+                                                                                <option value="64  ">Grand Park Royal</option>
+                                                                                <option value="117  ">Park Royal Beach</option>
+                                                                        </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="input-adult">Adult</label>
+                                <select name="input-adult" onchange="capChilds(1)"  class="form-control input-sm displayTicket" id="input-adult">
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="input-child">Child</label>
+                                <select name="input-child"  class="form-control input-sm displayTicket" id="input-child">
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="accordion">Fligth information</div>
+            <div class="panel">
+                <div class="row div-arrival" >
+                    <fieldset class="scheduler-border">
+                        <legend class="scheduler-border" >Arrival Information</legend>
+                        <div class="row">
+
+                            <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="input-date">Date</label>
+                                        <input type="date" class="form-control input-sm" id="input-date" name="input-date" placeholder="" >
+                                    </div>
+                            </div>
+                            <div class="col-sm-6">
+
+                                <!--
+                                    <div class="form-group">
+                                        <label for="input-pu">Pick Up</label>
+                                        <input type="time" class="form-control input-sm" id="input-pu" name="input-pu" placeholder="" >
+                                    </div>
+                                -->
+                            </div>
+                        </div>
+                            <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="input-flight">Airline</label>
+                                    <select class="form-control input-sm" id="input-flight" name="input-flight"><option value="92">NOT IN LIST Tba(TBA) </option><option value="1">Aerocontinente Chile(C7)</option><option value="2">Aerolineas Argentinas(AR)</option><option value="3">Aeromar(VW)</option><option value="4">Aeromexico(AM)</option><option value="5">Air Berlin(AB)</option><option value="6">Air Canada(AC)</option><option value="7">Air Europa(UX)</option><option value="8">Air France(AF)</option><option value="9">Air India(AI)</option><option value="10">Air Jamaica(JM)</option><option value="11">Air Madagascar(MD)</option><option value="12">Air Tahiti(VT)</option><option value="13">Air Transat(TS)</option><option value="14">Airtran Airways(FL)</option><option value="15">Alas De Uruguay (YZ)</option><option value="16">Alaska Airlines(AS)</option><option value="17">Alitalia(AZ)</option><option value="18">Alitalia Cityliner(CT)</option><option value="19">All Nippon Airways(NH)</option><option value="20">American Airlines(AA)</option><option value="21">Andes Lineas Aereas(OY)</option><option value="22">Asiana Air(OZ)</option><option value="23">Austral Lineas Aereas(AU)</option><option value="24">Avianca(AV)</option><option value="25">Azul(AD)</option><option value="26">Azur Air(ZF)</option><option value="27">Bahamasair(UP)</option><option value="28">Boliviana De Aviacion (boa)(OB)</option><option value="29">British Airways(BA)</option><option value="30">Calafia Airlines(CFV)</option><option value="31">Condor Flugdienst Gmbh(DE)</option><option value="32">Continental(CO)</option><option value="33">Conviasa(V0)</option><option value="34">Copa Airlines(CM)</option><option value="35">Croatia Airlines(OU)</option><option value="36">Cubana De Aviacion(CU)</option><option value="37">Delta Air Lines(DL)</option><option value="38">Edelweiss(wk)</option><option value="39">El Al Israel Airlines Limited(LY)</option><option value="40">Emirates Airlines(EK)</option><option value="41">Ethiopian Airlines(ET)</option><option value="42">Etihad Airways(EY)</option><option value="43">Eurowings(EW)</option><option value="44">Evelop Airlines S.l(E9)</option><option value="45">Finn Arlines(AY)</option><option value="46">Flexflight(W2)</option><option value="47">Frontier Airlines(F9)</option><option value="48">Gol(G3)</option><option value="49">Hahn Air(H1)</option><option value="50">Hawaiian Airlines(HA)</option><option value="51">Iberia Airlines(IB)</option><option value="52">Interjet(4O)</option><option value="53">Japan Airlines(JL)</option><option value="54">Jetblue(B6)</option><option value="55">Klm(KL)</option><option value="56">Korean Air Lines(KE)</option><option value="57">Lacsa(LR)</option><option value="58">Lan Peru(LP)</option><option value="59">Latam(JJ)</option><option value="60">Latam(LA)</option><option value="61">Lufthansa(LH)</option><option value="62">Magnicharters(GMT)</option><option value="63">Malaysia Airlines(MH)</option><option value="64">Martinair(MP)</option><option value="65">Mayair(7M)</option><option value="66">Miami Air(LL)</option><option value="67">Munich(I2)</option><option value="68">Neos Spa(NO)</option><option value="69">New Zealand(NZ)</option><option value="70">No Aplica(NA)</option><option value="71">Nordwind(N4)</option><option value="72">Northwest(NW)</option><option value="73">Passaredo(P3)</option><option value="74">Pegasus Airlines(PC)</option><option value="75">Privado(PRI)</option><option value="76">Public Charters(P1)</option><option value="77">Qantas Airways Ltd(QF)</option><option value="78">Qatar Airways(QR)</option><option value="79">Royal Air Maroc(AT)</option><option value="80">Sky Airlines(H2)</option><option value="81">South African Airways(SA)</option><option value="82">Southwest Airlines(WN)</option><option value="83">Spirit Airlines(NK)</option><option value="84">Sun Country Airlines(SY)</option><option value="85">Sunwing(WG)</option><option value="86">Swiss(LX)</option><option value="87">Swiss Air Transport Co Ltd(SR)</option><option value="88">Swoop Airlines(WO)</option><option value="89">Taca(TA)</option><option value="90">Tap Air Portugal(TP)</option><option value="91">Tar(0T)</option><option value="93">Thomas Cook Airlines(MT)</option><option value="94">Transportes Aereos Militates Ecuat(EQ)</option><option value="95">Trip(T4)</option><option value="96">Tropic Air(TOS)</option><option value="97">Tui Airways(BY)</option><option value="98">Turkish Airlines (TK)</option><option value="99">United Airlines(UA)</option><option value="100">Us Airways(US)</option><option value="101">Virgin America(VX)</option><option value="102">Virgin Atlantic(VS)</option><option value="103">Vivaaerobus(VB)</option><option value="104">Vivacolombia(FC)</option><option value="105">Volaris(Y4)</option><option value="106">Vueling Airlines(VY)</option><option value="107">Wamos Air(EB)</option><option value="108">Webjet(WH)</option><option value="109">Westjet Airlines Ltd(WS)</option><option value="110">Xl Airways(SE)</option></select>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="form-group">
+                                    <label for="input-numberflight">Flight Number </label>
+                                    <input type="text" class="form-control input-sm" id="input-numberflight" name="input-numberflight" placeholder="" >
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="form-group">
+                                    <label for="input-timeflight">Time Flight</label>
+                                    <input type="time" class="form-control input-sm" id="input-timeflight" name="input-timeflight" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="row div-departure">
+                    <fieldset class="scheduler-border">
+                        <legend class="scheduler-border" >Departure Information</legend>
+                            <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="input-date">Date</label>
+                                        <input type="date" class="form-control input-sm" id="input-date-departure" name="input-date-departure" placeholder="">
+                                    </div>
+                            </div>
+                            <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="input-pu">Pick Up</label>
+                                        <input type="time" class="form-control input-sm" id="input-pu-departure" name="input-pu-departure" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="input-flight">Airline</label>
+                                        <select class="form-control input-sm" id="input-flight-departure" name="input-flight-departure"><option value="92">NOT IN LIST Tba(TBA) </option><option value="1">Aerocontinente Chile(C7)</option><option value="2">Aerolineas Argentinas(AR)</option><option value="3">Aeromar(VW)</option><option value="4">Aeromexico(AM)</option><option value="5">Air Berlin(AB)</option><option value="6">Air Canada(AC)</option><option value="7">Air Europa(UX)</option><option value="8">Air France(AF)</option><option value="9">Air India(AI)</option><option value="10">Air Jamaica(JM)</option><option value="11">Air Madagascar(MD)</option><option value="12">Air Tahiti(VT)</option><option value="13">Air Transat(TS)</option><option value="14">Airtran Airways(FL)</option><option value="15">Alas De Uruguay (YZ)</option><option value="16">Alaska Airlines(AS)</option><option value="17">Alitalia(AZ)</option><option value="18">Alitalia Cityliner(CT)</option><option value="19">All Nippon Airways(NH)</option><option value="20">American Airlines(AA)</option><option value="21">Andes Lineas Aereas(OY)</option><option value="22">Asiana Air(OZ)</option><option value="23">Austral Lineas Aereas(AU)</option><option value="24">Avianca(AV)</option><option value="25">Azul(AD)</option><option value="26">Azur Air(ZF)</option><option value="27">Bahamasair(UP)</option><option value="28">Boliviana De Aviacion (boa)(OB)</option><option value="29">British Airways(BA)</option><option value="30">Calafia Airlines(CFV)</option><option value="31">Condor Flugdienst Gmbh(DE)</option><option value="32">Continental(CO)</option><option value="33">Conviasa(V0)</option><option value="34">Copa Airlines(CM)</option><option value="35">Croatia Airlines(OU)</option><option value="36">Cubana De Aviacion(CU)</option><option value="37">Delta Air Lines(DL)</option><option value="38">Edelweiss(wk)</option><option value="39">El Al Israel Airlines Limited(LY)</option><option value="40">Emirates Airlines(EK)</option><option value="41">Ethiopian Airlines(ET)</option><option value="42">Etihad Airways(EY)</option><option value="43">Eurowings(EW)</option><option value="44">Evelop Airlines S.l(E9)</option><option value="45">Finn Arlines(AY)</option><option value="46">Flexflight(W2)</option><option value="47">Frontier Airlines(F9)</option><option value="48">Gol(G3)</option><option value="49">Hahn Air(H1)</option><option value="50">Hawaiian Airlines(HA)</option><option value="51">Iberia Airlines(IB)</option><option value="52">Interjet(4O)</option><option value="53">Japan Airlines(JL)</option><option value="54">Jetblue(B6)</option><option value="55">Klm(KL)</option><option value="56">Korean Air Lines(KE)</option><option value="57">Lacsa(LR)</option><option value="58">Lan Peru(LP)</option><option value="59">Latam(JJ)</option><option value="60">Latam(LA)</option><option value="61">Lufthansa(LH)</option><option value="62">Magnicharters(GMT)</option><option value="63">Malaysia Airlines(MH)</option><option value="64">Martinair(MP)</option><option value="65">Mayair(7M)</option><option value="66">Miami Air(LL)</option><option value="67">Munich(I2)</option><option value="68">Neos Spa(NO)</option><option value="69">New Zealand(NZ)</option><option value="70">No Aplica(NA)</option><option value="71">Nordwind(N4)</option><option value="72">Northwest(NW)</option><option value="73">Passaredo(P3)</option><option value="74">Pegasus Airlines(PC)</option><option value="75">Privado(PRI)</option><option value="76">Public Charters(P1)</option><option value="77">Qantas Airways Ltd(QF)</option><option value="78">Qatar Airways(QR)</option><option value="79">Royal Air Maroc(AT)</option><option value="80">Sky Airlines(H2)</option><option value="81">South African Airways(SA)</option><option value="82">Southwest Airlines(WN)</option><option value="83">Spirit Airlines(NK)</option><option value="84">Sun Country Airlines(SY)</option><option value="85">Sunwing(WG)</option><option value="86">Swiss(LX)</option><option value="87">Swiss Air Transport Co Ltd(SR)</option><option value="88">Swoop Airlines(WO)</option><option value="89">Taca(TA)</option><option value="90">Tap Air Portugal(TP)</option><option value="91">Tar(0T)</option><option value="93">Thomas Cook Airlines(MT)</option><option value="94">Transportes Aereos Militates Ecuat(EQ)</option><option value="95">Trip(T4)</option><option value="96">Tropic Air(TOS)</option><option value="97">Tui Airways(BY)</option><option value="98">Turkish Airlines (TK)</option><option value="99">United Airlines(UA)</option><option value="100">Us Airways(US)</option><option value="101">Virgin America(VX)</option><option value="102">Virgin Atlantic(VS)</option><option value="103">Vivaaerobus(VB)</option><option value="104">Vivacolombia(FC)</option><option value="105">Volaris(Y4)</option><option value="106">Vueling Airlines(VY)</option><option value="107">Wamos Air(EB)</option><option value="108">Webjet(WH)</option><option value="109">Westjet Airlines Ltd(WS)</option><option value="110">Xl Airways(SE)</option></select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="form-group">
+                                        <label for="input-numberflight">Flight Number </label>
+                                        <input type="text" class="form-control input-sm" id="input-numberflight-departure" name="input-numberflight-departure" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="form-group">
+                                        <label for="input-timeflight">Time Flight</label>
+                                        <input type="time" class="form-control input-sm" id="input-timeflight-departure" name="input-timeflight-departure" placeholder="">
+                                    </div>
+                                </div>
+                    </fieldset>
+                </div>
+            </div>
+
+            <div class="accordion">Contact Information</div>
+            <div class="panel">
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="input-name">Name*</label>
+                            <input type="text" class="form-control input-sm" id="input-name" name="input-name"
+                                   placeholder="" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-phone">Phone*</label>
+                            <input type="tel" class="form-control input-sm" id="input-phone" name="input-phone"
+                                   placeholder="" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-mail">Mail*</label>
+                            <input type="email" class="form-control input-sm" id="input-mail" name="input-mail"
+                                   placeholder="" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-comments">Comments</label>
+                            <textarea id="input-comments" class="form-control input-sm" name="input-comments" ></textarea>
+                        </div>
+                    </div>
+                    <div class="col-sm-3"></div>
+                    </div>
+            </div>
+
+            <div class="accordion">Select Payment</div>
+            <div class="panel">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8 mt-5" style="padding-top: 15px;">
+                    <label class="labl">
+                        <input type="radio" class="getPrice"  name="input-type-payment" value="0"  required />
+                        <div>Cash at arrival
+                            <p style="color: yellow;font-size: 10px;">
+                                If you need the use a terminal, there is a 6%  fee in addition to your reservation.
+                            </p>
+                        </div>
+                    </label>
+                    <label class="labl">
+                        <input type="radio" class="getPrice" name="input-type-payment" value="1" />
+                        <div>Pay Pal
+                            <p style="color: yellow;font-size: 10px;">
+                                There is a 6%  fee in addition to your reservation.
+                            </p>
+                        </div>
+                    </label>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+
+    </div>
+    <div class="col-md-4 mt-5">
+        <div class="mt-5 sticky" style="border: 1px solid rgb(63, 61, 61);padding: 15px; background:whitesmoke;">
+            <div class="text-center">
+                <h4>Boucher</h4>
+            </div>
+            <table class="table" >
+
+            <tr>
+                <th>Service:</th>
+                <td class="text-left" id="t-service"></td>
+            </tr>
+            <tr>
+                <th>Vehicle:</th>
+                <td class="text-left" id="t-vehicle"></td>
+            </tr>
+            <tr>
+                <th>Passengers:</th>
+                <td class="text-left" id="t-pax"></td>
+            </tr>
+            <tr>
+                <th>From:</th>
+                <td class="text-left" id="t-from"></td>
+            </tr>
+            <tr>
+                <th>To:</th>
+                <td class="text-left" id="t-to"></td>
+            </tr>
+
+            <tr>
+                <th>TOTAL:</th>
+                <td class="price" id="t-to">  $ <span id="spanTotal"></span>  USD</td>
+            </tr>
+
+            </table>
+            <button type="submit" id="btnBook" class="btn btn-block btn-success mt-5">BOOK</button>
+
+        </div>
+    </div>
+    </form>
+</div>
+</div>
+<!-- Button trigger modal -->
